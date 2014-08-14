@@ -13,7 +13,7 @@
 
 ?>
 <?php
-	$arr = array(1, 3, 2, 5, 6, 3, 3, 1, 4, 5);
+
 	function swap(&$a, &$b)
 	{
 		$temp = $a;
@@ -96,10 +96,32 @@
 		$right_arr = sort_by_ks($right_arr);
 		return array_merge($left_arr,array($key),$right_arr);
 	}
+	function find_by_ef($arr, $low, $high, $key)
+	{
+		if($low <= $high)
+		{
+			$mid = ($low + $high) / 2;
+			if($arr[$mid] == $key)
+			{
+				echo 'find', $key;
+				return $mid;
+			}
+			else if($arr[$mid] > $key)
+			{
+				return find_by_ef($arr, $mid + 1, $high, $key);
+			}
+			else
+			{
+				return find_by_ef($arr, $low, $mid - 1, $key);
+			}
+		}
+		
+		die('not find');
+	}
 	
+	$arr = array(1, 3, 2, 5, 6, 3, 3, 1, 4, 5);
 	sort_by_mp($arr);
 	sort_by_jh($arr);
 	sort_by_xz($arr);
 	var_dump(sort_by_ks($arr));
-	
-	
+	find_by_ef($arr, 0, count($arr), 6);
