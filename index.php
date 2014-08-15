@@ -13,15 +13,27 @@
 
 ?>
 <?php
-
-	function swap(&$a, &$b)
+class iat
+{
+	/**
+	 * swap two datas
+	 * @param  [type] $a
+	 * @param  [type] $b
+	 * @return [type]
+	 */
+	public static function swap(&$a, &$b)
 	{
 		$temp = $a;
 		$a = $b;
 		$b = $temp;
 	}
 
-	function sort_by_mp(&$arr)
+	/**
+	 * sort by maopao
+	 * @param  [type] $arr
+	 * @return [type]
+	 */
+	public static function sort_by_mp(&$arr)
 	{
 		$n = count($arr);
 		for ($i = 0; $i < $n; $i++)
@@ -30,14 +42,19 @@
 			{
 				if($arr[$j] < $arr[$j + 1])
 				{
-					swap($arr[$j], $arr[$j+1]);
+					self::swap($arr[$j], $arr[$j+1]);
 				}
 			}
 		}
 		var_dump($arr);
 	}
 	
-	function sort_by_jh($arr)
+	/**
+	 * sort by jiaohuan
+	 * @param  [type] $arr
+	 * @return [type]
+	 */
+	public static function sort_by_jh($arr)
 	{
 		$n = count($arr);
 		for ($i = 0; $i < $n; $i++) 
@@ -53,7 +70,12 @@
 		var_dump($arr);
 	}
 	
-	function sort_by_xz($arr)
+	/**
+	 * sort by xuanze
+	 * @param  [type] $arr
+	 * @return [type]
+	 */
+	public static function sort_by_xz($arr)
 	{
 		$n = count($arr);
 		for ($i = 0; $i < $n ; $i++) 
@@ -71,7 +93,12 @@
 		var_dump($arr);
 	}
 
-	function sort_by_ks($arr)
+	/**
+	 * sort by kuaisu
+	 * @param  [type] $arr
+	 * @return [type]
+	 */
+	public static function sort_by_ks($arr)
 	{
 		$n = count($arr);
 		if ($n <= 1) 
@@ -92,11 +119,20 @@
 				$right_arr[] = $arr[$i];
 			}
 		}
-		$left_arr = sort_by_ks($left_arr);
-		$right_arr = sort_by_ks($right_arr);
+		$left_arr = self::sort_by_ks($left_arr);
+		$right_arr = self::sort_by_ks($right_arr);
 		return array_merge($left_arr,array($key),$right_arr);
 	}
-	function find_by_ef($arr, $low, $high, $key)
+	
+	/**
+	 * find by erfen
+	 * @param  [type] $arr
+	 * @param  [type] $low
+	 * @param  [type] $high
+	 * @param  [type] $key
+	 * @return [type]
+	 */
+	public static function find_by_ef($arr, $low, $high, $key)
 	{
 		if($low <= $high)
 		{
@@ -108,20 +144,32 @@
 			}
 			else if($arr[$mid] > $key)
 			{
-				return find_by_ef($arr, $mid + 1, $high, $key);
+				return self::find_by_ef($arr, $mid + 1, $high, $key);
 			}
 			else
 			{
-				return find_by_ef($arr, $low, $mid - 1, $key);
+				return self::find_by_ef($arr, $low, $mid - 1, $key);
 			}
 		}
 		
 		die('not find');
 	}
+
+	public static function urlencode_and_rawurlencode($url)
+	{
+		var_dump(urlencode($url));
+		var_dump(rawurlencode($url));
+	}
 	
+}
+
+
 	$arr = array(1, 3, 2, 5, 6, 3, 3, 1, 4, 5);
-	sort_by_mp($arr);
-	sort_by_jh($arr);
-	sort_by_xz($arr);
-	var_dump(sort_by_ks($arr));
-	find_by_ef($arr, 0, count($arr), 6);
+	iat::sort_by_mp($arr);
+	iat::sort_by_jh($arr);
+	iat::sort_by_xz($arr);
+	var_dump(iat::sort_by_ks($arr));
+	iat::find_by_ef($arr, 0, count($arr), 6);
+
+	$url = "http://姚善良 姚善良";
+	iat::urlencode_and_rawurlencode($url);
