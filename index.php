@@ -202,9 +202,8 @@ class iat
 
 	public static function regex_match()
 	{
-		$email_regex = '/^[a-z0-9]([a-z0-9]*[-_\.]?[a-z0-9]+)*@([a-z0-9]*[-_]?[a-z0-9]+)+[\.][a-z]{2,3}([\.][a-z]{2})?$/i';
 		$email_regex = '/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/';
-		$email_regex = '/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.(com|cn|org))$/';
+		//$email_regex = '/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.(com|cn|org))$/';
 		$emails = array('iat.net.cn@gmail.com',
 						'1329517386@qq.com',
 						'1227403052@suda.edu.cn',
@@ -296,6 +295,7 @@ class iat
 	}
 	
 }
+
 
 
 	$arr = array(1, 3, 2, 5, 6, 3, 3, 1, 4, 5);
