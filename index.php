@@ -293,6 +293,19 @@ class iat
 		}
 		
 	}
+
+	public static function javascript()
+	{
+	?>
+		<script type='text/javascript'>
+			alert(["a","b","c","d","e"][[1,2],3,4]);
+			alert(["a","b","c","d","e"]);
+			alert([[1,2],3,4]);
+			alert(["a","b","c","d","e"][1,2,3]);
+			alert(["a","b","c","d","e"][1,2,[3,4]]);
+		</script>
+	<?php
+	}
 	
 }
 
@@ -311,3 +324,5 @@ class iat
 	iat::echo_datetime();
 
 	iat::regex_match();
+	iat::javascript();
+	
