@@ -1,0 +1,19 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/home/iat/workspace/PHPsite"
+		}
+	],
+	"settings":
+    {
+        "xdebug": {
+            "path_mapping": {},
+            "url": "http://localhost/study/index.php",
+            "super_globals": true,
+            "close_on_stop": true,
+            "port":9000
+        }
+    }
+}

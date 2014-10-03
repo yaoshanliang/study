@@ -324,5 +324,5 @@ class iat
 	iat::echo_datetime();
 
 	iat::regex_match();
-	iat::javascript();
+	//iat::javascript();
 	
