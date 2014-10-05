@@ -16,7 +16,7 @@ try
     $conn = new PDO($dsn, $db_user, $db_password);
     $conn->beginTransaction();
     $name = 'admin';
-    $sql = "SELECT * FROM `user` WHERE name = :name";
+    //$sql = "SELECT * FROM `user` WHERE name = :name";
     $sql = "SELECT * FROM `oa_user` WHERE account = :name";
     $stmt = $conn->prepare($sql);
     $stmt->bindParam(':name', $name);//绑定参数
