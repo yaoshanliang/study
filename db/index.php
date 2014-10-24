@@ -1,6 +1,6 @@
 <?php 
 	
-	$beginid = 1;
+	$beginid = 145;
 	$endid = 147;
 	$db_host = "10.10.65.152";
 	$db_name = "oa";
@@ -10,28 +10,35 @@
 	try
 	{
 		$dbh = new PDO($dsn, $db_user, $db_password);
-		//$sql = "SELECT * FROM `oa_user` WHERE `id` between :beginid and :endid group by role_id";
+		//var_dump($dbh);
+		//$sql = "SELECT * FROM `oa_user` WHERE `id` between :beginid and :endid ";
         $sql = "SELECT * FROM `oa_user";
+		//$stmt = $dbh->prepare("INSERT INTO `oa_user`(`account`) VALUES (:account)");
 
-
-		$sth = $dbh->prepare($sql);
+		// values to enter
+		//$data = array(
+  	  	//	':account' => 'valueone',
+		//);
+		//if ($stmt->execute($data)) echo "Inserted successfully";
+//print_r($stmt->errorInfo());
+		var_dump($sth = $dbh->prepare($sql));
 
 
 		//$sth -> bindValue(':beginid', $beginid);
-		$sth -> bindParam(':beginid', $beginid);
-		$sth -> bindParam(':endid', $endid);
+		//var_dump($sth -> bindParam(':beginid', $beginid));
+		//$sth -> bindParam(':endid', $endid);
 		if(!$sth -> execute()) print_r($sth->errorInfo());
 		//$sth->execute(array(':beginid' => $beginid, ':endid' => $endid));
 		$result = $sth->fetchAll();
         //if(!$result) print_r($sth->errorInfo());
-        //print_r(count($result));
-        print_r($result);
+        print_r(($result));
+        //print_r($result);
 		//echo $result->account ;
        // $user = array();
-		foreach ($result as $key => $value) {
+		//foreach ($result as $key => $value) {
 
 			//print_r($value->account);
-		}
+		//}
 		//print_r($result);
 
 		/*$sql = "UPDATE `oa_user` SET `password` = :password where `id` = :id";
