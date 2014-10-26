@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"end",
+				"endid"
+			],
+			[
+				"bin",
+				"bindParam"
+			],
+			[
+				"php",
+				"php5	iat"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"ex",
+				"execute"
+			],
+			[
 				"a",
 				"array	$… = array (…)"
 			],
@@ -108,35 +128,27 @@
 	"buffers":
 	[
 		{
-			"file": "curl/test.php",
+			"file": "/home/iat/workspace/PHPsite/fpp_php/application/views/client/list_client.php",
 			"settings":
 			{
-				"buffer_size": 1616,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/home/iat/workspace/PHPsite/fpp_php/mobile.php",
-			"settings":
-			{
-				"buffer_size": 610,
+				"buffer_size": 6797,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "db/index.php",
+			"file": "/home/iat/workspace/PHPsite/fpp_php/application/models/node_model.php",
 			"settings":
 			{
-				"buffer_size": 836,
+				"buffer_size": 32938,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "curl/a.txt",
+			"file": "/home/iat/workspace/PHPsite/fpp_php/application/views/node/list_node.php",
 			"settings":
 			{
-				"buffer_size": 6116,
-				"line_ending": "Windows"
+				"buffer_size": 8955,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -176,11 +188,22 @@
 	},
 	"file_history":
 	[
+		"/home/iat/workspace/PHPsite/fpp_php/application/views/node/list_node.php",
+		"/home/iat/workspace/PHPsite/study/curl/test.php",
+		"/home/iat/workspace/PHPsite/study/db/index.php",
+		"/home/iat/workspace/PHPsite/study/db/oa.php",
+		"/home/iat/workspace/PHPsite/study/db/pdo.php",
+		"/home/iat/workspace/PHPsite/fpp_php/application/views/message/list_problems.php",
+		"/home/iat/workspace/PHPsite/fpp_php/application/views/message/list_alarm.php",
+		"/home/iat/workspace/PHPsite/fpp_php/application/views/client/list_client.php",
+		"/home/iat/workspace/PHPsite/study/curl/a.txt",
+		"/home/iat/workspace/PHPsite/study/index.php",
+		"/home/iat/workspace/PHPsite/study/tag/phptesttag.php",
+		"/home/iat/workspace/PHPsite/study/tag/phptag.php",
 		"/home/iat/workspace/PHPsite/study/phptag.php",
 		"/home/iat/workspace/PHPsite/study/phptesttag.php",
 		"/home/iat/workspace/PHPsite/index.php",
 		"/home/iat/workspace/PHPsite/fpp_php/application/views/node/upload_excel.php",
-		"/home/iat/workspace/PHPsite/fpp_php/application/views/node/list_node.php",
 		"/home/iat/workspace/PHPsite/fpp_php/application/controllers/node.php",
 		"/home/iat/workspace/PHPsite/oa/oa/module/task/view/viewTask.html.php",
 		"/home/iat/workspace/PHPsite/oa/oa/module/task/view/viewtask.html.php",
@@ -192,7 +215,6 @@
 		"/home/iat/workspace/PHPsite/fpp_php/application/config/constants.php",
 		"/home/iat/workspace/PHPsite/fpp_php/application/views/controllers/node.php",
 		"/home/iat/workspace/PHPsite/fpp20140916/application/controllers/node.php",
-		"/home/iat/workspace/PHPsite/study/index.php",
 		"/home/iat/workspace/PHPsite/myblog/myblog/wp-content/themes/yusi1.0/footer.php",
 		"/home/iat/workspace/PHPsite/myblog/myblog/wp-content/themes/yusi1.0/js/iat.js",
 		"/home/iat/workspace/PHPsite/myblog/myblog/wp-content/themes/yusi1.0/pages/readers.php",
@@ -204,7 +226,6 @@
 		"/home/iat/workspace/PHPsite/myblog/myblog/wp-content/themes/yusi1.0/modules/sticky.php",
 		"/home/iat/workspace/PHPsite/myblog/emlog/content/templates/iat/header.php",
 		"/home/iat/workspace/PHPsite/fpp_php/application/models/sysconfig_model.php",
-		"/home/iat/workspace/PHPsite/fpp_php/application/views/message/list_problems.php",
 		"/home/iat/workspace/PHPsite/fpp_php/application/views/node/add_node.php",
 		"/home/iat/workspace/PHPsite/fpp_php/application/views/role/role_perm.php",
 		"/home/iat/workspace/PHPsite/fpp_php/application/views/syscfg/list_parameter.php",
@@ -304,53 +325,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "curl/test.php",
+					"file": "/home/iat/workspace/PHPsite/fpp_php/application/views/client/list_client.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1616,
+						"buffer_size": 6797,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								327,
-								327
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/iat/workspace/PHPsite/fpp_php/mobile.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 610,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								610,
-								610
+								889,
+								889
 							]
 						],
 						"settings":
@@ -361,29 +353,29 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "db/index.php",
+					"buffer": 1,
+					"file": "/home/iat/workspace/PHPsite/fpp_php/application/models/node_model.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 836,
+						"buffer_size": 32938,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								759,
-								759
+								2210,
+								2210
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -393,31 +385,31 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "curl/a.txt",
+					"buffer": 2,
+					"file": "/home/iat/workspace/PHPsite/fpp_php/application/views/node/list_node.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6116,
+						"buffer_size": 8955,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								407,
-								407
+								2640,
+								2640
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 255.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -495,7 +487,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 181.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
