@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afdd13f0-6bd5-4277-890f-ae88311f031b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/file/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grammar/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/textarea.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form/index.html" afterPath="$PROJECT_DIR$/form/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file/index.php" afterPath="$PROJECT_DIR$/file/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form/textarea.php" afterPath="$PROJECT_DIR$/form/textarea.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="study.iws" />
@@ -44,21 +42,10 @@
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grammar/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="96">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cli/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="3" selection-start="295" selection-end="295" vertical-scroll-proportion="0.320802" vertical-offset="240" max-vertical-offset="672">
-              <folding>
-                <element signature="e#6#84#0" expanded="true" />
-              </folding>
+            <state line="27" column="10" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="672">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,25 +53,36 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/file/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="51" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="336">
+            <state line="17" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="-7.04" vertical-offset="0" max-vertical-offset="496">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Core_d.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core_d.php">
+      <file leaf-file-name="pdo.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/pdo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="331" column="26" selection-start="8946" selection-end="8946" vertical-scroll-proportion="0.0" vertical-offset="4958" max-vertical-offset="5808">
+            <state line="30" column="24" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="file.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/file/file.txt">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="144">
+            <state line="21" column="51" selection-start="584" selection-end="584" vertical-scroll-proportion="-1.92" vertical-offset="288" max-vertical-offset="1136">
+              <folding>
+                <marker date="1412585609138" expanded="true" signature="350:372" placeholder="SELECT * FRO..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PDO.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1132" column="11" selection-start="37165" selection-end="37165" vertical-scroll-proportion="-3.84" vertical-offset="18016" max-vertical-offset="21616">
               <folding />
             </state>
           </provider>
@@ -93,8 +91,10 @@
       <file leaf-file-name="textarea.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/form/textarea.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="33" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="240">
-              <folding />
+            <state line="10" column="17" selection-start="221" selection-end="221" vertical-scroll-proportion="-6.4" vertical-offset="0" max-vertical-offset="256">
+              <folding>
+                <element signature="e#6#166#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,16 +102,16 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/form/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="38" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="272">
+            <state line="3" column="38" selection-start="52" selection-end="52" vertical-scroll-proportion="-1.92" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/form/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="7" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="288">
+            <state line="8" column="25" selection-start="202" selection-end="202" vertical-scroll-proportion="0.36056337" vertical-offset="0" max-vertical-offset="355">
               <folding />
             </state>
           </provider>
@@ -139,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/cli/index.php" />
         <option value="$PROJECT_DIR$/db/index.php" />
         <option value="$PROJECT_DIR$/sort/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
@@ -151,12 +150,13 @@
         <option value="$PROJECT_DIR$/db/pdo.php" />
         <option value="$PROJECT_DIR$/db/oa_test.php" />
         <option value="$PROJECT_DIR$/email/socket.php" />
-        <option value="$PROJECT_DIR$/form/index.html" />
-        <option value="$PROJECT_DIR$/form/textarea.php" />
         <option value="$PROJECT_DIR$/form/index.php" />
         <option value="$PROJECT_DIR$/grammar/index.php" />
         <option value="$PROJECT_DIR$/file/file.txt" />
+        <option value="$PROJECT_DIR$/cli/index.php" />
         <option value="$PROJECT_DIR$/file/index.php" />
+        <option value="$PROJECT_DIR$/form/textarea.php" />
+        <option value="$PROJECT_DIR$/form/index.html" />
       </list>
     </option>
   </component>
@@ -168,9 +168,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1280" />
-    <option name="height" value="1000" />
+    <option name="x" value="4" />
+    <option name="y" value="70" />
+    <option name="width" value="1270" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -198,6 +199,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -216,60 +218,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grammar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="file" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="options.lastSelected" value="fileTemplates" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fuelphp" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
@@ -336,15 +295,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1280" height="1000" extended-state="6" />
+    <frame x="4" y="70" width="1270" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49778762" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="0" y="371" width="1280" height="305" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33870968" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="0" y="371" width="1280" height="305" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853982" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924837" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1961102" sideWeight="0.49905482" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18300654" sideWeight="0.49905482" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18872549" sideWeight="0.50094515" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -376,6 +335,20 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/form/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="7" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curl/test2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="29" selection-start="911" selection-end="911" vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="35" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1278" />
@@ -541,24 +514,9 @@
         <state line="3" column="16" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="504" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="35" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1278" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/oa.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="38" selection-start="588" selection-end="588" vertical-scroll-proportion="-3.0370371" vertical-offset="224" max-vertical-offset="810" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/pdo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="22" selection-start="963" selection-end="981" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="810" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="955" column="20" selection-start="30046" selection-end="30046" vertical-scroll-proportion="0.0" vertical-offset="17008" max-vertical-offset="24246" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/project.php">
@@ -568,14 +526,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/oa_test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="32" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="1044">
-          <folding>
-            <marker date="1414026666882" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1414026666882" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-            <marker date="1414026666882" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1414026666882" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-          </folding>
-        </state>
+        <state line="24" column="32" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="1044" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/email/socket.php">
@@ -602,61 +553,70 @@
         <state line="2" column="23" selection-start="33" selection-end="33" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="256" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form/index.html">
+    <entry file="file://$PROJECT_DIR$/cli/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="288">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form/textarea.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="38" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/file.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
+        <state line="27" column="10" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="241" max-vertical-offset="672">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core_d.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="331" column="26" selection-start="8946" selection-end="8946" vertical-scroll-proportion="0.0" vertical-offset="4958" max-vertical-offset="5808">
+        <state line="331" column="26" selection-start="8946" selection-end="8946" vertical-scroll-proportion="0.04010025" vertical-offset="5280" max-vertical-offset="5808">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/pdo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="24" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1132" column="11" selection-start="37165" selection-end="37165" vertical-scroll-proportion="-3.84" vertical-offset="18016" max-vertical-offset="21616">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/file/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="51" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="336">
+        <state line="17" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="-7.04" vertical-offset="0" max-vertical-offset="496">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grammar/index.php">
+    <entry file="file://$PROJECT_DIR$/db/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="503">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="3" selection-start="295" selection-end="295" vertical-scroll-proportion="0.320802" vertical-offset="240" max-vertical-offset="672">
+        <state line="21" column="51" selection-start="584" selection-end="584" vertical-scroll-proportion="-1.92" vertical-offset="288" max-vertical-offset="1136">
           <folding>
-            <element signature="e#6#84#0" expanded="true" />
+            <marker date="1412585609138" expanded="true" signature="350:372" placeholder="SELECT * FRO..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/textarea.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="221" selection-end="221" vertical-scroll-proportion="-6.4" vertical-offset="0" max-vertical-offset="256">
+          <folding>
+            <element signature="e#6#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="38" selection-start="52" selection-end="52" vertical-scroll-proportion="-1.92" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="202" selection-end="202" vertical-scroll-proportion="0.36056337" vertical-offset="0" max-vertical-offset="355">
+          <folding />
         </state>
       </provider>
     </entry>

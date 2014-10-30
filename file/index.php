@@ -14,3 +14,17 @@ file_put_contents($filename, $content . PHP_EOL, FILE_APPEND);//PHP_EOL表示当
 $file = fopen($filename, 'w');//r r+ W w+ a a+ X x+类型
 fwrite($file, $content);
 fclose($file);
+
+
+/**
+ * @name abd
+ * @param $a
+ * @param $b
+ * @return int
+ * @function
+ */
+function abd($a, $b) {
+
+    return 21;
+}
+
