@@ -20,7 +20,7 @@ try {
 
     $sql = "SELECT * FROM `oa_user` WHERE `realname` =:realname";
     $sth = $dbh->prepare($sql);
-    $realname = '张民';//第一个手动匹配的导师
+    $realname = '李凡长';//第一个手动匹配的导师
     $sth -> bindParam(':realname', $realname);
     if(!$sth -> execute()) print_r($sth->errorInfo());
     $result = $sth->fetchAll();
@@ -35,7 +35,7 @@ try {
 
     $sql = "SELECT * FROM `oa_user` WHERE `realname` =:realname";
     $sth = $dbh->prepare($sql);
-    $realname = '李正华';//接下来的团队导师
+    $realname = '钱旭培';//接下来的团队导师
     $sth -> bindParam(':realname', $realname);
     if(!$sth -> execute()) print_r($sth->errorInfo());
     $insert_teacher = $sth->fetchAll();
@@ -50,7 +50,7 @@ try {
         $stu_ID = $value->stu_ID;
         $sth->bindParam(':stu_ID', $stu_ID);
         if($sth->execute())
-            echo $key, ':', 'Insert ', $value->stu_ID, ' success', "\n";
+            echo $key, ':', 'Insert ', $realname, '->', $value->stu_ID, ' success', "\n";
         else
             print_r($sth->errorInfo());
     }
