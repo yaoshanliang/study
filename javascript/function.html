@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script language="JavaScript">
+    /*
+        <!-- //-->注释可以使不支持javascript的浏览器不去执行注释中的代码
+     */
+
+    var x;
+    function test11()
+    {
+        global x;
+        alert(x);
+    }
+
+    function show_alert()
+    {
+        alert(123);
+    }
+
+
+    //show_alert();
+    var test1 = function()
+    {
+        alert('test1');
+    };
+    //test1();
+/*
+    var test3 = new function()
+    {
+        alert('test3');
+    };
+    test3;*/
+    var test2 = (function(){
+        alert('test2');
+    });
+    //test2();
+
+    //匿名函数
+    var testN1 = function()
+    {
+        alert('testN1');
+    }
+    //var testN2 = new Function(alert('testN2'));
+    //testN2;
+
+    /*Function构造函数
+     * Function()构造函数允许运行时Javascript代码动态的创建和编译。在这个方式上它类似全局函数eval()。
+       Function()构造函数每次执行时都解析函数主体，并创建一个新的函数对象。所以当在一个循环或者频繁执行的函数中调用Function()构造函数的效率是非常低的。相反，函数字面量却不是每次遇到都重新编译的。
+       用Function()构造函数创建一个函数时并不遵循典型的作用域，它一直把它当作是顶级函数来执行。
+     */
+
+</script>
+</body>
+</html>
