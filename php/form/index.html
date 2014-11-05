@@ -5,10 +5,13 @@
 </head>
 <body>
     <form name="form" method="post" action="textarea.php">
-        <input type="text" name="name" value=null />
+        <input type="text" name="name" id="name" value="name1" />
+        <input type="text" name="name" id="name" value="name2" /><!--相同name的表单根据后面一个-->
         <textarea name="textarea"></textarea>
         <input type="submit" />
     </form>
-
+<script>
+    alert(document.getElementByName("name"));
+</script>
 </body>
 </html>

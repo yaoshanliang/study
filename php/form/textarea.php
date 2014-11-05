@@ -8,4 +8,4 @@
  */
 
 //print(nl2br($_POST['textarea']));
-var_dump($_POST);
+var_dump($_POST['name']);
