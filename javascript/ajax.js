@@ -9,15 +9,15 @@ function testAjax (url, method, content) {
     var xmlhttprequest = getXmlHttpRequestObject();
     var method = arguments[1] ? arguments[1] : "POST";
     var content = arguments[2] ? arguments[2] : null;
-
-    xmlhttprequest.onreadystatechange = onReadyStateChange();
+    alert(method);
+    alert(content);
+    xmlhttprequest.onreadystatechange = onReadyStateChange;
     xmlhttprequest.open(method, url, true);
     if (method == "POST") {//POST方法时候需要设置Content-Type
         xmlhttprequest.setRequestHeader("Content-Type", "application/x-www-form-urlencode");
         xmlhttprequest.send(content);
     }
     xmlhttprequest.send(null);
-
 
     function getXmlHttpRequestObject() {
         var xmlhttprequest = null;
@@ -45,16 +45,18 @@ function testAjax (url, method, content) {
 
     //
     function stateChange() {
-        if (xmlhttprequest.readyState == 4 || xmlhttprequest.readyState == "complete") {//已发送请求
+        alert(xmlhttprequest.readyState);//可以发现状态一次为1：正在加载，2：已加载，3：交互中，4：完成
+        /*if (xmlhttprequest.readyState == 4) {//已发送请求
             if (xmlhttprequest.status == 200) {
                 //请求成功
                 //var result = getRespose();
                 alert("请求成功！");
             }
             alert("发送失败！")
-        }
-        //请求失败
-        alert("请求失败！")
+        } else {
+            //请求失败
+            alert("请求失败！")
+        }*/
     }
 
     //获取返回结果
