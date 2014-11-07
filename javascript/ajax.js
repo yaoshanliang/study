@@ -8,9 +8,10 @@ function testAjax (url, method, content) {
     //测试
     var xmlhttprequest = getXmlHttpRequestObject();
     var method = arguments[1] ? arguments[1] : "POST";
+    var method = (typeof method !== 'undefined') ? method : "POST";
+    var method = method || "POST";
     var content = arguments[2] ? arguments[2] : null;
-    alert(method);
-    alert(content);
+
     xmlhttprequest.onreadystatechange = onReadyStateChange;
     xmlhttprequest.open(method, url, true);
     if (method == "POST") {//POST方法时候需要设置Content-Type
