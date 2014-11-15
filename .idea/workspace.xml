@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afdd13f0-6bd5-4277-890f-ae88311f031b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/jquery/checkname.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/jquery/jquery-1.7.2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/jquery/ajax.html" afterPath="$PROJECT_DIR$/javascript/jquery/ajax.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -51,21 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ajax.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascript/jquery/ajax.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="33" selection-start="284" selection-end="284" vertical-scroll-proportion="-5.76" vertical-offset="0" max-vertical-offset="816">
+            <state line="17" column="0" selection-start="504" selection-end="710" vertical-scroll-proportion="0.23809524" vertical-offset="182" max-vertical-offset="928">
               <folding>
-                <marker date="1416056150029" expanded="true" signature="1349:1365" placeholder="..." />
+                <marker date="1416060926785" expanded="true" signature="1556:1572" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkname.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="checkname.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/jquery/checkname.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="113" selection-end="248" vertical-scroll-proportion="0.23092784" vertical-offset="0" max-vertical-offset="485">
+            <state line="8" column="1" selection-start="164" selection-end="164" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -387,7 +384,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="0" y="371" width="1280" height="305" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33179012" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="0" y="371" width="1280" height="305" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853982" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924837" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -700,19 +697,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/jquery/ajax.html">
+    <entry file="file://$PROJECT_DIR$/javascript/jquery/checkname.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="284" selection-end="284" vertical-scroll-proportion="-5.76" vertical-offset="0" max-vertical-offset="816">
-          <folding>
-            <marker date="1416056150029" expanded="true" signature="1349:1365" placeholder="..." />
-          </folding>
+        <state line="8" column="1" selection-start="164" selection-end="164" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="272">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/jquery/checkname.php">
+    <entry file="file://$PROJECT_DIR$/javascript/jquery/ajax.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="113" selection-end="248" vertical-scroll-proportion="0.23092784" vertical-offset="0" max-vertical-offset="485">
-          <folding />
+        <state line="17" column="0" selection-start="504" selection-end="710" vertical-scroll-proportion="0.23809524" vertical-offset="182" max-vertical-offset="928">
+          <folding>
+            <marker date="1416060926785" expanded="true" signature="1556:1572" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

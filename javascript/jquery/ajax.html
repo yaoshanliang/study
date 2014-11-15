@@ -15,6 +15,13 @@
 
 <script language="javascript">
        $("#name").blur(function() {
+           $.ajaxSetup({
+               url : "check.php",
+               type : "POST",
+               success : function(data) {
+                   $("#check").html(data);
+               },
+           });
            $.ajax({
                url : "checkname.php",
                type : "POST",
