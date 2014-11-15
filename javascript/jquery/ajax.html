@@ -3,30 +3,43 @@
 <head>
     <title></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <script language="javascript" src="jquery-2.1.1.min.js"></script>
+    <script language="javascript" src="jquery-1.11.1.min.js"></script>
 </head>
 <body>
 <form name="form" method="post" action="">
-    <input id = "name" type="name" value="" onblur="testAjax('../function.html','GET');">
+    <input id = "name" type="text" name = "name" value="">
+    <div id = "checkname"></div>
     <input type="submit" onclick="return check();">
     <div id="name1">123456</div>
 </form>
 
 <script language="javascript">
-    //$(doucument).ready(function() {
-    //$("#name").blur(function() {
-        var j = jQuery.noConflict();
-        j('#name1').hide();//此处$j就代表JQuery
-    //}
-jQuery.noConflict();
-jQuery(document).ready(function($){
-    $('#div').hide();//此时在整个ready事件的方法中使用的$都是jquery.js中定义的$.
-});
-       /*$("#name").blur(function() {
-           $.get("../function.html", function(data) {
-               $("#name1").html(12);
-           })
-       });*/
+       $("#name").blur(function() {
+           $.ajax({
+               url : "checkname.php",
+               type : "POST",
+               data : {name : $("#name").val()},
+               datatype : "text",
+               beforeSend : function() {
+                   //设置发送请求时触发的函数
+                   console.log("beforeSend");
+               },
+               success : function(data) {
+                   //设置请求成功时触发的函数
+                   $("#checkname").html(data);
+                   console.log("success");
+               },
+               error : function() {
+                   //设置请求失败时触发的函数
+                   $("#checkname").html("异步请求失败");
+                   console.log("error");
+               },
+               complete : function() {
+                   //设置请求完成时触发的函数
+                   console.log("complete");
+               },
+           });
+       });
     //});
 </script>
 </body>
