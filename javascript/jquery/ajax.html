@@ -3,51 +3,53 @@
 <head>
     <title></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <script language="javascript" src="jquery-1.11.1.min.js"></script>
+    <script language="javascript" src="jquery-1.11.1.js"></script>
+    <!--<script language="javascript" src="jquery-1.7.2.js"></script>-->
 </head>
 <body>
 <form name="form" method="post" action="">
     <input id = "name" type="text" name = "name" value="">
-    <div id = "checkname"></div>
-    <input type="submit" onclick="return check();">
-    <div id="name1">123456</div>
+    <div id = "check"></div>
 </form>
 
 <script language="javascript">
-       $("#name").blur(function() {
-           $.ajaxSetup({
-               url : "check.php",
-               type : "POST",
-               success : function(data) {
-                   $("#check").html(data);
-               },
-           });
-           $.ajax({
-               url : "checkname.php",
-               type : "POST",
-               data : {name : $("#name").val()},
-               datatype : "text",
-               beforeSend : function() {
-                   //设置发送请求时触发的函数
-                   console.log("beforeSend");
-               },
-               success : function(data) {
-                   //设置请求成功时触发的函数
-                   $("#checkname").html(data);
-                   console.log("success");
-               },
-               error : function() {
-                   //设置请求失败时触发的函数
-                   $("#checkname").html("异步请求失败");
-                   console.log("error");
-               },
-               complete : function() {
-                   //设置请求完成时触发的函数
-                   console.log("complete");
-               },
-           });
-       });
-    //});
+    $("#name").blur(function() {
+        $("#name").ajaxStart(function() {
+            $("#check").html("loading...");
+            alert("loading...");
+        });
+        $("#name").ajaxStop(function() {
+            $("#check").html("OK...");
+            alert("OK...");
+        });
+        $.ajaxSetup({
+            url : "check.php",
+            type : "POST",
+            success : function(data) {
+                $("#check").html(data);
+            },
+        });
+        $.ajax({
+            url : "checkname.php",
+            type : "POST",
+            data : {name : $("#name").val()},
+            datatype : "text",
+            beforeSend : function() {
+                console.log("beforeSend");
+            },
+            success : function(data) {
+                $("#checkname").html(data);
+                console.log("success");
+            },
+            error : function() {
+                $("#checkname").html("error");
+                console.log("error");
+            },
+            complete : function() {
+                console.log("complete");
+            },
+        });
+    });
 </script>
 </body>
 </html>
