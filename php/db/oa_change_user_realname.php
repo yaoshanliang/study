@@ -6,10 +6,10 @@
  * @Function: change teachers' realname
  */
 
-$beginid = 1225;
-$endid = 1386;
-$db_host = "10.10.65.48";
-$db_name = "oa_test";
+$beginid = 1392;
+$endid = 4224;
+$db_host = "10.10.64.29";
+$db_name = "oa";
 $db_user = "iat";
 $db_password = "ysl88842412";
 $dsn = "mysql:host=$db_host; dbname=$db_name";
