@@ -1,4 +1,8 @@
 <IfModule mod_rewrite.c>
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all
+</Files>
+#禁止目录列出
 Options -Indexes
 Options +FollowSymLinks
 
@@ -13,12 +17,15 @@ ErrorDocument 500 /study/apache/500.html
 
 #定义目录索引页面
 DirectoryIndex index.php index.html
-
+order deny,allow
 
 #去掉链接地址中index.php字符串
 #RewriteCond %{REQUEST_FILENAME} !-f
 #RewriteCond %{REQUEST_FILENAME} !-d
 #RewriteCond $1 !^(index.php|test.php|test_ui.php|images|robots\.txt)
-
 #RewriteRule ^(.*)$ index.php/$1 [L]
+
+#RewriteCond %{HTTP:X-Requested-With}	!^XMLHttpRequest$
+#RewriteCond %{THE_REQUEST}				^[^/]*/index\.php [NC]
+#RewriteRule ^index\.php(.*)$			$1 [R=301,NS,L]
 </IfModule>
