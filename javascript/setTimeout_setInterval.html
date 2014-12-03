@@ -4,6 +4,29 @@
     <title></title>
 </head>
 <body>
+<div id = "div"></div>
+<script type="text/javascript">
+    test_setTimeout();
+    test_setInterval();
+    function test_setTimeout() {
+        document.getElementById("div").appendChild(document.createTextNode("1"));
+        setTimeout(function() {
+           document.getElementById("div").appendChild(document.createTextNode("2"));
+        }, 1);
+        for(var i = 0; i < 10000; i++) {
+            document.getElementById("div").appendChild(document.createTextNode("3"));
+        }
+    }
 
+    function test_setInterval() {
+        document.getElementById("div").appendChild(document.createTextNode("A"));
+        setInterval(function() {
+            document.getElementById("div").appendChild(document.createTextNode("B"));
+        }, 1);
+        for(var i = 0; i < 10000; i++) {
+            document.getElementById("div").appendChild(document.createTextNode("C"));
+        }
+    }
+</script>
 </body>
 </html>
