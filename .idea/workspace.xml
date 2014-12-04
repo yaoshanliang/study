@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afdd13f0-6bd5-4277-890f-ae88311f031b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/setTimeout_setInterval.html" afterPath="$PROJECT_DIR$/javascript/setTimeout_setInterval.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/db/oa_distinct_insert_ts_relations.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="study.iws" />
@@ -42,16 +42,25 @@
       <file leaf-file-name="oa_distinct_ts_relations.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/db/oa_distinct_ts_relations.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="26" selection-start="1613" selection-end="1613" vertical-scroll-proportion="-10.88" vertical-offset="448" max-vertical-offset="1184">
+            <state line="20" column="36" selection-start="0" selection-end="2356" vertical-scroll-proportion="-11.72" vertical-offset="27" max-vertical-offset="1264">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setTimeout_setInterval.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="oa_distinct_insert_ts_relations.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/db/oa_distinct_insert_ts_relations.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="1" selection-start="2356" selection-end="2356" vertical-scroll-proportion="0.9476268" vertical-offset="589" max-vertical-offset="1264">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setTimeout_setInterval.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/setTimeout_setInterval.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="4" selection-start="124" selection-end="124" vertical-scroll-proportion="0.24521072" vertical-offset="0" max-vertical-offset="592">
+            <state line="14" column="14" selection-start="412" selection-end="413" vertical-scroll-proportion="-8.96" vertical-offset="0" max-vertical-offset="592">
               <folding />
             </state>
           </provider>
@@ -60,7 +69,7 @@
       <file leaf-file-name="oa_insert_ts_relations.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/db/oa_insert_ts_relations.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="45" selection-start="977" selection-end="993" vertical-scroll-proportion="-0.64" vertical-offset="496" max-vertical-offset="1072">
+            <state line="32" column="45" selection-start="977" selection-end="993" vertical-scroll-proportion="-1.52" vertical-offset="474" max-vertical-offset="1120">
               <folding />
             </state>
           </provider>
@@ -88,15 +97,6 @@
         <entry file="file://$PROJECT_DIR$/apache/403.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="7" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="224">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="404.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apache/404.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="16" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="224">
               <folding />
             </state>
           </provider>
@@ -178,8 +178,9 @@
         <option value="$PROJECT_DIR$/apache/index.html" />
         <option value="$PROJECT_DIR$/apache/.htaccess" />
         <option value="$PROJECT_DIR$/javascript/load/index.html" />
-        <option value="$PROJECT_DIR$/php/db/oa_distinct_ts_relations.php" />
         <option value="$PROJECT_DIR$/javascript/setTimeout_setInterval.html" />
+        <option value="$PROJECT_DIR$/php/db/oa_distinct_ts_relations.php" />
+        <option value="$PROJECT_DIR$/php/db/oa_distinct_insert_ts_relations.php" />
       </list>
     </option>
   </component>
@@ -221,7 +222,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,36 +272,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,14 +359,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1280" height="1028" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36172566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="0" y="371" width="1280" height="305" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26327434" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="0" y="371" width="1280" height="305" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853982" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924837" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19124797" sideWeight="0.49905482" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30875203" sideWeight="0.49905482" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18800648" sideWeight="0.50094515" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23561947" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -427,11 +400,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0" vertical-offset="736" max-vertical-offset="61008" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/array.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="3" selection-start="0" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="176" />
@@ -681,23 +649,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/setTimeout_setInterval.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="14" selection-start="412" selection-end="413" vertical-scroll-proportion="-8.96" vertical-offset="0" max-vertical-offset="592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/db/oa_insert_ts_relations.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="45" selection-start="977" selection-end="993" vertical-scroll-proportion="-0.64" vertical-offset="496" max-vertical-offset="1072">
+        <state line="32" column="45" selection-start="977" selection-end="993" vertical-scroll-proportion="-1.52" vertical-offset="474" max-vertical-offset="1120">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/db/oa_distinct_ts_relations.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="26" selection-start="1613" selection-end="1613" vertical-scroll-proportion="-10.88" vertical-offset="448" max-vertical-offset="1184">
+        <state line="20" column="36" selection-start="0" selection-end="2356" vertical-scroll-proportion="-11.72" vertical-offset="27" max-vertical-offset="1264">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/setTimeout_setInterval.html">
+    <entry file="file://$PROJECT_DIR$/php/db/oa_distinct_insert_ts_relations.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="124" selection-end="124" vertical-scroll-proportion="0.24521072" vertical-offset="0" max-vertical-offset="592">
+        <state line="72" column="1" selection-start="2356" selection-end="2356" vertical-scroll-proportion="0.9476268" vertical-offset="589" max-vertical-offset="1264">
           <folding />
         </state>
       </provider>
