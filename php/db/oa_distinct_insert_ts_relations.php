@@ -6,67 +6,57 @@
  * @Function: change teachers' realname
  */
 
-$beginid = 1225;
-$endid = 1386;
+
 $db_host = "10.10.64.29";
 $db_name = "oa_jyxy";
 $db_user = "iat";
 $db_password = "ysl88842412";
 $dsn = "mysql:host=$db_host; dbname=$db_name";
+
+$db_name_test = "oa_test";
+$dsn_test = "mysql:host=$db_host; dbname=$db_name_test";
+
 try {
     $dbh = new PDO($dsn, $db_user, $db_password);
+    $dbh_test = new PDO($dsn_test, $db_user, $db_password);
     $dbh->beginTransaction();
     $dbh->query('set names utf8');
+    $dbh_test->query('set names utf8');
 
-    $sql = "SELECT * FROM `oa_ts_relations` WHERE  `deleted`='0'";
+    $sql_test = "SELECT * FROM `oa_ts_relations` WHERE  `deleted`='0'";
+    $sth_test = $dbh_test->prepare($sql_test);
+    if(!$sth_test -> execute()) print_r($sth_test->errorInfo());
+    $result_test = $sth_test->fetchAll(PDO::FETCH_CLASS);
+    print_r(count($result_test));
+
+
+
+    $sql = "INSERT into `oa_ts_relations`(`tea_ID`, `stu_ID`, `createtime`, `updatetime`, `team`) values(:tea_ID, :stu_ID, :createtime, :updatetime, :team)";
     $sth = $dbh->prepare($sql);
-    if(!$sth -> execute()) print_r($sth->errorInfo());
-    $result = $sth->fetchAll(PDO::FETCH_CLASS);
-    print_r(count($result));
-
-    $sql = "SELECT * FROM `oa_ts_relations` WHERE `tea_ID` =:tea_ID and `stu_ID`=:stu_ID and `deleted` = '0'";
-    $sth = $dbh->prepare($sql);
-
-    $sql = "update `oa_ts_relations` set `deleted`='1' WHERE `id` =:id ";
-    $sth_to_distinct = $dbh->prepare($sql);
-    foreach ($result as $key => $value)
+    foreach ($result_test as $key => $value)
     {
 
         $tea_ID = $value->tea_ID;
         $stu_ID = $value->stu_ID;
+        $createtime = $value->createtime;
+        $updatetime = $value->updatetime;
+        $team = $value->team;
         $sth->bindParam(':tea_ID', $tea_ID);
         $sth->bindParam(':stu_ID', $stu_ID);
+        $sth->bindParam(':createtime', $createtime);
+        $sth->bindParam(':updatetime', $updatetime);
+        $sth->bindParam(':team', $team);
         if($sth->execute())
         {
-            $result_to_distinct = $sth->fetchAll(PDO::FETCH_CLASS);
-            //print_r(count($result));
-            //echo count($result);
-            if(count($result_to_distinct) == 2)
-            {
-                echo $result_to_distinct[0]->id;
-                echo ":";
-                echo $result_to_distinct[0]->tea_ID;
-                echo "->";
-                echo $result_to_distinct[0]->stu_ID;
-                echo "\n";
-                echo $result_to_distinct[1]->id;
-                echo ":";
-                echo $result_to_distinct[1]->tea_ID;
-                echo "->";
-                echo $result_to_distinct[1]->stu_ID;
-                echo "\n";
-                //要删除的
-                /*$sth_to_distinct->bindParam(':id', $result_to_distinct[0]->id);
-                if(!$sth_to_distinct->execute())
-                    echo "update", $result_to_distinct[0]->id, 'error', "\n";
-                echo "update", $result_to_distinct[0]->id, 'success', "\n";*/
-            }
+            echo "insert ", ++$i, ': ';
+            echo $tea_ID, '->', $stu_ID, ' ', 'success', "\n";
         }
         else
             print_r($sth->errorInfo());
     }
     $dbh->commit();
     $dbh = NULL;
+    $dbh_test = NULL;
 }catch(PDOException  $e) {
     $dbh->rollBack();
     echo $e->getMessage();
