@@ -1,0 +1,622 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0	jquery/jquery-2.1.1.js	/^	xhrSuccessStatus = {$/;"	p
+1223	jquery/jquery-2.1.1.js	/^		0: 200,$/;"	p
+Animation	jquery/jquery-1.11.1.js	/^function Animation( elem, properties, options ) {$/;"	f
+Animation	jquery/jquery-2.1.1.js	/^function Animation( elem, properties, options ) {$/;"	f
+Data	jquery/jquery-2.1.1.js	/^function Data() {$/;"	c
+Data.access	jquery/jquery-2.1.1.js	/^	},$/;"	m
+Data.discard	jquery/jquery-2.1.1.js	/^	},$/;"	m
+Data.get	jquery/jquery-2.1.1.js	/^	},$/;"	m
+Data.hasData	jquery/jquery-2.1.1.js	/^	},$/;"	m
+Data.key	jquery/jquery-2.1.1.js	/^Data.prototype = {$/;"	m
+Data.remove	jquery/jquery-2.1.1.js	/^	},$/;"	m
+Data.set	jquery/jquery-2.1.1.js	/^	},$/;"	m
+DataArray	php/curl/Valite.php	/^		$this->DataArray = $data;$/;"	v
+DataArray	php/curl/Valite.php	/^	protected $DataArray;$/;"	v
+Draw	php/curl/Valite.php	/^	public function Draw()$/;"	f
+I	php/cli/test.php	/^define("I", "I") and define("YOU", "YOU");$/;"	d
+I	php/cli/test.php	/^define(I, YOU);$/;"	d
+IS_PROXY	php/curl/test3.php	/^define ( 'IS_PROXY', true ); \/\/ÊÇ·ñÆôÓÃ´úÀí$/;"	d
+ImagePath	php/curl/Valite.php	/^		$this->ImagePath = $Image;$/;"	v
+ImagePath	php/curl/Valite.php	/^	protected $ImagePath;$/;"	v
+ImageSize	php/curl/Valite.php	/^		$this->ImageSize = $size;$/;"	v
+ImageSize	php/curl/Valite.php	/^	protected $ImageSize;$/;"	v
+Keys	php/curl/Valite.php	/^		$this->Keys = array($/;"	v
+Keys	php/curl/Valite.php	/^	protected $Keys;$/;"	v
+NumStringArray	php/curl/Valite.php	/^	protected $NumStringArray;$/;"	v
+OFFSET_X	php/curl/Valite.php	/^define('OFFSET_X',7);$/;"	d
+OFFSET_Y	php/curl/Valite.php	/^define('OFFSET_Y',3);$/;"	d
+Tween	jquery/jquery-1.11.1.js	/^function Tween( elem, options, prop, end, easing ) {$/;"	f
+Tween	jquery/jquery-1.11.1.js	/^jQuery.Tween = Tween;$/;"	c
+Tween	jquery/jquery-2.1.1.js	/^function Tween( elem, options, prop, end, easing ) {$/;"	f
+Tween	jquery/jquery-2.1.1.js	/^jQuery.Tween = Tween;$/;"	c
+Tween.constructor	jquery/jquery-1.11.1.js	/^Tween.prototype = {$/;"	p
+Tween.constructor	jquery/jquery-2.1.1.js	/^Tween.prototype = {$/;"	p
+Tween.cur	jquery/jquery-1.11.1.js	/^	},$/;"	m
+Tween.cur	jquery/jquery-2.1.1.js	/^	},$/;"	m
+Tween.init	jquery/jquery-1.11.1.js	/^	constructor: Tween,$/;"	m
+Tween.init	jquery/jquery-1.11.1.js	/^Tween.prototype.init.prototype = Tween.prototype;$/;"	m
+Tween.init	jquery/jquery-2.1.1.js	/^	constructor: Tween,$/;"	m
+Tween.init	jquery/jquery-2.1.1.js	/^Tween.prototype.init.prototype = Tween.prototype;$/;"	m
+Tween.propHooks._default	jquery/jquery-1.11.1.js	/^Tween.propHooks = {$/;"	p
+Tween.propHooks._default	jquery/jquery-2.1.1.js	/^Tween.propHooks = {$/;"	p
+Tween.run	jquery/jquery-1.11.1.js	/^	},$/;"	m
+Tween.run	jquery/jquery-2.1.1.js	/^	},$/;"	m
+URL	php/curl/curl_login.php	/^	$URL = "http:\/\/192.168.1.100:8888\/365days\/11";$/;"	v
+URL	php/curl/curl_login.php	/^	$URL = "http:\/\/dxpx.suda.edu.cn\/loginActionForsuda.action?gonghao=1227401054&secret=6c4c0a0b27c631d12b1ccf55ff679cf5&time=1400136532";$/;"	v
+URL	php/curl/test.php	/^	$URL = "ids1.suda.edu.cn\/amserver\/UI\/Login?goto=http:\/\/myauth.suda.edu.cn\/default.aspx?app=www";$/;"	v
+WORD_HIGHT	php/curl/Valite.php	/^define('WORD_HIGHT',13);$/;"	d
+WORD_SPACING	php/curl/Valite.php	/^define('WORD_SPACING',4);$/;"	d
+WORD_WIDTH	php/curl/Valite.php	/^define('WORD_WIDTH',9);$/;"	d
+__construct	php/curl/Valite.php	/^	public function __construct()$/;"	f
+_jQuery	jquery/jquery-1.11.1.js	/^var$/;"	v
+_jQuery	jquery/jquery-2.1.1.js	/^var$/;"	v
+_load	jquery/jquery-1.11.1.js	/^var _load = jQuery.fn.load;$/;"	v
+_load	jquery/jquery-2.1.1.js	/^var _load = jQuery.fn.load;$/;"	v
+a	php/sort/index.php	/^        $a = $b;$/;"	v
+abd	php/file/index.php	/^function abd($a, $b) {$/;"	f
+account	php/db/oa_insert_ts_relations.php	/^    $account = $result[0]['account'];$/;"	v
+active	php/curl/curl_muti.php	/^$active = null;$/;"	v
+actualDisplay	jquery/jquery-1.11.1.js	/^function actualDisplay( name, doc ) {$/;"	f
+actualDisplay	jquery/jquery-2.1.1.js	/^function actualDisplay( name, doc ) {$/;"	f
+add	jquery/jquery-1.11.1.js	/^		self = {$/;"	m
+add	jquery/jquery-2.1.1.js	/^		self = {$/;"	m
+addGetHookIf	jquery/jquery-1.11.1.js	/^function addGetHookIf( conditionFn, hookFn ) {$/;"	f
+addGetHookIf	jquery/jquery-2.1.1.js	/^function addGetHookIf( conditionFn, hookFn ) {$/;"	f
+addToPrefiltersOrTransports	jquery/jquery-1.11.1.js	/^function addToPrefiltersOrTransports( structure ) {$/;"	f
+addToPrefiltersOrTransports	jquery/jquery-2.1.1.js	/^function addToPrefiltersOrTransports( structure ) {$/;"	f
+add_url_to_multi_handle	php/curl/curl_404.php	/^function add_url_to_multi_handle($mh, $url_list) {$/;"	f
+ajaxConvert	jquery/jquery-1.11.1.js	/^function ajaxConvert( s, response, jqXHR, isSuccess ) {$/;"	f
+ajaxConvert	jquery/jquery-2.1.1.js	/^function ajaxConvert( s, response, jqXHR, isSuccess ) {$/;"	f
+ajaxExtend	jquery/jquery-1.11.1.js	/^function ajaxExtend( target, src ) {$/;"	f
+ajaxExtend	jquery/jquery-2.1.1.js	/^function ajaxExtend( target, src ) {$/;"	f
+ajaxHandleResponses	jquery/jquery-1.11.1.js	/^function ajaxHandleResponses( s, jqXHR, responses ) {$/;"	f
+ajaxHandleResponses	jquery/jquery-2.1.1.js	/^function ajaxHandleResponses( s, jqXHR, responses ) {$/;"	f
+arr	php/datatype/index.php	/^$arr = array('name' => "dwqs",'add' => "www.ido321.com");echo $arr["name"];echo "{$arr['name']}";/;"	v
+arr	php/sort/index.php	/^$arr = array(1, 3, 2, 5, 6, 3, 3, 1, 4, 5);$/;"	v
+augmentWidthOrHeight	jquery/jquery-1.11.1.js	/^function augmentWidthOrHeight( elem, name, extra, isBorderBox, styles ) {$/;"	f
+augmentWidthOrHeight	jquery/jquery-2.1.1.js	/^function augmentWidthOrHeight( elem, name, extra, isBorderBox, styles ) {$/;"	f
+b	php/sort/index.php	/^        $b = $temp;$/;"	v
+beginid	php/db/index.php	/^	$beginid = 145;$/;"	v
+beginid	php/db/oa.php	/^$beginid = 145;$/;"	v
+beginid	php/db/oa_change_user_realname.php	/^$beginid = 1392;$/;"	v
+beginid	php/db/oa_distinct_ts_relations.php	/^$beginid = 1225;$/;"	v
+beginid	php/db/oa_insert_ts_relations.php	/^$beginid = 1225;$/;"	v
+beginid	php/db/oa_test.php	/^$beginid = 347;$/;"	v
+beginid	php/db/project.php	/^$beginid = 145;$/;"	v
+boolHook.set	jquery/jquery-1.11.1.js	/^boolHook = {$/;"	m
+boolHook.set	jquery/jquery-2.1.1.js	/^boolHook = {$/;"	m
+browsers	php/curl/curl_redirection.php	/^$browsers = array($/;"	v
+buildParams	jquery/jquery-1.11.1.js	/^function buildParams( prefix, obj, traditional, add ) {$/;"	f
+buildParams	jquery/jquery-2.1.1.js	/^function buildParams( prefix, obj, traditional, add ) {$/;"	f
+ch	php/curl/curl_404.php	/^        $ch = curl_init();$/;"	v
+ch	php/curl/curl_catch.php	/^	$ch = curl_init();$/;"	v
+ch	php/curl/curl_file.php	/^$ch = curl_init();$/;"	v
+ch	php/curl/curl_login.php	/^	$ch = curl_init($URL);$/;"	v
+ch	php/curl/curl_redirection.php	/^        $ch = curl_init();$/;"	v
+ch	php/curl/curl_upload.php	/^$ch = curl_init();$/;"	v
+ch	php/curl/test.php	/^	$ch = curl_init($URL);$/;"	v
+ch	php/curl/test2.php	/^$ch = curl_init($get_url);    $/;"	v
+ch	php/curl/test2.php	/^$ch = curl_init($login_url);    $/;"	v
+ch1	php/curl/curl_muti.php	/^$ch1 = curl_init();$/;"	v
+ch2	php/curl/curl_muti.php	/^$ch2 = curl_init();$/;"	v
+check	javascript/ajax/ajax.js	/^function check() {$/;"	f
+chinfo	php/curl/curl_404.php	/^            $chinfo = curl_getinfo($mhinfo['handle']);$/;"	v
+cloneCopyEvent	jquery/jquery-1.11.1.js	/^function cloneCopyEvent( src, dest ) {$/;"	f
+cloneCopyEvent	jquery/jquery-2.1.1.js	/^function cloneCopyEvent( src, dest ) {$/;"	f
+college_id	php/db/project.php	/^    $college_id = 27;$/;"	v
+completed	jquery/jquery-1.11.1.js	/^function completed() {$/;"	f
+completed	jquery/jquery-2.1.1.js	/^function completed() {$/;"	f
+computePixelPositionAndBoxSizingReliable	jquery/jquery-2.1.1.js	/^	function computePixelPositionAndBoxSizingReliable() {$/;"	f
+computeStyleTests	jquery/jquery-1.11.1.js	/^	function computeStyleTests() {$/;"	f
+conn	php/db/pdo.php	/^    $conn = new PDO($dsn, $db_user, $db_password);$/;"	v
+content	php/email/socket.php	/^$content = "World";$/;"	v
+content	php/file/index.php	/^$content = 'hello world 123';$/;"	v
+content	php/tag/phptesttag.php	/^	$content = ob_get_contents();$/;"	v
+contents	php/curl/test2.php	/^$contents = curl_exec($ch);    $/;"	v
+cookie_file	php/curl/curl_login.php	/^	$cookie_file  = tempnam('.\/cookie', 'cookie');$/;"	v
+cookie_file	php/curl/test2.php	/^$cookie_file = dirname(__FILE__) . '\/cookie.txt';    $/;"	v
+cookie_file	php/curl/test3.php	/^$cookie_file = dirname ( __FILE__ ) . "\/cookie_" . md5 ( basename ( __FILE__ ) ) . ".txt"; \/\/ ÉèÖÃCookieÎÄ¼ş±£´æÂ·¾¶¼°ÎÄ¼şÃû$/;"	v
+createActiveXHR	jquery/jquery-1.11.1.js	/^function createActiveXHR() {$/;"	f
+createFxNow	jquery/jquery-1.11.1.js	/^function createFxNow() {$/;"	f
+createFxNow	jquery/jquery-2.1.1.js	/^function createFxNow() {$/;"	f
+createOptions	jquery/jquery-1.11.1.js	/^function createOptions( options ) {$/;"	f
+createOptions	jquery/jquery-2.1.1.js	/^function createOptions( options ) {$/;"	f
+createSafeFragment	jquery/jquery-1.11.1.js	/^function createSafeFragment( document ) {$/;"	f
+createStandardXHR	jquery/jquery-1.11.1.js	/^function createStandardXHR() {$/;"	f
+createTween	jquery/jquery-1.11.1.js	/^function createTween( value, prop, animation ) {$/;"	f
+createTween	jquery/jquery-2.1.1.js	/^function createTween( value, prop, animation ) {$/;"	f
+createtime	php/db/oa_distinct_insert_ts_relations.php	/^        $createtime = $value->createtime;$/;"	v
+cssExpand	jquery/jquery-1.11.1.js	/^var cssExpand = [ "Top", "Right", "Bottom", "Left" ];$/;"	v
+cssExpand	jquery/jquery-2.1.1.js	/^var cssExpand = [ "Top", "Right", "Bottom", "Left" ];$/;"	v
+curCSS	jquery/jquery-1.11.1.js	/^	};$/;"	f
+curCSS	jquery/jquery-2.1.1.js	/^function curCSS( elem, name, computed ) {$/;"	f
+curl	php/curl/test3.php	/^	$curl = curl_init (); \/\/ Æô¶¯Ò»¸öCURL»á»°$/;"	v
+data	php/curl/Valite.php	/^		$data = array("","","","");$/;"	v
+data	php/curl/Valite.php	/^		$data = array();$/;"	v
+data	php/curl/Valite.php	/^		$this->data = $result;$/;"	v
+data	php/curl/Valite.php	/^	protected $data;$/;"	v
+data	php/curl/curl_file.php	/^$data = array('name' => 'Foo', 'file' => '@\/home\/user\/test.png');$/;"	v
+dataAttr	jquery/jquery-1.11.1.js	/^function dataAttr( elem, key, data ) {$/;"	f
+dataAttr	jquery/jquery-2.1.1.js	/^function dataAttr( elem, key, data ) {$/;"	f
+dataType	jquery/jquery-1.11.1.js	/^		var dataType,$/;"	v
+dataType	jquery/jquery-2.1.1.js	/^		var dataType,$/;"	v
+db_host	php/db/index.php	/^	$db_host = "10.10.65.152";$/;"	v
+db_host	php/db/oa.php	/^$db_host = "10.10.65.152";$/;"	v
+db_host	php/db/oa_change_user_realname.php	/^$db_host = "10.10.64.29";$/;"	v
+db_host	php/db/oa_distinct_insert_ts_relations.php	/^$db_host = "10.10.64.29";$/;"	v
+db_host	php/db/oa_distinct_ts_relations.php	/^$db_host = "10.10.64.29";$/;"	v
+db_host	php/db/oa_insert_ts_relations.php	/^$db_host = "10.10.65.48";$/;"	v
+db_host	php/db/oa_test.php	/^$db_host = "10.10.65.152";$/;"	v
+db_host	php/db/pdo.php	/^$db_host = "10.10.65.152";$/;"	v
+db_host	php/db/project.php	/^$db_host = "10.10.65.152";$/;"	v
+db_name	php/db/index.php	/^	$db_name = "oa";$/;"	v
+db_name	php/db/oa.php	/^$db_name = "oa";$/;"	v
+db_name	php/db/oa_change_user_realname.php	/^$db_name = "oa";$/;"	v
+db_name	php/db/oa_distinct_insert_ts_relations.php	/^$db_name = "oa_jyxy";$/;"	v
+db_name	php/db/oa_distinct_ts_relations.php	/^$db_name = "oa_jyxy";$/;"	v
+db_name	php/db/oa_insert_ts_relations.php	/^$db_name = "oa_test";$/;"	v
+db_name	php/db/oa_test.php	/^$db_name = "oa_test";$/;"	v
+db_name	php/db/pdo.php	/^$db_name = "oa_test";$/;"	v
+db_name	php/db/project.php	/^$db_name = "project_test";$/;"	v
+db_name_test	php/db/oa_distinct_insert_ts_relations.php	/^$db_name_test = "oa_test";$/;"	v
+db_password	php/db/index.php	/^	$db_password = "sklcc";$/;"	v
+db_password	php/db/oa.php	/^$db_password = "sklcc";$/;"	v
+db_password	php/db/oa_change_user_realname.php	/^$db_password = "ysl88842412";$/;"	v
+db_password	php/db/oa_distinct_insert_ts_relations.php	/^$db_password = "ysl88842412";$/;"	v
+db_password	php/db/oa_distinct_ts_relations.php	/^$db_password = "ysl88842412";$/;"	v
+db_password	php/db/oa_insert_ts_relations.php	/^$db_password = "ysl88842412";$/;"	v
+db_password	php/db/oa_test.php	/^$db_password = "sklcc";$/;"	v
+db_password	php/db/pdo.php	/^$db_password = "sklcc";$/;"	v
+db_password	php/db/project.php	/^$db_password = "sklcc";$/;"	v
+db_type	php/db/pdo.php	/^$db_type = 'mysql';$/;"	v
+db_user	php/db/index.php	/^	$db_user = "root";$/;"	v
+db_user	php/db/oa.php	/^$db_user = "root";$/;"	v
+db_user	php/db/oa_change_user_realname.php	/^$db_user = "iat";$/;"	v
+db_user	php/db/oa_distinct_insert_ts_relations.php	/^$db_user = "iat";$/;"	v
+db_user	php/db/oa_distinct_ts_relations.php	/^$db_user = "iat";$/;"	v
+db_user	php/db/oa_insert_ts_relations.php	/^$db_user = "iat";$/;"	v
+db_user	php/db/oa_test.php	/^$db_user = "root";$/;"	v
+db_user	php/db/pdo.php	/^$db_user = "root";$/;"	v
+db_user	php/db/project.php	/^$db_user = "root";$/;"	v
+dbh	php/db/index.php	/^		$dbh = new PDO($dsn, $db_user, $db_password);$/;"	v
+dbh	php/db/index.php	/^        $dbh = NULL;$/;"	v
+dbh	php/db/oa.php	/^	$dbh = NULL;$/;"	v
+dbh	php/db/oa.php	/^	$dbh = new PDO($dsn, $db_user, $db_password);$/;"	v
+dbh	php/db/oa_change_user_realname.php	/^    $dbh = NULL;$/;"	v
+dbh	php/db/oa_change_user_realname.php	/^    $dbh = new PDO($dsn, $db_user, $db_password);$/;"	v
+dbh	php/db/oa_distinct_insert_ts_relations.php	/^    $dbh = NULL;$/;"	v
+dbh	php/db/oa_distinct_insert_ts_relations.php	/^    $dbh = new PDO($dsn, $db_user, $db_password);$/;"	v
+dbh	php/db/oa_distinct_ts_relations.php	/^    $dbh = NULL;$/;"	v
+dbh	php/db/oa_distinct_ts_relations.php	/^    $dbh = new PDO($dsn, $db_user, $db_password);$/;"	v
+dbh	php/db/oa_insert_ts_relations.php	/^    $dbh = NULL;$/;"	v
+dbh	php/db/oa_insert_ts_relations.php	/^    $dbh = new PDO($dsn, $db_user, $db_password);$/;"	v
+dbh	php/db/oa_test.php	/^    $dbh = NULL;$/;"	v
+dbh	php/db/oa_test.php	/^    $dbh = new PDO($dsn, $db_user, $db_password);$/;"	v
+dbh	php/db/pdo.php	/^    $dbh = NULL;$/;"	v
+dbh	php/db/project.php	/^    $dbh = NULL;$/;"	v
+dbh	php/db/project.php	/^    $dbh = new PDO($dsn, $db_user, $db_password);$/;"	v
+dbh_test	php/db/oa_distinct_insert_ts_relations.php	/^    $dbh_test = NULL;$/;"	v
+dbh_test	php/db/oa_distinct_insert_ts_relations.php	/^    $dbh_test = new PDO($dsn_test, $db_user, $db_password);$/;"	v
+debug	php/email/socket.php	/^        $this->debug = $debug;$/;"	v
+debug	php/email/socket.php	/^    private $debug = false;$/;"	v
+defaultDisplay	jquery/jquery-1.11.1.js	/^function defaultDisplay( nodeName ) {$/;"	f
+defaultDisplay	jquery/jquery-2.1.1.js	/^function defaultDisplay( nodeName ) {$/;"	f
+defaultPrefilter	jquery/jquery-1.11.1.js	/^function defaultPrefilter( elem, props, opts ) {$/;"	f
+defaultPrefilter	jquery/jquery-2.1.1.js	/^function defaultPrefilter( elem, props, opts ) {$/;"	f
+delcookie	php/curl/test3.php	/^function delcookie($cookie_file) { \/\/ É¾³ıCookieº¯Êı$/;"	f
+descriptor.value	jquery/jquery-2.1.1.js	/^				descriptor[ this.expando ] = { value: unlock };$/;"	p
+detach	jquery/jquery-1.11.1.js	/^function detach() {$/;"	f
+detail	php/email/socket.php	/^        $detail = "From: $from"."\\r\\n";$/;"	v
+disableScript	jquery/jquery-1.11.1.js	/^function disableScript( elem ) {$/;"	f
+disableScript	jquery/jquery-2.1.1.js	/^function disableScript( elem ) {$/;"	f
+discuz_url	php/curl/test2.php	/^$discuz_url = 'http:\/\/www.lxvoip.com';\/\/ÂÛÌ³µØÖ·    $/;"	v
+do_command	php/email/socket.php	/^    private function do_command($cmd, $return_code)$/;"	f
+docElem	jquery/jquery-1.11.1.js	/^var docElem = window.document.documentElement;$/;"	v
+docElem	jquery/jquery-2.1.1.js	/^var docElem = window.document.documentElement;$/;"	v
+dsn	php/db/index.php	/^	$dsn = "mysql:host=$db_host;dbname=$db_name"; $/;"	v
+dsn	php/db/oa.php	/^$dsn = "mysql:host=$db_host; dbname=$db_name"; $/;"	v
+dsn	php/db/oa_change_user_realname.php	/^$dsn = "mysql:host=$db_host; dbname=$db_name";$/;"	v
+dsn	php/db/oa_distinct_insert_ts_relations.php	/^$dsn = "mysql:host=$db_host; dbname=$db_name";$/;"	v
+dsn	php/db/oa_distinct_ts_relations.php	/^$dsn = "mysql:host=$db_host; dbname=$db_name";$/;"	v
+dsn	php/db/oa_insert_ts_relations.php	/^$dsn = "mysql:host=$db_host; dbname=$db_name";$/;"	v
+dsn	php/db/oa_test.php	/^$dsn = "mysql:host=$db_host; dbname=$db_name";$/;"	v
+dsn	php/db/pdo.php	/^$dsn = "$db_type:host=$db_host;dbname=$db_name";$/;"	v
+dsn	php/db/project.php	/^$dsn = "mysql:host=$db_host; dbname=$db_name";$/;"	v
+dsn_test	php/db/oa_distinct_insert_ts_relations.php	/^$dsn_test = "mysql:host=$db_host; dbname=$db_name_test";$/;"	v
+echo_datetime	php/sort/index.php	/^    public static function echo_datetime()$/;"	f
+email_regex	php/sort/index.php	/^        $email_regex = '\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/';$/;"	v
+emails	php/sort/index.php	/^        $emails = array('iat.net.cn@gmail.com',$/;"	v
+endid	php/db/index.php	/^	$endid = 147;$/;"	v
+endid	php/db/oa.php	/^$endid = 147;$/;"	v
+endid	php/db/oa_change_user_realname.php	/^$endid = 4224;$/;"	v
+endid	php/db/oa_distinct_ts_relations.php	/^$endid = 1386;$/;"	v
+endid	php/db/oa_insert_ts_relations.php	/^$endid = 1386;$/;"	v
+endid	php/db/oa_test.php	/^$endid = 693;$/;"	v
+endid	php/db/project.php	/^$endid = 147;$/;"	v
+ert	php/curl/test.php	/^$ert = $valite->run();$/;"	v
+file	php/file/index.php	/^$file = fopen($filename, 'w');\/\/r r+ W w+ a a+ X x+ç±»å‹$/;"	v
+filename	php/curl/curl_login.php	/^	$filename = "a.txt";$/;"	v
+filename	php/curl/test.php	/^	$filename = "a.txt";$/;"	v
+filename	php/file/index.php	/^$filename = 'file.txt';$/;"	v
+find_by_ef	php/sort/index.php	/^    public static function find_by_ef($arr, $low, $high, $key)$/;"	f
+fixCloneNodeIssues	jquery/jquery-1.11.1.js	/^function fixCloneNodeIssues( src, dest ) {$/;"	f
+fixDefaultChecked	jquery/jquery-1.11.1.js	/^function fixDefaultChecked( elem ) {$/;"	f
+fixInput	jquery/jquery-2.1.1.js	/^function fixInput( src, dest ) {$/;"	f
+fn	jquery/jquery-1.11.1.js	/^				bulk = fn;$/;"	f
+fn	jquery/jquery-2.1.1.js	/^				bulk = fn;$/;"	f
+fontWeight	jquery/jquery-1.11.1.js	/^		letterSpacing: "0",$/;"	p
+fontWeight	jquery/jquery-2.1.1.js	/^		letterSpacing: "0",$/;"	p
+formhash	php/curl/test2.php	/^    $formhash = $matches[1];    $/;"	v
+from	php/email/socket.php	/^$from = "iatboy@163.com";$/;"	v
+fs	php/cli/index.php	/^        $fs = false;$/;"	v
+fs	php/cli/index.php	/^$fs = true;$/;"	v
+genFx	jquery/jquery-1.11.1.js	/^function genFx( type, includeWidth ) {$/;"	f
+genFx	jquery/jquery-2.1.1.js	/^function genFx( type, includeWidth ) {$/;"	f
+genFx.which.height	jquery/jquery-1.11.1.js	/^		attrs = { height: type },$/;"	p
+getAll	jquery/jquery-1.11.1.js	/^function getAll( context, tag ) {$/;"	f
+getAll	jquery/jquery-2.1.1.js	/^function getAll( context, tag ) {$/;"	f
+getData	php/curl/Valite.php	/^	public function getData()$/;"	f
+getHec	php/curl/Valite.php	/^	public function getHec()$/;"	f
+getResult	php/curl/Valite.php	/^	public function getResult()$/;"	f
+getStyles	jquery/jquery-1.11.1.js	/^if ( window.getComputedStyle ) {$/;"	f
+getStyles	jquery/jquery-1.11.1.js	/^var getStyles, curCSS,$/;"	v
+getStyles	jquery/jquery-2.1.1.js	/^var getStyles = function( elem ) {$/;"	f
+getWidthOrHeight	jquery/jquery-1.11.1.js	/^function getWidthOrHeight( elem, name, extra ) {$/;"	f
+getWidthOrHeight	jquery/jquery-2.1.1.js	/^function getWidthOrHeight( elem, name, extra ) {$/;"	f
+getWindow	jquery/jquery-1.11.1.js	/^function getWindow( elem ) {$/;"	f
+getWindow	jquery/jquery-2.1.1.js	/^function getWindow( elem ) {$/;"	f
+get_url	php/curl/test2.php	/^$get_url = $discuz_url .'\/my.php?item=threads'; \/\/ÎÒµÄÌû×Ó    $/;"	v
+hooks.empty.fire	jquery/jquery-1.11.1.js	/^			oldfire = hooks.empty.fire;$/;"	f
+hooks.empty.fire	jquery/jquery-2.1.1.js	/^			oldfire = hooks.empty.fire;$/;"	f
+host	php/email/socket.php	/^        $this->host = $host;$/;"	v
+host	php/email/socket.php	/^    private $host;$/;"	v
+host	php/email/socket.php	/^$host = "smtp.163.com";$/;"	v
+i	jquery/jquery-1.11.1.js	/^		var i, prop, copy,$/;"	v
+i	jquery/jquery-1.11.1.js	/^var i;$/;"	v
+i	jquery/jquery-2.1.1.js	/^		var i, prop, copy,$/;"	v
+iat	php/sort/index.php	/^class iat$/;"	c
+id	php/db/index.php	/^            $id = $value->id;$/;"	v
+id	php/db/oa.php	/^		$id = $value->id;$/;"	v
+id	php/db/oa_change_user_realname.php	/^        $id = $value->id;$/;"	v
+id	php/db/oa_test.php	/^        $id = $value->id;$/;"	v
+id	php/db/project.php	/^        $id = $value->id;$/;"	v
+iframe	jquery/jquery-1.11.1.js	/^var iframe,$/;"	v
+iframe	jquery/jquery-2.1.1.js	/^var iframe,$/;"	v
+index	php/curl/curl_404.php	/^    static $index = 0;$/;"	v
+info	php/curl/curl_login.php	/^	$info = curl_getinfo($ch);$/;"	v
+info	php/curl/test.php	/^	$info = curl_getinfo($ch);$/;"	v
+init	jquery/jquery-1.11.1.js	/^	};$/;"	c
+init	jquery/jquery-2.1.1.js	/^	};$/;"	c
+insert_tea_ID	php/db/oa_insert_ts_relations.php	/^    $insert_tea_ID = $insert_teacher[0]['account'];$/;"	v
+insert_teacher	php/db/oa_insert_ts_relations.php	/^    $insert_teacher = $sth->fetchAll();$/;"	v
+inspectPrefiltersOrTransports	jquery/jquery-1.11.1.js	/^function inspectPrefiltersOrTransports( structure, options, originalOptions, jqXHR ) {$/;"	f
+inspectPrefiltersOrTransports	jquery/jquery-2.1.1.js	/^function inspectPrefiltersOrTransports( structure, options, originalOptions, jqXHR ) {$/;"	f
+inspectPrefiltersOrTransports.inspect	jquery/jquery-1.11.1.js	/^	function inspect( dataType ) {$/;"	f
+inspectPrefiltersOrTransports.inspect	jquery/jquery-2.1.1.js	/^	function inspect( dataType ) {$/;"	f
+internalData	jquery/jquery-1.11.1.js	/^function internalData( elem, name, data, pvt \/* Internal Use Only *\/ ) {$/;"	f
+internalRemoveData	jquery/jquery-1.11.1.js	/^function internalRemoveData( elem, name, pvt ) {$/;"	f
+ip_regex	php/sort/index.php	/^        $ip_regex = '\/^((([0-9]?[0-9])|(1[0-9]{2})|(2[0-4][0-9])|(25[0-5]))\\.){3}(([0-9]?[0-9])|(1[0-9]{2})|(2[0-4][0-9])|(25[0-5]))$\/';$/;"	v
+ips	php/sort/index.php	/^        $ips = array('192.168.0.1', '58.210.361.122');$/;"	v
+isArraylike	jquery/jquery-1.11.1.js	/^function isArraylike( obj ) {$/;"	f
+isArraylike	jquery/jquery-2.1.1.js	/^function isArraylike( obj ) {$/;"	f
+isEmptyDataObject	jquery/jquery-1.11.1.js	/^function isEmptyDataObject( obj ) {$/;"	f
+isHidden	jquery/jquery-1.11.1.js	/^var isHidden = function( elem, el ) {$/;"	f
+isHidden	jquery/jquery-2.1.1.js	/^var isHidden = function( elem, el ) {$/;"	f
+is_email	php/email/socket.php	/^    private function is_email($email)$/;"	f
+jQuery.Callbacks	jquery/jquery-1.11.1.js	/^}$/;"	f
+jQuery.Callbacks	jquery/jquery-2.1.1.js	/^}$/;"	f
+jQuery.Event	jquery/jquery-1.11.1.js	/^	};$/;"	c
+jQuery.Event	jquery/jquery-2.1.1.js	/^};$/;"	c
+jQuery.Event.isDefaultPrevented	jquery/jquery-1.11.1.js	/^jQuery.Event.prototype = {$/;"	p
+jQuery.Event.isDefaultPrevented	jquery/jquery-2.1.1.js	/^jQuery.Event.prototype = {$/;"	p
+jQuery.Event.isImmediatePropagationStopped	jquery/jquery-1.11.1.js	/^	isPropagationStopped: returnFalse,$/;"	p
+jQuery.Event.isImmediatePropagationStopped	jquery/jquery-2.1.1.js	/^	isPropagationStopped: returnFalse,$/;"	p
+jQuery.Event.isPropagationStopped	jquery/jquery-1.11.1.js	/^	isDefaultPrevented: returnFalse,$/;"	p
+jQuery.Event.isPropagationStopped	jquery/jquery-2.1.1.js	/^	isDefaultPrevented: returnFalse,$/;"	p
+jQuery.Event.preventDefault	jquery/jquery-1.11.1.js	/^	isImmediatePropagationStopped: returnFalse,$/;"	m
+jQuery.Event.preventDefault	jquery/jquery-2.1.1.js	/^	isImmediatePropagationStopped: returnFalse,$/;"	m
+jQuery.Event.stopImmediatePropagation	jquery/jquery-1.11.1.js	/^	},$/;"	m
+jQuery.Event.stopImmediatePropagation	jquery/jquery-2.1.1.js	/^	},$/;"	m
+jQuery.Event.stopPropagation	jquery/jquery-1.11.1.js	/^	},$/;"	m
+jQuery.Event.stopPropagation	jquery/jquery-2.1.1.js	/^	},$/;"	m
+jQuery._evalUrl	jquery/jquery-1.11.1.js	/^});$/;"	f
+jQuery._evalUrl	jquery/jquery-2.1.1.js	/^});$/;"	f
+jQuery.acceptData	jquery/jquery-1.11.1.js	/^})();$/;"	f
+jQuery.acceptData	jquery/jquery-2.1.1.js	/^};$/;"	f
+jQuery.ajaxSettings.xhr	jquery/jquery-2.1.1.js	/^});$/;"	f
+jQuery.attrHooks.contenteditable.set	jquery/jquery-1.11.1.js	/^	jQuery.attrHooks.contenteditable = {$/;"	m
+jQuery.attrHooks.style.get	jquery/jquery-1.11.1.js	/^	jQuery.attrHooks.style = {$/;"	m
+jQuery.attrHooks.style.set	jquery/jquery-1.11.1.js	/^		},$/;"	m
+jQuery.attrHooks.value.set	jquery/jquery-1.11.1.js	/^	jQuery.attrHooks.value = {$/;"	m
+jQuery.cssHooks.opacity.get	jquery/jquery-1.11.1.js	/^	jQuery.cssHooks.opacity = {$/;"	m
+jQuery.cssHooks.opacity.set	jquery/jquery-1.11.1.js	/^		},$/;"	m
+jQuery.easing.linear	jquery/jquery-1.11.1.js	/^jQuery.easing = {$/;"	m
+jQuery.easing.linear	jquery/jquery-2.1.1.js	/^jQuery.easing = {$/;"	m
+jQuery.easing.swing	jquery/jquery-1.11.1.js	/^	},$/;"	m
+jQuery.easing.swing	jquery/jquery-2.1.1.js	/^	},$/;"	m
+jQuery.event.global	jquery/jquery-1.11.1.js	/^jQuery.event = {$/;"	p
+jQuery.event.global	jquery/jquery-2.1.1.js	/^jQuery.event = {$/;"	p
+jQuery.event.special.change.handle	jquery/jquery-1.11.1.js	/^		},$/;"	m
+jQuery.event.special.change.setup	jquery/jquery-1.11.1.js	/^	jQuery.event.special.change = {$/;"	m
+jQuery.event.special.change.teardown	jquery/jquery-1.11.1.js	/^		},$/;"	m
+jQuery.event.special.submit.postDispatch	jquery/jquery-1.11.1.js	/^		},$/;"	m
+jQuery.event.special.submit.setup	jquery/jquery-1.11.1.js	/^	jQuery.event.special.submit = {$/;"	m
+jQuery.event.special.submit.teardown	jquery/jquery-1.11.1.js	/^		},$/;"	m
+jQuery.expr.filters.animated	jquery/jquery-1.11.1.js	/^};$/;"	f
+jQuery.expr.filters.animated	jquery/jquery-2.1.1.js	/^};$/;"	f
+jQuery.expr.filters.hidden	jquery/jquery-1.11.1.js	/^});$/;"	f
+jQuery.expr.filters.hidden	jquery/jquery-2.1.1.js	/^});$/;"	f
+jQuery.expr.filters.visible	jquery/jquery-1.11.1.js	/^};$/;"	f
+jQuery.expr.filters.visible	jquery/jquery-2.1.1.js	/^};$/;"	f
+jQuery.filter	jquery/jquery-1.11.1.js	/^}$/;"	f
+jQuery.filter	jquery/jquery-2.1.1.js	/^}$/;"	f
+jQuery.fn.delay	jquery/jquery-1.11.1.js	/^};$/;"	f
+jQuery.fn.delay	jquery/jquery-2.1.1.js	/^};$/;"	f
+jQuery.fn.load	jquery/jquery-1.11.1.js	/^var _load = jQuery.fn.load;$/;"	f
+jQuery.fn.load	jquery/jquery-2.1.1.js	/^var _load = jQuery.fn.load;$/;"	f
+jQuery.fn.ready	jquery/jquery-1.11.1.js	/^var readyList;$/;"	f
+jQuery.fn.ready	jquery/jquery-2.1.1.js	/^var readyList;$/;"	f
+jQuery.fn.size	jquery/jquery-1.11.1.js	/^});$/;"	f
+jQuery.fn.size	jquery/jquery-2.1.1.js	/^});$/;"	f
+jQuery.fx.speeds._default	jquery/jquery-1.11.1.js	/^	fast: 200,$/;"	p
+jQuery.fx.speeds._default	jquery/jquery-2.1.1.js	/^	fast: 200,$/;"	p
+jQuery.fx.speeds.fast	jquery/jquery-1.11.1.js	/^	slow: 600,$/;"	p
+jQuery.fx.speeds.fast	jquery/jquery-2.1.1.js	/^	slow: 600,$/;"	p
+jQuery.fx.speeds.slow	jquery/jquery-1.11.1.js	/^jQuery.fx.speeds = {$/;"	p
+jQuery.fx.speeds.slow	jquery/jquery-2.1.1.js	/^jQuery.fx.speeds = {$/;"	p
+jQuery.fx.start	jquery/jquery-1.11.1.js	/^jQuery.fx.interval = 13;$/;"	f
+jQuery.fx.start	jquery/jquery-2.1.1.js	/^jQuery.fx.interval = 13;$/;"	f
+jQuery.fx.stop	jquery/jquery-1.11.1.js	/^};$/;"	f
+jQuery.fx.stop	jquery/jquery-2.1.1.js	/^};$/;"	f
+jQuery.fx.tick	jquery/jquery-1.11.1.js	/^jQuery.timers = [];$/;"	f
+jQuery.fx.tick	jquery/jquery-2.1.1.js	/^jQuery.timers = [];$/;"	f
+jQuery.fx.timer	jquery/jquery-1.11.1.js	/^};$/;"	f
+jQuery.fx.timer	jquery/jquery-2.1.1.js	/^};$/;"	f
+jQuery.noConflict	jquery/jquery-1.11.1.js	/^	_$ = window.$;$/;"	f
+jQuery.noConflict	jquery/jquery-2.1.1.js	/^	_$ = window.$;$/;"	f
+jQuery.offset.setOffset	jquery/jquery-1.11.1.js	/^jQuery.offset = {$/;"	m
+jQuery.offset.setOffset	jquery/jquery-2.1.1.js	/^jQuery.offset = {$/;"	m
+jQuery.param	jquery/jquery-1.11.1.js	/^}$/;"	f
+jQuery.param	jquery/jquery-2.1.1.js	/^}$/;"	f
+jQuery.parseHTML	jquery/jquery-1.11.1.js	/^});$/;"	f
+jQuery.parseHTML	jquery/jquery-2.1.1.js	/^});$/;"	f
+jQuery.parseJSON	jquery/jquery-1.11.1.js	/^var rvalidtokens = \/(,)|(\\[|{)|(}|])|"(?:[^"\\\\\\r\\n]|\\\\["\\\\\\\/bfnrt]|\\\\u[\\da-fA-F]{4})*"\\s*:?|true|false|null|-?(?!0\\d)\\d+(?:\\.\\d+|)(?:[eE][+-]?\\d+|)\/g;$/;"	f
+jQuery.parseJSON	jquery/jquery-2.1.1.js	/^var rquery = (\/\\?\/);$/;"	f
+jQuery.parseXML	jquery/jquery-1.11.1.js	/^};$/;"	f
+jQuery.parseXML	jquery/jquery-2.1.1.js	/^};$/;"	f
+jQuery.propHooks.selected.get	jquery/jquery-1.11.1.js	/^	jQuery.propHooks.selected = {$/;"	m
+jQuery.propHooks.selected.get	jquery/jquery-2.1.1.js	/^	jQuery.propHooks.selected = {$/;"	m
+jQuery.ready.promise	jquery/jquery-1.11.1.js	/^}$/;"	f
+jQuery.ready.promise	jquery/jquery-2.1.1.js	/^}$/;"	f
+jQuery.removeEvent	jquery/jquery-2.1.1.js	/^};$/;"	f
+jQuery.speed	jquery/jquery-1.11.1.js	/^});$/;"	f
+jQuery.speed	jquery/jquery-2.1.1.js	/^});$/;"	f
+jQuery.swap	jquery/jquery-1.11.1.js	/^})();$/;"	f
+jQuery.swap	jquery/jquery-2.1.1.js	/^})();$/;"	f
+jQuery.valHooks.button.get	jquery/jquery-1.11.1.js	/^	jQuery.valHooks.button = {$/;"	m
+jQuery.valHooks.button.set	jquery/jquery-1.11.1.js	/^		},$/;"	p
+javascript	php/sort/index.php	/^    public static function javascript()$/;"	f
+key	php/sort/index.php	/^        $key = $arr[0];$/;"	v
+left_arr	php/sort/index.php	/^        $left_arr = array();$/;"	v
+left_arr	php/sort/index.php	/^        $left_arr = self::sort_by_ks($left_arr);$/;"	v
+letterSpacing	jquery/jquery-1.11.1.js	/^	cssNormalTransform = {$/;"	p
+letterSpacing	jquery/jquery-2.1.1.js	/^	cssNormalTransform = {$/;"	p
+login_url	php/curl/test2.php	/^$login_url = $discuz_url .'\/logging.php?action=login';\/\/µÇÂ¼Ò³µØÖ·    $/;"	v
+mail	php/email/socket.php	/^$mail = new smtp_mail($host, $port, $username, $password);$/;"	v
+mail_format	php/email/socket.php	/^        $this->mail_format = $mail_format;$/;"	v
+mail_format	php/email/socket.php	/^    private $mail_format = 0;$/;"	v
+manipulationTarget	jquery/jquery-1.11.1.js	/^function manipulationTarget( elem, content ) {$/;"	f
+manipulationTarget	jquery/jquery-2.1.1.js	/^function manipulationTarget( elem, content ) {$/;"	f
+max	php/curl/Valite.php	/^					$max = $percent;$/;"	v
+max	php/curl/Valite.php	/^			$max=0.0;$/;"	v
+max	php/sort/index.php	/^                    $max = $arr[$j];$/;"	v
+max	php/sort/index.php	/^            $max = $arr[$i];$/;"	v
+mh	php/curl/curl_404.php	/^$mh = curl_multi_init();$/;"	v
+mh	php/curl/curl_muti.php	/^$mh = curl_multi_init();$/;"	v
+mid	php/sort/index.php	/^            $mid = ($low + $high) \/ 2;$/;"	v
+mrc	php/curl/curl_404.php	/^                    $mrc = curl_multi_exec($mh, $active);$/;"	v
+mrc	php/curl/curl_404.php	/^            $mrc = curl_multi_exec($mh, $active);$/;"	v
+mrc	php/curl/curl_404.php	/^    $mrc = curl_multi_exec($mh, $active);$/;"	v
+mrc	php/curl/curl_muti.php	/^            $mrc = curl_multi_exec($mh, $active);$/;"	v
+mrc	php/curl/curl_muti.php	/^    $mrc = curl_multi_exec($mh, $active);$/;"	v
+n	php/sort/index.php	/^        $n = count($arr);$/;"	v
+name	php/cli/index.php	/^    $name = trim(fgets(STDIN));$/;"	v
+name	php/cli/index.php	/^$name = trim(fgets(STDIN));$/;"	v
+nodeHook	jquery/jquery-1.11.1.js	/^var nodeHook, boolHook,$/;"	v
+nodeHook	jquery/jquery-2.1.1.js	/^var nodeHook, boolHook,$/;"	v
+nodeHook.set	jquery/jquery-1.11.1.js	/^	nodeHook = {$/;"	m
+nodeNames	jquery/jquery-1.11.1.js	/^var nodeNames = "abbr|article|aside|audio|bdi|canvas|data|datalist|details|figcaption|figure|footer|" +$/;"	v
+nonce	jquery/jquery-1.11.1.js	/^var nonce = jQuery.now();$/;"	v
+nonce	jquery/jquery-2.1.1.js	/^var nonce = jQuery.now();$/;"	v
+num	php/curl/Valite.php	/^					$num = $key;$/;"	v
+num	php/curl/Valite.php	/^			$num = 0;$/;"	v
+numObj1	javascript/function/function.js	/^var numObj1 = Number.MAX_VALUE;$/;"	v
+oldCallbacks	jquery/jquery-1.11.1.js	/^var oldCallbacks = [],$/;"	v
+oldCallbacks	jquery/jquery-2.1.1.js	/^var oldCallbacks = [],$/;"	v
+opt.complete	jquery/jquery-1.11.1.js	/^	opt.old = opt.complete;$/;"	f
+opt.complete	jquery/jquery-2.1.1.js	/^	opt.old = opt.complete;$/;"	f
+optionsCache	jquery/jquery-1.11.1.js	/^var optionsCache = {};$/;"	v
+optionsCache	jquery/jquery-2.1.1.js	/^var optionsCache = {};$/;"	v
+output	php/curl/curl_login.php	/^	$output = curl_exec($ch);$/;"	v
+output	php/curl/curl_redirection.php	/^        $output = curl_exec($ch);$/;"	v
+output	php/curl/curl_upload.php	/^$output = curl_exec($ch);$/;"	v
+output	php/curl/test.php	/^	$output = curl_exec($ch);$/;"	v
+password	php/db/index.php	/^            $password = md5($value->account);$/;"	v
+password	php/db/oa.php	/^		$password = md5($value->account);$/;"	v
+password	php/db/project.php	/^        $password = md5($value->account);$/;"	v
+password	php/email/socket.php	/^        $this->password = base64_encode($password);$/;"	v
+password	php/email/socket.php	/^    private $password;$/;"	v
+password	php/email/socket.php	/^$password = "ysl88842412";$/;"	v
+pattern	php/email/socket.php	/^        $pattern = "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/";$/;"	v
+percent	php/curl/Valite.php	/^				$percent=0.0;$/;"	v
+port	php/email/socket.php	/^        $this->port = $port;$/;"	v
+port	php/email/socket.php	/^    private $port;$/;"	v
+port	php/email/socket.php	/^$port = 25;$/;"	v
+post_data	php/curl/curl_login.php	/^	$post_data = array($/;"	v
+post_data	php/curl/curl_upload.php	/^$post_data = array ($/;"	v
+post_data	php/curl/test.php	/^	$post_data = array($/;"	v
+post_fields	php/curl/test2.php	/^$post_fields = array();    $/;"	v
+propFilter	jquery/jquery-1.11.1.js	/^function propFilter( props, specialEasing ) {$/;"	f
+propFilter	jquery/jquery-2.1.1.js	/^function propFilter( props, specialEasing ) {$/;"	f
+r20	jquery/jquery-1.11.1.js	/^var r20 = \/%20\/g,$/;"	v
+r20	jquery/jquery-2.1.1.js	/^var r20 = \/%20\/g,$/;"	v
+rbrace	jquery/jquery-1.11.1.js	/^var rbrace = \/^(?:\\{[\\w\\W]*\\}|\\[[\\w\\W]*\\])$\/,$/;"	v
+rbrace	jquery/jquery-2.1.1.js	/^var rbrace = \/^(?:\\{[\\w\\W]*\\}|\\[[\\w\\W]*\\])$\/,$/;"	v
+rclass	jquery/jquery-1.11.1.js	/^var rclass = \/[\\t\\r\\n\\f]\/g;$/;"	v
+rclass	jquery/jquery-2.1.1.js	/^var rclass = \/[\\t\\r\\n\\f]\/g;$/;"	v
+readyList	jquery/jquery-1.11.1.js	/^var readyList;$/;"	v
+readyList	jquery/jquery-2.1.1.js	/^var readyList;$/;"	v
+realname	php/db/oa_change_user_realname.php	/^        $realname = str_replace(' ', '', $value->realname);$/;"	v
+realname	php/db/oa_insert_ts_relations.php	/^    $realname = 'åˆ˜å† å³°';\/\/æ¥ä¸‹æ¥çš„å›¢é˜Ÿå¯¼å¸ˆ$/;"	v
+realname	php/db/oa_insert_ts_relations.php	/^    $realname = 'å‘¨æ™“æ–¹';\/\/ç¬¬ä¸€ä¸ªæ‰‹åŠ¨åŒ¹é…çš„å¯¼å¸ˆ$/;"	v
+regex_match	php/sort/index.php	/^    public static function regex_match()$/;"	f
+res	php/curl/Valite.php	/^		$res = imagecreatefromgif($this->ImagePath);$/;"	v
+response	php/email/socket.php	/^        $response = fgets($this->sock);$/;"	v
+response	php/email/socket.php	/^        $response = fgets($this->sock);\/\/è·å–æœåŠ¡å™¨ä¿¡æ¯$/;"	v
+restoreScript	jquery/jquery-1.11.1.js	/^function restoreScript( elem ) {$/;"	f
+restoreScript	jquery/jquery-2.1.1.js	/^function restoreScript( elem ) {$/;"	f
+result	php/curl/Valite.php	/^		$result="";$/;"	v
+result	php/db/index.php	/^		$result = $sth->fetchAll();$/;"	v
+result	php/db/oa.php	/^	$result = $sth->fetchAll(PDO::FETCH_CLASS);$/;"	v
+result	php/db/oa_change_user_realname.php	/^    $result = $sth->fetchAll(PDO::FETCH_CLASS);$/;"	v
+result	php/db/oa_distinct_ts_relations.php	/^    $result = $sth->fetchAll(PDO::FETCH_CLASS);$/;"	v
+result	php/db/oa_insert_ts_relations.php	/^    $result = $sth->fetchAll();$/;"	v
+result	php/db/oa_insert_ts_relations.php	/^    $result = $sth->fetchAll(PDO::FETCH_CLASS);$/;"	v
+result	php/db/oa_test.php	/^    $result = $sth->fetchAll(PDO::FETCH_CLASS);$/;"	v
+result	php/db/project.php	/^    $result = $sth->fetchAll();$/;"	v
+result_test	php/db/oa_distinct_insert_ts_relations.php	/^    $result_test = $sth_test->fetchAll(PDO::FETCH_CLASS);$/;"	v
+result_to_distinct	php/db/oa_distinct_ts_relations.php	/^            $result_to_distinct = $sth->fetchAll(PDO::FETCH_CLASS);$/;"	v
+return	jquery/jquery-1.11.1.js	/^function Tween( elem, options, prop, end, easing ) {$/;"	c
+return	jquery/jquery-2.1.1.js	/^function Tween( elem, options, prop, end, easing ) {$/;"	c
+return.init	jquery/jquery-1.11.1.js	/^	return new Tween.prototype.init( elem, options, prop, end, easing );$/;"	m
+return.init	jquery/jquery-2.1.1.js	/^	return new Tween.prototype.init( elem, options, prop, end, easing );$/;"	m
+returnFalse	jquery/jquery-1.11.1.js	/^function returnFalse() {$/;"	f
+returnFalse	jquery/jquery-2.1.1.js	/^function returnFalse() {$/;"	f
+returnTrue	jquery/jquery-1.11.1.js	/^function returnTrue() {$/;"	f
+returnTrue	jquery/jquery-2.1.1.js	/^function returnTrue() {$/;"	f
+rfocusable	jquery/jquery-1.11.1.js	/^var rfocusable = \/^(?:input|select|textarea|button|object)$\/i,$/;"	v
+rfocusable	jquery/jquery-2.1.1.js	/^var rfocusable = \/^(?:input|select|textarea|button)$\/i;$/;"	v
+rformElems	jquery/jquery-1.11.1.js	/^var rformElems = \/^(?:input|select|textarea)$\/i,$/;"	v
+rgb	php/curl/Valite.php	/^				$rgb = imagecolorat($res,$j,$i);$/;"	v
+rgbarray	php/curl/Valite.php	/^				$rgbarray = imagecolorsforindex($res, $rgb);$/;"	v
+right_arr	php/sort/index.php	/^        $right_arr = array();$/;"	v
+right_arr	php/sort/index.php	/^        $right_arr = self::sort_by_ks($right_arr);$/;"	v
+risSimple	jquery/jquery-1.11.1.js	/^var risSimple = \/^.[^:#\\[\\.,]*$\/;$/;"	v
+risSimple	jquery/jquery-2.1.1.js	/^var risSimple = \/^.[^:#\\[\\.,]*$\/;$/;"	v
+rkeyEvent	jquery/jquery-2.1.1.js	/^var$/;"	v
+rneedsContext	jquery/jquery-1.11.1.js	/^var rneedsContext = jQuery.expr.match.needsContext;$/;"	v
+rneedsContext	jquery/jquery-2.1.1.js	/^var rneedsContext = jQuery.expr.match.needsContext;$/;"	v
+rreturn	jquery/jquery-1.11.1.js	/^var rreturn = \/\\r\/g;$/;"	v
+rreturn	jquery/jquery-2.1.1.js	/^var rreturn = \/\\r\/g;$/;"	v
+run	php/curl/Valite.php	/^	public function run()$/;"	f
+running	php/curl/curl_muti.php	/^$running=null;$/;"	v
+rvalidtokens	jquery/jquery-1.11.1.js	/^var rvalidtokens = \/(,)|(\\[|{)|(}|])|"(?:[^"\\\\\\r\\n]|\\\\["\\\\\\\/bfnrt]|\\\\u[\\da-fA-F]{4})*"\\s*:?|true|false|null|-?(?!0\\d)\\d+(?:\\.\\d+|)(?:[eE][+-]?\\d+|)\/g;$/;"	v
+rxhtmlTag	jquery/jquery-2.1.1.js	/^var$/;"	v
+safeActiveElement	jquery/jquery-1.11.1.js	/^function safeActiveElement() {$/;"	f
+safeActiveElement	jquery/jquery-2.1.1.js	/^function safeActiveElement() {$/;"	f
+send_mail	php/email/socket.php	/^    public function send_mail($from, $to, $subject, $body)$/;"	f
+setGlobalEval	jquery/jquery-1.11.1.js	/^function setGlobalEval( elems, refElements ) {$/;"	f
+setGlobalEval	jquery/jquery-2.1.1.js	/^function setGlobalEval( elems, refElements ) {$/;"	f
+setImage	php/curl/Valite.php	/^	public function setImage($Image)$/;"	f
+setPositiveNumber	jquery/jquery-1.11.1.js	/^function setPositiveNumber( elem, value, subtract ) {$/;"	f
+setPositiveNumber	jquery/jquery-2.1.1.js	/^function setPositiveNumber( elem, value, subtract ) {$/;"	f
+showHide	jquery/jquery-1.11.1.js	/^function showHide( elements, show ) {$/;"	f
+showHide	jquery/jquery-2.1.1.js	/^function showHide( elements, show ) {$/;"	f
+show_debug	php/email/socket.php	/^    private function show_debug($message)$/;"	f
+sibling	jquery/jquery-1.11.1.js	/^function sibling( cur, dir ) {$/;"	f
+sibling	jquery/jquery-2.1.1.js	/^function sibling( cur, dir ) {$/;"	f
+size	php/curl/Valite.php	/^		$size = getimagesize($this->ImagePath);$/;"	v
+smtp_mail	php/email/socket.php	/^    function smtp_mail($host, $port = 25, $username, $password, $mail_format = 1, $debug = 1)$/;"	f
+smtp_mail	php/email/socket.php	/^class smtp_mail$/;"	c
+sock	php/email/socket.php	/^        $this->sock = fsockopen($this->host, $this->port,  $errno,  $errstr, 10);$/;"	v
+sock	php/email/socket.php	/^    private $sock;\/\/è¿æ¥å¥æŸ„$/;"	v
+sort_by_jh	php/sort/index.php	/^    public static function sort_by_jh($arr)$/;"	f
+sort_by_ks	php/sort/index.php	/^    public static function sort_by_ks($arr)$/;"	f
+sort_by_mp	php/sort/index.php	/^    public static function sort_by_mp(&$arr)$/;"	f
+sort_by_xz	php/sort/index.php	/^    public static function sort_by_xz($arr)$/;"	f
+sql	php/db/index.php	/^        $sql = "SELECT * FROM `oa_user";$/;"	v
+sql	php/db/index.php	/^        $sql = "UPDATE `oa_user` SET `password` = 1 where `account` = 1";$/;"	v
+sql	php/db/oa.php	/^	$sql = "SELECT * FROM `oa_user` WHERE `id` between :beginid and :endid ";$/;"	v
+sql	php/db/oa_change_user_realname.php	/^    $sql = "SELECT * FROM `oa_user` WHERE `id` between :beginid and :endid ";$/;"	v
+sql	php/db/oa_change_user_realname.php	/^    $sql = "UPDATE `oa_user` SET `realname` = :realname where `id` = :id";$/;"	v
+sql	php/db/oa_distinct_insert_ts_relations.php	/^    $sql = "INSERT into `oa_ts_relations`(`tea_ID`, `stu_ID`, `createtime`, `updatetime`, `team`) values(:tea_ID, :stu_ID, :createtime, :updatetime, :team)";$/;"	v
+sql	php/db/oa_distinct_ts_relations.php	/^    $sql = "SELECT * FROM `oa_ts_relations` WHERE  `deleted`='0'";$/;"	v
+sql	php/db/oa_distinct_ts_relations.php	/^    $sql = "SELECT * FROM `oa_ts_relations` WHERE `tea_ID` =:tea_ID and `stu_ID`=:stu_ID and `deleted` = '0'";$/;"	v
+sql	php/db/oa_distinct_ts_relations.php	/^    $sql = "update `oa_ts_relations` set `deleted`='1' WHERE `id` =:id ";$/;"	v
+sql	php/db/oa_insert_ts_relations.php	/^    $sql = "INSERT into `oa_ts_relations`(`tea_ID`, `stu_ID`) values('$insert_tea_ID', :stu_ID)";$/;"	v
+sql	php/db/oa_insert_ts_relations.php	/^    $sql = "SELECT * FROM `oa_ts_relations` WHERE `tea_ID` ='$account' and `deleted` = '0'";$/;"	v
+sql	php/db/oa_insert_ts_relations.php	/^    $sql = "SELECT * FROM `oa_user` WHERE `realname` =:realname";$/;"	v
+sql	php/db/oa_test.php	/^    $sql = "SELECT * FROM `oa_user` WHERE `id` between :beginid and :endid ";$/;"	v
+sql	php/db/oa_test.php	/^    $sql = "insert into oa_ts_relations(`tea_ID`, `stu_ID`) values(:tea_ID, :stu_ID)";$/;"	v
+sql	php/db/pdo.php	/^    $sql = "delete from oa_user where id between 1093 and 1224;";$/;"	v
+sql	php/db/project.php	/^        $sql = "UPDATE pro_attachment SET main_info_id=:id where stuID =:stuID";$/;"	v
+sql	php/db/project.php	/^    $sql = "SELECT * FROM pro_project_main_info where `college_id` = :college_id and `PID` = 'KYJJ' and `TIME` = 16";$/;"	v
+sql_test	php/db/oa_distinct_insert_ts_relations.php	/^    $sql_test = "SELECT * FROM `oa_ts_relations` WHERE  `deleted`='0'";$/;"	v
+sth	php/db/index.php	/^		$sth = $dbh->prepare($sql);$/;"	v
+sth	php/db/index.php	/^        $sth = $dbh->prepare($sql);$/;"	v
+sth	php/db/oa.php	/^	$sth = $dbh->prepare($sql);$/;"	v
+sth	php/db/oa_change_user_realname.php	/^    $sth = $dbh->prepare($sql);$/;"	v
+sth	php/db/oa_distinct_insert_ts_relations.php	/^    $sth = $dbh->prepare($sql);$/;"	v
+sth	php/db/oa_distinct_ts_relations.php	/^    $sth = $dbh->prepare($sql);$/;"	v
+sth	php/db/oa_insert_ts_relations.php	/^    $sth = $dbh->prepare($sql);$/;"	v
+sth	php/db/oa_test.php	/^    $sth = $dbh->prepare($sql);$/;"	v
+sth	php/db/project.php	/^        $sth = $dbh->prepare($sql);$/;"	v
+sth	php/db/project.php	/^    $sth = $dbh->prepare($sql);$/;"	v
+sth_test	php/db/oa_distinct_insert_ts_relations.php	/^    $sth_test = $dbh_test->prepare($sql_test);$/;"	v
+sth_to_distinct	php/db/oa_distinct_ts_relations.php	/^    $sth_to_distinct = $dbh->prepare($sql);$/;"	v
+stmt	php/db/pdo.php	/^    $stmt = $conn->prepare($sql);$/;"	v
+str	php/form/index.php	/^$str = '<a href="demo.php?m=index&a=index&name=ä¸­æ–‡">æµ‹è¯•é¡µé¢<\/a>';$/;"	v
+str	php/sort/index.php	/^        $str = "2014-08-16 12:00:00";$/;"	v
+strundefined	jquery/jquery-1.11.1.js	/^var strundefined = typeof undefined;$/;"	v
+strundefined	jquery/jquery-2.1.1.js	/^var strundefined = typeof undefined;$/;"	v
+stu_ID	php/db/oa_distinct_insert_ts_relations.php	/^        $stu_ID = $value->stu_ID;$/;"	v
+stu_ID	php/db/oa_distinct_ts_relations.php	/^        $stu_ID = $value->stu_ID;$/;"	v
+stu_ID	php/db/oa_insert_ts_relations.php	/^        $stu_ID = $value->stu_ID;$/;"	v
+stu_ID	php/db/oa_test.php	/^        $stu_ID = $value->account;$/;"	v
+subject	php/email/socket.php	/^$subject = "Hello";$/;"	v
+support.shrinkWrapBlocks	jquery/jquery-1.11.1.js	/^	var shrinkWrapBlocksVal;$/;"	f
+swap	php/sort/index.php	/^    public static function swap(&$a, &$b)$/;"	f
+tea_ID	php/db/oa_distinct_insert_ts_relations.php	/^        $tea_ID = $value->tea_ID;$/;"	v
+tea_ID	php/db/oa_distinct_ts_relations.php	/^        $tea_ID = $value->tea_ID;$/;"	v
+tea_ID	php/db/oa_test.php	/^        $tea_ID = 'yangzhe';$/;"	v
+team	php/db/oa_distinct_insert_ts_relations.php	/^        $team = $value->team;$/;"	v
+temp	php/sort/index.php	/^        $temp = $a;$/;"	v
+test	javascript/function/function.html	/^    function test() {$/;"	f
+test	javascript/function/function.js	/^function test($a=1)$/;"	f
+test2	javascript/function/function.html	/^    function test2() {$/;"	f
+testAjax	javascript/ajax/ajax.js	/^function testAjax (url, method, content) {$/;"	f
+testAjax.getResponse	javascript/ajax/ajax.js	/^    function getResponse(type) {$/;"	f
+testAjax.getXmlHttpRequestObject	javascript/ajax/ajax.js	/^    function getXmlHttpRequestObject() {$/;"	f
+testAjax.onReadyStateChange	javascript/ajax/ajax.js	/^    function onReadyStateChange() {$/;"	f
+test_setInterval	javascript/setTimeout_setInterval.html	/^    function test_setInterval() {$/;"	f
+test_setTimeout	javascript/setTimeout_setInterval.html	/^    function test_setTimeout() {$/;"	f
+tmpInfo	php/curl/test3.php	/^	$tmpInfo = curl_exec ( $curl ); \/\/ Ö´ĞĞ²Ù×÷$/;"	v
+to	php/email/socket.php	/^$to = "1329517386@qq.com";$/;"	v
+updatetime	php/db/oa_distinct_insert_ts_relations.php	/^        $updatetime = $value->updatetime;$/;"	v
+url	php/curl/curl_upload.php	/^$url = "http:\/\/www.suda.edu.cn";$/;"	v
+url	php/sort/index.php	/^$url = "http:\/\/å§šå–„è‰¯ å§šå–„è‰¯";$/;"	v
+url_regex	php/sort/index.php	/^        $url_regex = '\/^http[s]?:\\\/\\\/'.$/;"	v
+urlencode_and_rawurlencode	php/sort/index.php	/^    public static function urlencode_and_rawurlencode($url)$/;"	f
+urls	php/curl/curl_redirection.php	/^$urls = array($/;"	v
+urls	php/sort/index.php	/^        $urls = array('http:\/\/iat.net.cn', 'https:\/\/iat.net.cn', 'http:\/\/iat.abc');$/;"	v
+user_agent	php/curl/test3.php	/^$user_agent = "Mozilla\/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322)";$/;"	v
+username	php/email/socket.php	/^        $this->username = base64_encode($username);$/;"	v
+username	php/email/socket.php	/^    private $username;$/;"	v
+username	php/email/socket.php	/^$username = "iatboy@163.com";$/;"	v
+valite	php/curl/Valite.php	/^class valite$/;"	c
+valite	php/curl/test.php	/^$valite = new Valite();$/;"	v
+vendorPropName	jquery/jquery-1.11.1.js	/^function vendorPropName( style, name ) {$/;"	f
+vendorPropName	jquery/jquery-2.1.1.js	/^function vendorPropName( style, name ) {$/;"	f
+vget	php/curl/test3.php	/^function vget($url) { \/\/ Ä£Äâ»ñÈ¡ÄÚÈİº¯Êı$/;"	f
+vlogin	php/curl/test3.php	/^function vlogin($url, $data) { \/\/ Ä£ÄâµÇÂ¼»ñÈ¡Cookieº¯Êı$/;"	f
+vpost	php/curl/test3.php	/^function vpost($url, $data) { \/\/ Ä£ÄâÌá½»Êı¾İº¯Êı$/;"	f
+winnow	jquery/jquery-1.11.1.js	/^function winnow( elements, qualifier, not ) {$/;"	f
+winnow	jquery/jquery-2.1.1.js	/^function winnow( elements, qualifier, not ) {$/;"	f
+x	php/curl/Valite.php	/^			$x = ($i*(WORD_WIDTH+WORD_SPACING))+OFFSET_X;$/;"	v
+y	php/curl/Valite.php	/^			$y = OFFSET_Y;$/;"	v
