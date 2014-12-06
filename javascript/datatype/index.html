@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div id = "div"></div>
+    <script>
+        //十进制转二进制
+        document.getElementById("div").appendChild(document.createTextNode((8).toString(2)));
+        document.getElementById("div").appendChild(document.createTextNode("\n"));
+
+        //十进制转八进制
+        document.getElementById("div").appendChild(document.createTextNode((8).toString(8)));
+        document.getElementById("div").appendChild(document.createTextNode("\n"));
+
+        //十进制转十六进制
+        document.getElementById("div").appendChild(document.createTextNode((10).toString(16)));
+        document.getElementById("div").appendChild(document.createTextNode("\n"));
+
+        //二进制转十进制
+        document.getElementById("div").appendChild(document.createTextNode(parseInt("1001", 2)));
+        document.getElementById("div").appendChild(document.createTextNode("\n"));
+
+        //八进制转十进制
+        document.getElementById("div").appendChild(document.createTextNode(parseInt("11", 8)));
+        document.getElementById("div").appendChild(document.createTextNode("\n"));
+
+        //十六进制转十进制
+        document.getElementById("div").appendChild(document.createTextNode(parseInt("A", 16)));
+        document.getElementById("div").appendChild(document.createTextNode("\n"));
+
+        //二进制转十六进制
+        document.getElementById("div").appendChild(document.createTextNode(parseInt("1001", 2).toString(16)));
+        document.getElementById("div").appendChild(document.createTextNode("\n"));
+
+        //十六进制转八进制
+        document.getElementById("div").appendChild(document.createTextNode(parseInt("A", 16).toString(8)));
+        document.getElementById("div").appendChild(document.createTextNode("\n"));
+    </script>
+</body>
+</html>
