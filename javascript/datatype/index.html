@@ -6,6 +6,7 @@
 <body>
     <div id = "div"></div>
     <script>
+	function change() {
         //十进制转二进制
         document.getElementById("div").appendChild(document.createTextNode((8).toString(2) + "\n"));
 
@@ -31,6 +32,13 @@
         document.getElementById("div").appendChild(document.createTextNode(parseInt("A", 16).toString(8) + "\n"));
 
         document.getElementById("div").appendChild(document.createTextNode((0.1+0.2)+0.3) + "\n");
+	}
+
+	function datatype() {
+		console.log(null == undefined);
+
+	}
+	datatype();
     </script>
 </body>
 </html>
