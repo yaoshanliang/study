@@ -20,4 +20,13 @@
             echo $value1 == $value2 ? '相等' :'不相等';echo "\n";
         }
     }
-$arr = array('name' => "dwqs",'add' => "www.ido321.com");echo $arr["name"];echo "{$arr['name']}";
+	//$arr = array('name' => "dwqs",'add' => "www.ido321.com");echo $arr["name"];echo "{$arr['name']}";
+	//
+
+	$a = "1";
+	$$a = "a2";
+#	$$a = "aa";
+#	$$$a = "aaa";
+#	var_dump($a);
+	var_dump($$a);
+#	var_dump($1);
