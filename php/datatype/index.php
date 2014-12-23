@@ -28,5 +28,11 @@
 #	$$a = "aa";
 #	$$$a = "aaa";
 #	var_dump($a);
-	var_dump($$a);
+#	var_dump($$a);
 #	var_dump($1);
+	#
+	$a = array();
+	$a[1] = "iat";
+	var_dump($a);
+	echo "HELLO, $a[1]";
+	echo "Hello, {$a[1]}";
