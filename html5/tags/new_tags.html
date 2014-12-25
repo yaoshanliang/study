@@ -30,6 +30,7 @@
 		</aside>
 		<form name="form" method="post">
 			<input type="search" name="search" placeholder="search" required>
+			<input type="text" name="name" id="name" placehoder="name">
 			<input type="email" name="email" multiple>
 			<input type="url" name="url">
 			<input type="tel" name="tel" list="mydata">
@@ -52,5 +53,22 @@
 			<input type="submit">
 		</form>
 		<footer>Copyright &copy; 2014 iat</footer>
+		<script>
+			function initiate() {
+				name = document.getElementById("name");
+				name.addEventListener("input", validation, false);
+				validation();
+			}
+			function validation() {
+				if (name.value == "") {
+					name.setCustomValidity("insert name here");
+					name.style.background("#FFDDDD");
+				} else {
+					name.setCustomValidity("");
+					name.style.background("#FFFFFF");
+				}
+			}
+			window.addEventListener("load", initiate, false)
+		</script>
 	</body>
 </html>
