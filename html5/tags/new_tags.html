@@ -29,15 +29,26 @@
 			<blockquote>Article 1</blockquote>
 		</aside>
 		<form name="form" method="post">
-			<input type="search" name="search">
-			<input type="email" name="email">
+			<input type="search" name="search" placeholder="search" required>
+			<input type="email" name="email" multiple>
 			<input type="url" name="url">
-			<input type="tel" name="tel">
+			<input type="tel" name="tel" list="mydata">
 			<input type="number" name="number" min="0" max="10" step="2">
 			<input type="range" name="range" min="0" max="10" step="2">
 			<input type="date" name="date">
 			<input type="week" name="week">
 			<input type="month" name="month">
+			<input type="time" name="time">
+			<input type="datetime" name="datetime">
+			<input type="datetime-local" name="datetime-local">
+			<input type="color" name="color">
+			<input pattern="[0-9]{5}" name="pcode" title="5 number">
+			<datalist id="mydata">
+				<option value="111" label="Phone 1">
+				<option value="222" lable="Phone 2">
+			</datalist>
+			<progress value="11" max=100>
+			<meter value=10 min=1 max=20 low=5 high=15 optimun=18>
 			<input type="submit">
 		</form>
 		<footer>Copyright &copy; 2014 iat</footer>
