@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<script>
+			navigator.geolocation.getCurrentPosition(updateLocation, handleLocationError);
+
+			function updateLocation(position) {
+				var latitude = position.coords.latitude;
+				var longitude = position.coords.longitude;
+				var accuracy = position.coords.accuracy;
+				var timestamp = position.timestamp;
+				
+				console.log(latitude);
+				console.log(longitude);
+				console.log(accuracy);
+				console.log(timestamp);
+			}
+			
+			function handleLocationError(error) {
+				switch(error.code) {
+					case 0 : 
+						updateSatus("Retrieving location error:" + error.message);
+						break;
+					case 1 :
+						updateStatus("User prevented error:" + error.message);
+						break;
+					case 2 :
+						updateStatus("Broswer unable determine error:" + error.message);
+						break;
+					case 3 :
+						updateStatus("Broswer time out error:" + error.message);
+						break;
+				}
+			}
+		</script>
+	</body>
+</html>
