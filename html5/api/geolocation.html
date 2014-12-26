@@ -2,7 +2,7 @@
 <html>
 	<body>
 		<script>
-			navigator.geolocation.getCurrentPosition(updateLocation, handleLocationError);
+navigator.geolocation.getCurrentPosition(updateLocation, handleLocationError, {enableHighAccuracy:true});
 
 			function updateLocation(position) {
 				var latitude = position.coords.latitude;
