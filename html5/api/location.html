@@ -117,11 +117,15 @@
 						break;
 					case 3:
 						updateStatus("The browser timed out before retrieving the location.");
+						break;																		
+					default :
+						updateStatus("Do not know error:" + error.message);
 						break;
-																																		}
+				}
 			}
 
-			</script>
+			
+		</script>
 	</body>
 </html>
 
