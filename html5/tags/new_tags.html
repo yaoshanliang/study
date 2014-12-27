@@ -8,30 +8,10 @@
 		<link rel="css" href="">
 	</head>
 	<body>
-		<header>This is header</header>	
-		<nav>
-			<ul>
-				<li>home</li>
-				<li>study</li>
-			<ul>
-		</nav>
-
-		<section>
-			<article>
-				This is article
-				<time datetime="2014-12-24" pubdate>date</time>
-				<time datetime="2014-12-24">date</time>
-				
-			</article>
-		</section>
-
-		<aside>
-			<blockquote>Article 1</blockquote>
-		</aside>
 		<form name="form" method="post">
 			<input type="search" name="search" placeholder="search" required>
 			<input type="text" name="name" id="name" placehoder="name">
-			<input type="email" name="email" multiple>
+			<!--<input type="email" name="email" multiple>
 			<input type="url" name="url">
 			<input type="tel" name="tel" list="mydata">
 			<input type="number" name="number" min="0" max="10" step="2">
@@ -49,18 +29,13 @@
 				<option value="222" lable="Phone 2">
 			</datalist>
 			<progress value="11" max=100>
-			<meter value=10 min=1 max=20 low=5 high=15 optimun=18>
+			<meter value=10 min=1 max=20 low=5 high=15 optimun=18>-->
+			<button onclick="validation();">123</button>
 			<input type="submit">
 		</form>
-		<footer>Copyright &copy; 2014 iat</footer>
 		<script>
-			function initiate() {
-				name = document.getElementById("name");
-				console.log(name);
-				//name.addEventListener("input", validation, false);
-				validation();
-			}
 			function validation() {
+				name = document.getElementById("name");
 				if (name.value == "") {
 					name.setCustomValidity("insert name here");
 					name.style.background("#FFDDDD");
@@ -69,6 +44,12 @@
 					name.style.background("#FFFFFF");
 				}
 			}
+			function initiate() {
+				name = document.getElementById("name");
+				name.addEventListener("input", validation, false);
+				validation();
+			}
+		
 			window.addEventListener("load", initiate, false)
 		</script>
 	</body>
