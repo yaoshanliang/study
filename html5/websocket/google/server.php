@@ -1,18 +1,20 @@
 #!/php -q
 <?php  /*  >php -q server.php  */
 
-error_reporting(E_ALL | E_STRICT);
+error_reporting(E_ALL & ~E_NOTICE | E_STRICT);
 set_time_limit(0);
 ob_implicit_flush();
 
 $master  = WebSocket("localhost",12345);
 $sockets = array($master);
 $users   = array();
-$debug   = false;
+$debug   = true;
 
+  $write = NULL;
+  $except = NULL;
 while(true){
   $changed = $sockets;
-  socket_select($changed,$write=NULL,$except=NULL,NULL);
+  socket_select($changed,$write,$except,NULL);
   foreach($changed as $socket){
     if($socket==$master){
       $client=socket_accept($master);
