@@ -1,7 +1,7 @@
 #!/php -q
 <?php  /*  >php -q server.php  */
 
-error_reporting(E_ALL & ~E_NOTICE | E_STRICT);
+error_reporting(E_ALL);
 set_time_limit(0);
 ob_implicit_flush();
 
@@ -95,19 +95,23 @@ function dohandshake($user,$buffer){
   console("\nRequesting handshake...");
   console($buffer);
   list($resource,$host,$origin,$strkey,$data) = getheaders($buffer);
-  console($strkey.'\n');//key
   console("Handshaking...");
 
   $magic_string = "258EAFA5-E914-47DA-95CA-C5AB0DC85B11";
-  $hash_data = md5(sha1($strkey.$magic_string));
-  $upgrade  = "HTTP/1.1 101 WebSocket Protocol Handshake\r\n" .
-              "Upgrade: WebSocket\r\n" .
+  $hash_data = base64_encode(sha1($strkey.$magic_string, true));
+  $upgrade  = "HTTP/1.1 101 Switching Protocols\r\n" .
+			  "Upgrade: WebSocket\r\n".
               "Connection: Upgrade\r\n" .
-              "Sec-WebSocket-Origin: " . $origin . "\r\n" .
-              "Sec-WebSocket-Location: ws://" . $host . $resource . "\r\n" .
-              "Sec-WebSocket-Accept:" .$hash_data;
-
-  socket_write($user->socket,$upgrade.chr(0),strlen($upgrade.chr(0)));
+             // "Sec-WebSocket-Origin: " . $origin . "\r\n" .
+             // "Sec-WebSocket-Location: ws://" . $host . $resource . "\r\n" .
+			  "Sec-WebSocket-Accept:" .$hash_data ."\r\n"
+			  ."\r\n";
+  
+  if(socket_write($user->socket,$upgrade.chr(0),strlen($upgrade.chr(0))) == false)
+  {
+	  console("error on sending");
+  }
+  
   $user->handshake=true;
   console($upgrade);
   console("Done handshaking...");
