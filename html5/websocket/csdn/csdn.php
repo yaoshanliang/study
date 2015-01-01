@@ -2,7 +2,7 @@
 class WS {
 	var $master;
 	var $sockets = array();
-	var $debug = false;
+	var $debug = true;
 	var $handshake = false;
 
 	function __construct($address, $port){
