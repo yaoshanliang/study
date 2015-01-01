@@ -9,12 +9,6 @@
   var wsUri = "ws://echo.websocket.org/";
   var output;
 
-  function init()
-  {
-    output = document.getElementById("output");
-    testWebSocket();
-  }
-
   function testWebSocket()
   {
     websocket = new WebSocket(wsUri);
@@ -61,6 +55,12 @@
   }
 
   window.addEventListener("load", init, false);
+
+  function init()
+  {
+    output = document.getElementById("output");
+    testWebSocket();
+  }
 
 </script>
 
