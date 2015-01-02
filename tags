@@ -8,6 +8,8 @@
 1223	jquery/jquery-2.1.1.js	/^		0: 200,$/;"	p
 Animation	jquery/jquery-1.11.1.js	/^function Animation( elem, properties, options ) {$/;"	f
 Animation	jquery/jquery-2.1.1.js	/^function Animation( elem, properties, options ) {$/;"	f
+ChatBot	html5/websocket/google/chatbot.demo.php	/^class ChatBot extends WebSocket{$/;"	c
+ChatBot	html5/websocket/phpwebsocket/chatbot.demo.php	/^class ChatBot extends WebSocket{$/;"	c
 Data	jquery/jquery-2.1.1.js	/^function Data() {$/;"	c
 Data.access	jquery/jquery-2.1.1.js	/^	},$/;"	m
 Data.discard	jquery/jquery-2.1.1.js	/^	},$/;"	m
@@ -50,17 +52,39 @@ Tween.run	jquery/jquery-2.1.1.js	/^	},$/;"	m
 URL	php/curl/curl_login.php	/^	$URL = "http:\/\/192.168.1.100:8888\/365days\/11";$/;"	v
 URL	php/curl/curl_login.php	/^	$URL = "http:\/\/dxpx.suda.edu.cn\/loginActionForsuda.action?gonghao=1227401054&secret=6c4c0a0b27c631d12b1ccf55ff679cf5&time=1400136532";$/;"	v
 URL	php/curl/test.php	/^	$URL = "ids1.suda.edu.cn\/amserver\/UI\/Login?goto=http:\/\/myauth.suda.edu.cn\/default.aspx?app=www";$/;"	v
+User	html5/websocket/google/server.php	/^class User{$/;"	c
+User	html5/websocket/google/server_old.php	/^class User{$/;"	c
+User	html5/websocket/google/websocket.class.php	/^class User{$/;"	c
+User	html5/websocket/phpwebsocket/server.php	/^class User{$/;"	c
+User	html5/websocket/phpwebsocket/websocket.class.php	/^class User{$/;"	c
 WORD_HIGHT	php/curl/Valite.php	/^define('WORD_HIGHT',13);$/;"	d
 WORD_SPACING	php/curl/Valite.php	/^define('WORD_SPACING',4);$/;"	d
 WORD_WIDTH	php/curl/Valite.php	/^define('WORD_WIDTH',9);$/;"	d
+WS	html5/websocket/csdn/csdn.php	/^class WS {$/;"	c
+WebSocket	html5/websocket/google/server.php	/^function WebSocket($address,$port){$/;"	f
+WebSocket	html5/websocket/google/server_old.php	/^function WebSocket($address,$port){$/;"	f
+WebSocket	html5/websocket/google/websocket.class.php	/^class WebSocket{$/;"	c
+WebSocket	html5/websocket/phpwebsocket/server.php	/^function WebSocket($address,$port){$/;"	f
+WebSocket	html5/websocket/phpwebsocket/websocket.class.php	/^class WebSocket{$/;"	c
+__construct	html5/websocket/csdn/csdn.php	/^	function __construct($address, $port){$/;"	f
+__construct	html5/websocket/google/websocket.class.php	/^  function __construct($address,$port){$/;"	f
+__construct	html5/websocket/phpwebsocket/websocket.class.php	/^  function __construct($address,$port){$/;"	f
 __construct	php/curl/Valite.php	/^	public function __construct()$/;"	f
 _jQuery	jquery/jquery-1.11.1.js	/^var$/;"	v
 _jQuery	jquery/jquery-2.1.1.js	/^var$/;"	v
 _load	jquery/jquery-1.11.1.js	/^var _load = jQuery.fn.load;$/;"	v
 _load	jquery/jquery-2.1.1.js	/^var _load = jQuery.fn.load;$/;"	v
+a	html5/websocket/csdn/csdn.php	/^		$a = str_split($s, 125);$/;"	v
+a	html5/websocket/google/server.php	/^		$a = str_split($s, 125);$/;"	v
+a	php/datatype/index.php	/^	$a = "1";$/;"	v
+a	php/datatype/index.php	/^	$a = array();$/;"	v
 a	php/sort/index.php	/^        $a = $b;$/;"	v
 abd	php/file/index.php	/^function abd($a, $b) {$/;"	f
+accept	html5/websocket/csdn/csdn.php	/^		$accept = base64_encode(sha1($key . '258EAFA5-E914-47DA-95CA-C5AB0DC85B11', true));$/;"	v
 account	php/db/oa_insert_ts_relations.php	/^    $account = $result[0]['account'];$/;"	v
+action	html5/websocket/google/server.php	/^  $action = decode($msg);$/;"	v
+action	html5/websocket/google/server_old.php	/^  $action = unwrap($msg);$/;"	v
+action	html5/websocket/phpwebsocket/server.php	/^  $action = unwrap($msg);$/;"	v
 active	php/curl/curl_muti.php	/^$active = null;$/;"	v
 actualDisplay	jquery/jquery-1.11.1.js	/^function actualDisplay( name, doc ) {$/;"	f
 actualDisplay	jquery/jquery-2.1.1.js	/^function actualDisplay( name, doc ) {$/;"	f
@@ -77,7 +101,6 @@ ajaxExtend	jquery/jquery-1.11.1.js	/^function ajaxExtend( target, src ) {$/;"	f
 ajaxExtend	jquery/jquery-2.1.1.js	/^function ajaxExtend( target, src ) {$/;"	f
 ajaxHandleResponses	jquery/jquery-1.11.1.js	/^function ajaxHandleResponses( s, jqXHR, responses ) {$/;"	f
 ajaxHandleResponses	jquery/jquery-2.1.1.js	/^function ajaxHandleResponses( s, jqXHR, responses ) {$/;"	f
-arr	php/datatype/index.php	/^$arr = array('name' => "dwqs",'add' => "www.ido321.com");echo $arr["name"];echo "{$arr['name']}";/;"	v
 arr	php/sort/index.php	/^$arr = array(1, 3, 2, 5, 6, 3, 3, 1, 4, 5);$/;"	v
 augmentWidthOrHeight	jquery/jquery-1.11.1.js	/^function augmentWidthOrHeight( elem, name, extra, isBorderBox, styles ) {$/;"	f
 augmentWidthOrHeight	jquery/jquery-2.1.1.js	/^function augmentWidthOrHeight( elem, name, extra, isBorderBox, styles ) {$/;"	f
@@ -91,9 +114,19 @@ beginid	php/db/oa_test.php	/^$beginid = 347;$/;"	v
 beginid	php/db/project.php	/^$beginid = 145;$/;"	v
 boolHook.set	jquery/jquery-1.11.1.js	/^boolHook = {$/;"	m
 boolHook.set	jquery/jquery-2.1.1.js	/^boolHook = {$/;"	m
+broadcast	html5/websocket/phpwebsocket/websocket.class.php	/^  function broadcast($msg,$except=null){$/;"	f
 browsers	php/curl/curl_redirection.php	/^$browsers = array($/;"	v
+buffer	html5/websocket/csdn/csdn.php	/^							$buffer = $this->decode($buffer);$/;"	v
 buildParams	jquery/jquery-1.11.1.js	/^function buildParams( prefix, obj, traditional, add ) {$/;"	f
 buildParams	jquery/jquery-2.1.1.js	/^function buildParams( prefix, obj, traditional, add ) {$/;"	f
+bytes	html5/websocket/csdn/csdn.php	/^					$bytes = @socket_recv($socket,$buffer,2048,0);$/;"	v
+bytes	html5/websocket/google/server.php	/^      $bytes = @socket_recv($socket,$buffer,2048,0);$/;"	v
+bytes	html5/websocket/google/server_old.php	/^      $bytes = @socket_recv($socket,$buffer,2048,0);$/;"	v
+bytes	html5/websocket/google/websocket.class.php	/^          $bytes = @socket_recv($socket,$buffer,2048,0);$/;"	v
+bytes	html5/websocket/phpwebsocket/server.php	/^      $bytes = @socket_recv($socket,$buffer,2048,0);$/;"	v
+bytes	html5/websocket/phpwebsocket/websocket.class.php	/^          $bytes = @socket_recv($socket,$buffer,2048,0);$/;"	v
+calcKey	html5/websocket/csdn/csdn.php	/^	function calcKey($key){$/;"	f
+calcKey	html5/websocket/google/websocket.class.php	/^  function calcKey($key1,$key2,$l8b){$/;"	f
 ch	php/curl/curl_404.php	/^        $ch = curl_init();$/;"	v
 ch	php/curl/curl_catch.php	/^	$ch = curl_init();$/;"	v
 ch	php/curl/curl_file.php	/^$ch = curl_init();$/;"	v
@@ -105,8 +138,20 @@ ch	php/curl/test2.php	/^$ch = curl_init($get_url);    $/;"	v
 ch	php/curl/test2.php	/^$ch = curl_init($login_url);    $/;"	v
 ch1	php/curl/curl_muti.php	/^$ch1 = curl_init();$/;"	v
 ch2	php/curl/curl_muti.php	/^$ch2 = curl_init();$/;"	v
+change	javascript/datatype/index.html	/^	function change() {$/;"	f
+changed	html5/websocket/google/server.php	/^  $changed = $sockets;$/;"	v
+changed	html5/websocket/google/server_old.php	/^  $changed = $sockets;$/;"	v
+changed	html5/websocket/google/websocket.class.php	/^      $changed = $this->sockets;$/;"	v
+changed	html5/websocket/phpwebsocket/server.php	/^  $changed = $sockets;$/;"	v
+changed	html5/websocket/phpwebsocket/websocket.class.php	/^      $changed = $this->sockets;$/;"	v
 check	javascript/ajax/ajax.js	/^function check() {$/;"	f
 chinfo	php/curl/curl_404.php	/^            $chinfo = curl_getinfo($mhinfo['handle']);$/;"	v
+client	html5/websocket/csdn/csdn.php	/^					$client = socket_accept($this->master);$/;"	v
+client	html5/websocket/google/server.php	/^      $client=socket_accept($master);$/;"	v
+client	html5/websocket/google/server_old.php	/^      $client=socket_accept($master);$/;"	v
+client	html5/websocket/google/websocket.class.php	/^          $client=socket_accept($this->master);$/;"	v
+client	html5/websocket/phpwebsocket/server.php	/^      $client=socket_accept($master);$/;"	v
+client	html5/websocket/phpwebsocket/websocket.class.php	/^          $client=socket_accept($this->master);$/;"	v
 cloneCopyEvent	jquery/jquery-1.11.1.js	/^function cloneCopyEvent( src, dest ) {$/;"	f
 cloneCopyEvent	jquery/jquery-2.1.1.js	/^function cloneCopyEvent( src, dest ) {$/;"	f
 college_id	php/db/project.php	/^    $college_id = 27;$/;"	v
@@ -114,7 +159,18 @@ completed	jquery/jquery-1.11.1.js	/^function completed() {$/;"	f
 completed	jquery/jquery-2.1.1.js	/^function completed() {$/;"	f
 computePixelPositionAndBoxSizingReliable	jquery/jquery-2.1.1.js	/^	function computePixelPositionAndBoxSizingReliable() {$/;"	f
 computeStyleTests	jquery/jquery-1.11.1.js	/^	function computeStyleTests() {$/;"	f
+con	php/form/connect.php	/^$con =@ mysql_connect("localhost","root","ysl");$/;"	v
+confirmPassword	php/form/index.php	/^	    $confirmPassword = $_POST['confirmPassword'];$/;"	v
 conn	php/db/pdo.php	/^    $conn = new PDO($dsn, $db_user, $db_password);$/;"	v
+connect	html5/websocket/csdn/csdn.php	/^	function connect($socket){$/;"	f
+connect	html5/websocket/google/server.php	/^function connect($socket){$/;"	f
+connect	html5/websocket/google/server_old.php	/^function connect($socket){$/;"	f
+connect	html5/websocket/google/websocket.class.php	/^  function connect($socket){$/;"	f
+connect	html5/websocket/phpwebsocket/server.php	/^function connect($socket){$/;"	f
+connect	html5/websocket/phpwebsocket/websocket.class.php	/^  function connect($socket){$/;"	f
+console	html5/websocket/google/server.php	/^function console($msg=""){ global $debug; if($debug){ echo $msg."\\n"; } }$/;"	f
+console	html5/websocket/google/server_old.php	/^function console($msg=""){ global $debug; if($debug){ echo $msg."\\n"; } }$/;"	f
+console	html5/websocket/phpwebsocket/server.php	/^function console($msg=""){ global $debug; if($debug){ echo $msg."\\n"; } }$/;"	f
 content	php/email/socket.php	/^$content = "World";$/;"	v
 content	php/file/index.php	/^$content = 'hello world 123';$/;"	v
 content	php/tag/phptesttag.php	/^	$content = ob_get_contents();$/;"	v
@@ -134,9 +190,16 @@ createTween	jquery/jquery-2.1.1.js	/^function createTween( value, prop, animatio
 createtime	php/db/oa_distinct_insert_ts_relations.php	/^        $createtime = $value->createtime;$/;"	v
 cssExpand	jquery/jquery-1.11.1.js	/^var cssExpand = [ "Top", "Right", "Bottom", "Left" ];$/;"	v
 cssExpand	jquery/jquery-2.1.1.js	/^var cssExpand = [ "Top", "Right", "Bottom", "Left" ];$/;"	v
+ctx	html5/websocket/google/server_old.php	/^  $ctx = hash_init('md5');$/;"	v
 curCSS	jquery/jquery-1.11.1.js	/^	};$/;"	f
 curCSS	jquery/jquery-2.1.1.js	/^function curCSS( elem, name, computed ) {$/;"	f
 curl	php/curl/test3.php	/^	$curl = curl_init (); \/\/ ∆Ù∂Ø“ª∏ˆCURLª·ª∞$/;"	v
+data	html5/websocket/csdn/csdn.php	/^			$data = substr($buffer, 14);$/;"	v
+data	html5/websocket/csdn/csdn.php	/^			$data = substr($buffer, 6);$/;"	v
+data	html5/websocket/csdn/csdn.php	/^			$data = substr($buffer, 8);$/;"	v
+data	html5/websocket/google/server.php	/^			$data = substr($buffer, 14);$/;"	v
+data	html5/websocket/google/server.php	/^			$data = substr($buffer, 6);$/;"	v
+data	html5/websocket/google/server.php	/^			$data = substr($buffer, 8);$/;"	v
 data	php/curl/Valite.php	/^		$data = array("","","","");$/;"	v
 data	php/curl/Valite.php	/^		$data = array();$/;"	v
 data	php/curl/Valite.php	/^		$this->data = $result;$/;"	v
@@ -146,6 +209,7 @@ dataAttr	jquery/jquery-1.11.1.js	/^function dataAttr( elem, key, data ) {$/;"	f
 dataAttr	jquery/jquery-2.1.1.js	/^function dataAttr( elem, key, data ) {$/;"	f
 dataType	jquery/jquery-1.11.1.js	/^		var dataType,$/;"	v
 dataType	jquery/jquery-2.1.1.js	/^		var dataType,$/;"	v
+datatype	javascript/datatype/index.html	/^	function datatype() {$/;"	f
 db_host	php/db/index.php	/^	$db_host = "10.10.65.152";$/;"	v
 db_host	php/db/oa.php	/^$db_host = "10.10.65.152";$/;"	v
 db_host	php/db/oa_change_user_realname.php	/^$db_host = "10.10.64.29";$/;"	v
@@ -203,8 +267,16 @@ dbh	php/db/project.php	/^    $dbh = NULL;$/;"	v
 dbh	php/db/project.php	/^    $dbh = new PDO($dsn, $db_user, $db_password);$/;"	v
 dbh_test	php/db/oa_distinct_insert_ts_relations.php	/^    $dbh_test = NULL;$/;"	v
 dbh_test	php/db/oa_distinct_insert_ts_relations.php	/^    $dbh_test = new PDO($dsn_test, $db_user, $db_password);$/;"	v
+debug	html5/websocket/csdn/csdn.php	/^	var $debug = true;$/;"	v
+debug	html5/websocket/google/server.php	/^$debug   = true;$/;"	v
+debug	html5/websocket/google/server_old.php	/^$debug   = true;$/;"	v
+debug	html5/websocket/google/websocket.class.php	/^  var $debug   = false;$/;"	v
+debug	html5/websocket/phpwebsocket/server.php	/^$debug   = false;$/;"	v
+debug	html5/websocket/phpwebsocket/websocket.class.php	/^  var $debug   = false;$/;"	v
 debug	php/email/socket.php	/^        $this->debug = $debug;$/;"	v
 debug	php/email/socket.php	/^    private $debug = false;$/;"	v
+decode	html5/websocket/csdn/csdn.php	/^	function decode($buffer) {$/;"	f
+decode	html5/websocket/google/server.php	/^	function decode($buffer) {$/;"	f
 defaultDisplay	jquery/jquery-1.11.1.js	/^function defaultDisplay( nodeName ) {$/;"	f
 defaultDisplay	jquery/jquery-2.1.1.js	/^function defaultDisplay( nodeName ) {$/;"	f
 defaultPrefilter	jquery/jquery-1.11.1.js	/^function defaultPrefilter( elem, props, opts ) {$/;"	f
@@ -213,12 +285,26 @@ delcookie	php/curl/test3.php	/^function delcookie($cookie_file) { \/\/ …æ≥˝Cooki
 descriptor.value	jquery/jquery-2.1.1.js	/^				descriptor[ this.expando ] = { value: unlock };$/;"	p
 detach	jquery/jquery-1.11.1.js	/^function detach() {$/;"	f
 detail	php/email/socket.php	/^        $detail = "From: $from"."\\r\\n";$/;"	v
+disConnect	html5/websocket/csdn/csdn.php	/^	function disConnect($socket){$/;"	f
 disableScript	jquery/jquery-1.11.1.js	/^function disableScript( elem ) {$/;"	f
 disableScript	jquery/jquery-2.1.1.js	/^function disableScript( elem ) {$/;"	f
+disconnect	html5/websocket/google/server.php	/^function disconnect($socket){$/;"	f
+disconnect	html5/websocket/google/server_old.php	/^function disconnect($socket){$/;"	f
+disconnect	html5/websocket/google/websocket.class.php	/^  function disconnect($socket){$/;"	f
+disconnect	html5/websocket/phpwebsocket/server.php	/^function disconnect($socket){$/;"	f
+disconnect	html5/websocket/phpwebsocket/websocket.class.php	/^  function disconnect($socket){$/;"	f
 discuz_url	php/curl/test2.php	/^$discuz_url = 'http:\/\/www.lxvoip.com';\/\/¬€Ã≥µÿ÷∑    $/;"	v
+distance	html5/api/location.html	/^			function distance(latitude1, longitude1, latitude2, longitude2) {$/;"	f
+doHandShake	html5/websocket/csdn/csdn.php	/^	function doHandShake($socket, $buffer){$/;"	f
+doSend	html5/websocket/org/client.html	/^  function doSend(message)$/;"	f
 do_command	php/email/socket.php	/^    private function do_command($cmd, $return_code)$/;"	f
 docElem	jquery/jquery-1.11.1.js	/^var docElem = window.document.documentElement;$/;"	v
 docElem	jquery/jquery-2.1.1.js	/^var docElem = window.document.documentElement;$/;"	v
+dohandshake	html5/websocket/google/server.php	/^function dohandshake($user,$buffer){$/;"	f
+dohandshake	html5/websocket/google/server_old.php	/^function dohandshake($user,$buffer){$/;"	f
+dohandshake	html5/websocket/google/websocket.class.php	/^  function dohandshake($user,$buffer){$/;"	f
+dohandshake	html5/websocket/phpwebsocket/server.php	/^function dohandshake($user,$buffer){$/;"	f
+dohandshake	html5/websocket/phpwebsocket/websocket.class.php	/^  function dohandshake($user,$buffer){$/;"	f
 dsn	php/db/index.php	/^	$dsn = "mysql:host=$db_host;dbname=$db_name"; $/;"	v
 dsn	php/db/oa.php	/^$dsn = "mysql:host=$db_host; dbname=$db_name"; $/;"	v
 dsn	php/db/oa_change_user_realname.php	/^$dsn = "mysql:host=$db_host; dbname=$db_name";$/;"	v
@@ -230,6 +316,7 @@ dsn	php/db/pdo.php	/^$dsn = "$db_type:host=$db_host;dbname=$db_name";$/;"	v
 dsn	php/db/project.php	/^$dsn = "mysql:host=$db_host; dbname=$db_name";$/;"	v
 dsn_test	php/db/oa_distinct_insert_ts_relations.php	/^$dsn_test = "mysql:host=$db_host; dbname=$db_name_test";$/;"	v
 echo_datetime	php/sort/index.php	/^    public static function echo_datetime()$/;"	f
+email	php/form/index.php	/^		    $email = $_POST['email'];$/;"	v
 email_regex	php/sort/index.php	/^        $email_regex = '\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/';$/;"	v
 emails	php/sort/index.php	/^        $emails = array('iat.net.cn@gmail.com',$/;"	v
 endid	php/db/index.php	/^	$endid = 147;$/;"	v
@@ -240,6 +327,9 @@ endid	php/db/oa_insert_ts_relations.php	/^$endid = 1386;$/;"	v
 endid	php/db/oa_test.php	/^$endid = 693;$/;"	v
 endid	php/db/project.php	/^$endid = 147;$/;"	v
 ert	php/curl/test.php	/^$ert = $valite->run();$/;"	v
+except	html5/websocket/csdn/csdn.php	/^			$except = NULL;$/;"	v
+except	html5/websocket/google/server.php	/^  $except = NULL;$/;"	v
+except	html5/websocket/google/server_old.php	/^  $except = NULL;$/;"	v
 file	php/file/index.php	/^$file = fopen($filename, 'w');\/\/r r+ W w+ a a+ X x+Á±ªÂûã$/;"	v
 filename	php/curl/curl_login.php	/^	$filename = "a.txt";$/;"	v
 filename	php/curl/test.php	/^	$filename = "a.txt";$/;"	v
@@ -253,6 +343,13 @@ fn	jquery/jquery-2.1.1.js	/^				bulk = fn;$/;"	f
 fontWeight	jquery/jquery-1.11.1.js	/^		letterSpacing: "0",$/;"	p
 fontWeight	jquery/jquery-2.1.1.js	/^		letterSpacing: "0",$/;"	p
 formhash	php/curl/test2.php	/^    $formhash = $matches[1];    $/;"	v
+found	html5/websocket/google/server.php	/^  $found=null;$/;"	v
+found	html5/websocket/google/server_old.php	/^  $found=null;$/;"	v
+found	html5/websocket/google/websocket.class.php	/^    $found=null;$/;"	v
+found	html5/websocket/phpwebsocket/server.php	/^  $found=null;$/;"	v
+found	html5/websocket/phpwebsocket/websocket.class.php	/^    $found=null;$/;"	v
+frame	html5/websocket/csdn/csdn.php	/^	function frame($s){$/;"	f
+frame	html5/websocket/google/server.php	/^	function frame($s){$/;"	f
 from	php/email/socket.php	/^$from = "iatboy@163.com";$/;"	v
 fs	php/cli/index.php	/^        $fs = false;$/;"	v
 fs	php/cli/index.php	/^$fs = true;$/;"	v
@@ -262,6 +359,7 @@ genFx.which.height	jquery/jquery-1.11.1.js	/^		attrs = { height: type },$/;"	p
 getAll	jquery/jquery-1.11.1.js	/^function getAll( context, tag ) {$/;"	f
 getAll	jquery/jquery-2.1.1.js	/^function getAll( context, tag ) {$/;"	f
 getData	php/curl/Valite.php	/^	public function getData()$/;"	f
+getHeaders	html5/websocket/csdn/csdn.php	/^	function getHeaders($req){$/;"	f
 getHec	php/curl/Valite.php	/^	public function getHec()$/;"	f
 getResult	php/curl/Valite.php	/^	public function getResult()$/;"	f
 getStyles	jquery/jquery-1.11.1.js	/^if ( window.getComputedStyle ) {$/;"	f
@@ -272,8 +370,30 @@ getWidthOrHeight	jquery/jquery-2.1.1.js	/^function getWidthOrHeight( elem, name,
 getWindow	jquery/jquery-1.11.1.js	/^function getWindow( elem ) {$/;"	f
 getWindow	jquery/jquery-2.1.1.js	/^function getWindow( elem ) {$/;"	f
 get_url	php/curl/test2.php	/^$get_url = $discuz_url .'\/my.php?item=threads'; \/\/Œ“µƒÃ˚◊”    $/;"	v
+getheaders	html5/websocket/google/server.php	/^function getheaders($req){$/;"	f
+getheaders	html5/websocket/google/server_old.php	/^function getheaders($req){$/;"	f
+getheaders	html5/websocket/google/websocket.class.php	/^  function getheaders($req){$/;"	f
+getheaders	html5/websocket/phpwebsocket/server.php	/^function getheaders($req){$/;"	f
+getheaders	html5/websocket/phpwebsocket/websocket.class.php	/^  function getheaders($req){$/;"	f
+getuserbysocket	html5/websocket/google/server.php	/^function getuserbysocket($socket){$/;"	f
+getuserbysocket	html5/websocket/google/server_old.php	/^function getuserbysocket($socket){$/;"	f
+getuserbysocket	html5/websocket/google/websocket.class.php	/^  function getuserbysocket($socket){$/;"	f
+getuserbysocket	html5/websocket/phpwebsocket/server.php	/^function getuserbysocket($socket){$/;"	f
+getuserbysocket	html5/websocket/phpwebsocket/websocket.class.php	/^  function getuserbysocket($socket){$/;"	f
+handleLocationError	html5/api/geolocation.html	/^			function handleLocationError(error) {$/;"	f
+handleLocationError	html5/api/location.html	/^			function handleLocationError(error) {$/;"	f
+handshake	html5/websocket/csdn/csdn.php	/^		$this->handshake=true;$/;"	v
+handshake	html5/websocket/csdn/csdn.php	/^	var $handshake = false;$/;"	v
+handshake	html5/websocket/google/server.php	/^  var $handshake;$/;"	v
+handshake	html5/websocket/google/server_old.php	/^  var $handshake;$/;"	v
+handshake	html5/websocket/google/websocket.class.php	/^  var $handshake;$/;"	v
+handshake	html5/websocket/phpwebsocket/server.php	/^  var $handshake;$/;"	v
+handshake	html5/websocket/phpwebsocket/websocket.class.php	/^  var $handshake;$/;"	v
+hash_data	html5/websocket/google/server.php	/^  $hash_data = base64_encode(sha1($strkey.$magic_string, true));$/;"	v
+hash_data	html5/websocket/google/server_old.php	/^  $hash_data = hash_final($ctx,true);$/;"	v
 hooks.empty.fire	jquery/jquery-1.11.1.js	/^			oldfire = hooks.empty.fire;$/;"	f
 hooks.empty.fire	jquery/jquery-2.1.1.js	/^			oldfire = hooks.empty.fire;$/;"	f
+host	html5/websocket/phpwebsocket/server.php	/^  $host = substr($req,0,strpos($req,"\\r\\n"));$/;"	v
 host	php/email/socket.php	/^        $this->host = $host;$/;"	v
 host	php/email/socket.php	/^    private $host;$/;"	v
 host	php/email/socket.php	/^$host = "smtp.163.com";$/;"	v
@@ -281,6 +401,11 @@ i	jquery/jquery-1.11.1.js	/^		var i, prop, copy,$/;"	v
 i	jquery/jquery-1.11.1.js	/^var i;$/;"	v
 i	jquery/jquery-2.1.1.js	/^		var i, prop, copy,$/;"	v
 iat	php/sort/index.php	/^class iat$/;"	c
+id	html5/websocket/google/server.php	/^  var $id;$/;"	v
+id	html5/websocket/google/server_old.php	/^  var $id;$/;"	v
+id	html5/websocket/google/websocket.class.php	/^  var $id;$/;"	v
+id	html5/websocket/phpwebsocket/server.php	/^  var $id;$/;"	v
+id	html5/websocket/phpwebsocket/websocket.class.php	/^  var $id;$/;"	v
 id	php/db/index.php	/^            $id = $value->id;$/;"	v
 id	php/db/oa.php	/^		$id = $value->id;$/;"	v
 id	php/db/oa_change_user_realname.php	/^        $id = $value->id;$/;"	v
@@ -288,11 +413,22 @@ id	php/db/oa_test.php	/^        $id = $value->id;$/;"	v
 id	php/db/project.php	/^        $id = $value->id;$/;"	v
 iframe	jquery/jquery-1.11.1.js	/^var iframe,$/;"	v
 iframe	jquery/jquery-2.1.1.js	/^var iframe,$/;"	v
+index	html5/websocket/csdn/csdn.php	/^		$index = array_search($socket, $this->sockets);$/;"	v
+index	html5/websocket/google/server.php	/^  $index = array_search($socket,$sockets);$/;"	v
+index	html5/websocket/google/server_old.php	/^  $index = array_search($socket,$sockets);$/;"	v
+index	html5/websocket/google/websocket.class.php	/^    $index=array_search($socket,$this->sockets);$/;"	v
+index	html5/websocket/phpwebsocket/server.php	/^  $index = array_search($socket,$sockets);$/;"	v
+index	html5/websocket/phpwebsocket/websocket.class.php	/^    $index=array_search($socket,$this->sockets);$/;"	v
 index	php/curl/curl_404.php	/^    static $index = 0;$/;"	v
 info	php/curl/curl_login.php	/^	$info = curl_getinfo($ch);$/;"	v
 info	php/curl/test.php	/^	$info = curl_getinfo($ch);$/;"	v
+init	html5/websocket/csdn/csdn.html	/^function init(){$/;"	f
+init	html5/websocket/google/client.html	/^function init(){$/;"	f
+init	html5/websocket/org/client.html	/^  function init()$/;"	f
+init	html5/websocket/phpwebsocket/client.html	/^function init(){$/;"	f
 init	jquery/jquery-1.11.1.js	/^	};$/;"	c
 init	jquery/jquery-2.1.1.js	/^	};$/;"	c
+initiate	html5/tags/new_tags.html	/^			function initiate() {$/;"	f
 insert_tea_ID	php/db/oa_insert_ts_relations.php	/^    $insert_tea_ID = $insert_teacher[0]['account'];$/;"	v
 insert_teacher	php/db/oa_insert_ts_relations.php	/^    $insert_teacher = $sth->fetchAll();$/;"	v
 inspectPrefiltersOrTransports	jquery/jquery-1.11.1.js	/^function inspectPrefiltersOrTransports( structure, options, originalOptions, jqXHR ) {$/;"	f
@@ -403,16 +539,51 @@ jQuery.valHooks.button.get	jquery/jquery-1.11.1.js	/^	jQuery.valHooks.button = {
 jQuery.valHooks.button.set	jquery/jquery-1.11.1.js	/^		},$/;"	p
 javascript	php/sort/index.php	/^    public static function javascript()$/;"	f
 key	php/sort/index.php	/^        $key = $arr[0];$/;"	v
+key1_sec	html5/websocket/google/websocket.class.php	/^        $key1_sec = pack("N",$key1_num \/ $key1_spc); \/\/Get the 32bit secret key, minus the other thing$/;"	v
+key2_sec	html5/websocket/google/websocket.class.php	/^        $key2_sec = pack("N",$key2_num \/ $key2_spc);$/;"	v
 left_arr	php/sort/index.php	/^        $left_arr = array();$/;"	v
 left_arr	php/sort/index.php	/^        $left_arr = self::sort_by_ks($left_arr);$/;"	v
+len	html5/websocket/csdn/csdn.php	/^		$len = $masks = $data = $decoded = null;$/;"	v
+len	html5/websocket/csdn/csdn.php	/^		$len = ord($buffer[1]) & 127;$/;"	v
+len	html5/websocket/google/server.php	/^		$len = $masks = $data = $decoded = null;$/;"	v
+len	html5/websocket/google/server.php	/^		$len = ord($buffer[1]) & 127;$/;"	v
 letterSpacing	jquery/jquery-1.11.1.js	/^	cssNormalTransform = {$/;"	p
 letterSpacing	jquery/jquery-2.1.1.js	/^	cssNormalTransform = {$/;"	p
+listen	html5/websocket/phpwebsocket/websocket.class.php	/^  function listen(){$/;"	f
+loadDemo	html5/api/location.html	/^			function loadDemo() {$/;"	f
+log	html5/websocket/csdn/csdn.html	/^function log(msg){ $("log").innerHTML+="<br>"+msg; }$/;"	f
+log	html5/websocket/csdn/csdn.php	/^	function log($msg = ""){$/;"	f
+log	html5/websocket/google/client.html	/^function log(msg){ $("log").innerHTML+="<br>"+msg; }$/;"	f
+log	html5/websocket/google/websocket.class.php	/^  function     log($msg=""){ if($this->debug){ echo $msg."\\n"; } }$/;"	f
+log	html5/websocket/phpwebsocket/client.html	/^function log(msg){ $("log").innerHTML+="<br>"+msg; }$/;"	f
+log	html5/websocket/phpwebsocket/websocket.class.php	/^  function     log($msg=""){ if($this->debug){ echo $msg."\\n"; } }$/;"	f
 login_url	php/curl/test2.php	/^$login_url = $discuz_url .'\/logging.php?action=login';\/\/µ«¬º“≥µÿ÷∑    $/;"	v
+magic_string	html5/websocket/google/server.php	/^  $magic_string = "258EAFA5-E914-47DA-95CA-C5AB0DC85B11";$/;"	v
 mail	php/email/socket.php	/^$mail = new smtp_mail($host, $port, $username, $password);$/;"	v
 mail_format	php/email/socket.php	/^        $this->mail_format = $mail_format;$/;"	v
 mail_format	php/email/socket.php	/^    private $mail_format = 0;$/;"	v
 manipulationTarget	jquery/jquery-1.11.1.js	/^function manipulationTarget( elem, content ) {$/;"	f
 manipulationTarget	jquery/jquery-2.1.1.js	/^function manipulationTarget( elem, content ) {$/;"	f
+masks	html5/websocket/csdn/csdn.php	/^			$masks = substr($buffer, 10, 4);$/;"	v
+masks	html5/websocket/csdn/csdn.php	/^			$masks = substr($buffer, 2, 4);$/;"	v
+masks	html5/websocket/csdn/csdn.php	/^			$masks = substr($buffer, 4, 4);$/;"	v
+masks	html5/websocket/google/server.php	/^			$masks = substr($buffer, 10, 4);$/;"	v
+masks	html5/websocket/google/server.php	/^			$masks = substr($buffer, 2, 4);$/;"	v
+masks	html5/websocket/google/server.php	/^			$masks = substr($buffer, 4, 4);$/;"	v
+master	html5/websocket/csdn/csdn.php	/^		$this->master=socket_create(AF_INET, SOCK_STREAM, SOL_TCP)     or die("socket_create() failed");$/;"	v
+master	html5/websocket/csdn/csdn.php	/^	var $master;$/;"	v
+master	html5/websocket/google/chatbot.demo.php	/^$master = new ChatBot("localhost",12345);$/;"	v
+master	html5/websocket/google/server.php	/^  $master=socket_create(AF_INET, SOCK_STREAM, SOL_TCP)     or die("socket_create() failed");$/;"	v
+master	html5/websocket/google/server.php	/^$master  = WebSocket("localhost",12345);$/;"	v
+master	html5/websocket/google/server_old.php	/^  $master=socket_create(AF_INET, SOCK_STREAM, SOL_TCP)     or die("socket_create() failed");$/;"	v
+master	html5/websocket/google/server_old.php	/^$master  = WebSocket("localhost",12345);$/;"	v
+master	html5/websocket/google/websocket.class.php	/^    $this->master=socket_create(AF_INET, SOCK_STREAM, SOL_TCP)     or die("socket_create() failed");$/;"	v
+master	html5/websocket/google/websocket.class.php	/^  var $master;$/;"	v
+master	html5/websocket/google/websocket.demo.php	/^$master = new WebSocket("localhost",12345);$/;"	v
+master	html5/websocket/phpwebsocket/server.php	/^  $master=socket_create(AF_INET, SOCK_STREAM, SOL_TCP)     or die("socket_create() failed");$/;"	v
+master	html5/websocket/phpwebsocket/server.php	/^$master  = WebSocket("localhost",12345);$/;"	v
+master	html5/websocket/phpwebsocket/websocket.class.php	/^    $this->master=socket_create(AF_INET, SOCK_STREAM, SOL_TCP)     or die("socket_create() failed");$/;"	v
+master	html5/websocket/phpwebsocket/websocket.class.php	/^  var $master;$/;"	v
 max	php/curl/Valite.php	/^					$max = $percent;$/;"	v
 max	php/curl/Valite.php	/^			$max=0.0;$/;"	v
 max	php/sort/index.php	/^                    $max = $arr[$j];$/;"	v
@@ -425,6 +596,18 @@ mrc	php/curl/curl_404.php	/^            $mrc = curl_multi_exec($mh, $active);$/;
 mrc	php/curl/curl_404.php	/^    $mrc = curl_multi_exec($mh, $active);$/;"	v
 mrc	php/curl/curl_muti.php	/^            $mrc = curl_multi_exec($mh, $active);$/;"	v
 mrc	php/curl/curl_muti.php	/^    $mrc = curl_multi_exec($mh, $active);$/;"	v
+msg	html5/websocket/csdn/csdn.php	/^		$msg = $this->frame($msg);$/;"	v
+msg	html5/websocket/google/server.php	/^  $msg = decode($msg);$/;"	v
+msg	html5/websocket/google/server_old.php	/^  $msg = wrap($msg);$/;"	v
+msg	html5/websocket/google/websocket.class.php	/^    $msg = $this->wrap($msg);$/;"	v
+msg	html5/websocket/phpwebsocket/server.php	/^  $msg = wrap($msg);$/;"	v
+msg	html5/websocket/phpwebsocket/websocket.class.php	/^      $msg = $this->wrap($msg);$/;"	v
+msg	html5/websocket/phpwebsocket/websocket.class.php	/^    $msg = $this->wrap($msg);$/;"	v
+n	html5/websocket/google/server.php	/^  $n=count($users);$/;"	v
+n	html5/websocket/google/server_old.php	/^  $n=count($users);$/;"	v
+n	html5/websocket/google/websocket.class.php	/^    $n=count($this->users);$/;"	v
+n	html5/websocket/phpwebsocket/server.php	/^  $n=count($users);$/;"	v
+n	html5/websocket/phpwebsocket/websocket.class.php	/^    $n=count($this->users);$/;"	v
 n	php/sort/index.php	/^        $n = count($arr);$/;"	v
 name	php/cli/index.php	/^    $name = trim(fgets(STDIN));$/;"	v
 name	php/cli/index.php	/^$name = trim(fgets(STDIN));$/;"	v
@@ -434,15 +617,27 @@ nodeHook.set	jquery/jquery-1.11.1.js	/^	nodeHook = {$/;"	m
 nodeNames	jquery/jquery-1.11.1.js	/^var nodeNames = "abbr|article|aside|audio|bdi|canvas|data|datalist|details|figcaption|figure|footer|" +$/;"	v
 nonce	jquery/jquery-1.11.1.js	/^var nonce = jQuery.now();$/;"	v
 nonce	jquery/jquery-2.1.1.js	/^var nonce = jQuery.now();$/;"	v
+ns	html5/websocket/csdn/csdn.php	/^		$ns = "";$/;"	v
+ns	html5/websocket/google/server.php	/^		$ns = "";$/;"	v
 num	php/curl/Valite.php	/^					$num = $key;$/;"	v
 num	php/curl/Valite.php	/^			$num = 0;$/;"	v
 numObj1	javascript/function/function.js	/^var numObj1 = Number.MAX_VALUE;$/;"	v
+numkey1	html5/websocket/google/server_old.php	/^  $numkey1 = preg_replace($pattern, $replacement, $strkey1);$/;"	v
+numkey2	html5/websocket/google/server_old.php	/^  $numkey2 = preg_replace($pattern, $replacement, $strkey2);$/;"	v
 oldCallbacks	jquery/jquery-1.11.1.js	/^var oldCallbacks = [],$/;"	v
 oldCallbacks	jquery/jquery-2.1.1.js	/^var oldCallbacks = [],$/;"	v
+onClose	html5/websocket/org/client.html	/^  function onClose(evt)$/;"	f
+onError	html5/websocket/org/client.html	/^  function onError(evt)$/;"	f
+onMessage	html5/websocket/org/client.html	/^  function onMessage(evt)$/;"	f
+onOpen	html5/websocket/org/client.html	/^  function onOpen(evt)$/;"	f
+onkey	html5/websocket/csdn/csdn.html	/^function onkey(event){ if(event.keyCode==13){ send(); } }$/;"	f
+onkey	html5/websocket/google/client.html	/^function onkey(event){ if(event.keyCode==13){ send(); } }$/;"	f
+onkey	html5/websocket/phpwebsocket/client.html	/^function onkey(event){ if(event.keyCode==13){ send(); } }$/;"	f
 opt.complete	jquery/jquery-1.11.1.js	/^	opt.old = opt.complete;$/;"	f
 opt.complete	jquery/jquery-2.1.1.js	/^	opt.old = opt.complete;$/;"	f
 optionsCache	jquery/jquery-1.11.1.js	/^var optionsCache = {};$/;"	v
 optionsCache	jquery/jquery-2.1.1.js	/^var optionsCache = {};$/;"	v
+ori	html5/websocket/phpwebsocket/server.php	/^  $ori  = substr($req,0,strpos($req,"\\r\\n"));$/;"	v
 output	php/curl/curl_login.php	/^	$output = curl_exec($ch);$/;"	v
 output	php/curl/curl_redirection.php	/^        $output = curl_exec($ch);$/;"	v
 output	php/curl/curl_upload.php	/^$output = curl_exec($ch);$/;"	v
@@ -453,6 +648,9 @@ password	php/db/project.php	/^        $password = md5($value->account);$/;"	v
 password	php/email/socket.php	/^        $this->password = base64_encode($password);$/;"	v
 password	php/email/socket.php	/^    private $password;$/;"	v
 password	php/email/socket.php	/^$password = "ysl88842412";$/;"	v
+password	php/form/index.php	/^	    $password = $_POST['password'];$/;"	v
+pattern	html5/websocket/google/server_old.php	/^  $pattern = '\/[^ ]*\/';$/;"	v
+pattern	html5/websocket/google/server_old.php	/^  $pattern = '\/[^\\d]*\/';$/;"	v
 pattern	php/email/socket.php	/^        $pattern = "\/^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$\/";$/;"	v
 percent	php/curl/Valite.php	/^				$percent=0.0;$/;"	v
 port	php/email/socket.php	/^        $this->port = $port;$/;"	v
@@ -462,8 +660,23 @@ post_data	php/curl/curl_login.php	/^	$post_data = array($/;"	v
 post_data	php/curl/curl_upload.php	/^$post_data = array ($/;"	v
 post_data	php/curl/test.php	/^	$post_data = array($/;"	v
 post_fields	php/curl/test2.php	/^$post_fields = array();    $/;"	v
+process	html5/websocket/google/chatbot.demo.php	/^  function process($user,$msg){$/;"	f
+process	html5/websocket/google/server.php	/^function process($user,$msg){$/;"	f
+process	html5/websocket/google/server_old.php	/^function process($user,$msg){$/;"	f
+process	html5/websocket/google/websocket.class.php	/^  function process($user,$msg){$/;"	f
+process	html5/websocket/phpwebsocket/chatbot.demo.php	/^  function process($user,$msg){$/;"	f
+process	html5/websocket/phpwebsocket/server.php	/^function process($user,$msg){$/;"	f
+process	html5/websocket/phpwebsocket/websocket.class.php	/^  function process($user,$msg){$/;"	f
 propFilter	jquery/jquery-1.11.1.js	/^function propFilter( props, specialEasing ) {$/;"	f
 propFilter	jquery/jquery-2.1.1.js	/^function propFilter( props, specialEasing ) {$/;"	f
+quit	html5/websocket/csdn/csdn.html	/^function quit(){$/;"	f
+quit	html5/websocket/google/client.html	/^function quit(){$/;"	f
+quit	html5/websocket/phpwebsocket/client.html	/^function quit(){$/;"	f
+r	html5/websocket/csdn/csdn.php	/^		$r = $h = $o = $key = null;$/;"	v
+r	html5/websocket/google/server.php	/^  $r=$h=$o=null;$/;"	v
+r	html5/websocket/google/server_old.php	/^  $r=$h=$o=null;$/;"	v
+r	html5/websocket/google/websocket.class.php	/^    $r=$h=$o=null;$/;"	v
+r	html5/websocket/phpwebsocket/websocket.class.php	/^    $r=$h=$o=null;$/;"	v
 r20	jquery/jquery-1.11.1.js	/^var r20 = \/%20\/g,$/;"	v
 r20	jquery/jquery-2.1.1.js	/^var r20 = \/%20\/g,$/;"	v
 rbrace	jquery/jquery-1.11.1.js	/^var rbrace = \/^(?:\\{[\\w\\W]*\\}|\\[[\\w\\W]*\\])$\/,$/;"	v
@@ -476,6 +689,11 @@ realname	php/db/oa_change_user_realname.php	/^        $realname = str_replace(' 
 realname	php/db/oa_insert_ts_relations.php	/^    $realname = 'ÂàòÂÜ†Â≥∞';\/\/Êé•‰∏ãÊù•ÁöÑÂõ¢ÈòüÂØºÂ∏à$/;"	v
 realname	php/db/oa_insert_ts_relations.php	/^    $realname = 'Âë®ÊôìÊñπ';\/\/Á¨¨‰∏Ä‰∏™ÊâãÂä®ÂåπÈÖçÁöÑÂØºÂ∏à$/;"	v
 regex_match	php/sort/index.php	/^    public static function regex_match()$/;"	f
+replacement	html5/websocket/google/server_old.php	/^  $replacement = '';$/;"	v
+req	html5/websocket/phpwebsocket/server.php	/^  $req  = substr($req,4); \/* RegEx kill babies *\/$/;"	v
+req	html5/websocket/phpwebsocket/server.php	/^  $req  = substr($req,strpos($req,"Host:")+6);$/;"	v
+req	html5/websocket/phpwebsocket/server.php	/^  $req  = substr($req,strpos($req,"Origin:")+8);$/;"	v
+res	html5/websocket/phpwebsocket/server.php	/^  $res  = substr($req,0,strpos($req," HTTP"));$/;"	v
 res	php/curl/Valite.php	/^		$res = imagecreatefromgif($this->ImagePath);$/;"	v
 response	php/email/socket.php	/^        $response = fgets($this->sock);$/;"	v
 response	php/email/socket.php	/^        $response = fgets($this->sock);\/\/Ëé∑ÂèñÊúçÂä°Âô®‰ø°ÊÅØ$/;"	v
@@ -520,7 +738,23 @@ rvalidtokens	jquery/jquery-1.11.1.js	/^var rvalidtokens = \/(,)|(\\[|{)|(}|])|"(
 rxhtmlTag	jquery/jquery-2.1.1.js	/^var$/;"	v
 safeActiveElement	jquery/jquery-1.11.1.js	/^function safeActiveElement() {$/;"	f
 safeActiveElement	jquery/jquery-2.1.1.js	/^function safeActiveElement() {$/;"	f
+say	html5/websocket/csdn/csdn.php	/^	function say($msg = ""){$/;"	f
+say	html5/websocket/google/server.php	/^function     say($msg=""){ echo $msg."\\n"; }$/;"	f
+say	html5/websocket/google/server_old.php	/^function     say($msg=""){ echo $msg."\\n"; }$/;"	f
+say	html5/websocket/google/websocket.class.php	/^  function     say($msg=""){ echo $msg."\\n"; }$/;"	f
+say	html5/websocket/phpwebsocket/server.php	/^function     say($msg=""){ echo $msg."\\n"; }$/;"	f
+say	html5/websocket/phpwebsocket/websocket.class.php	/^  function     say($msg=""){ echo $msg."\\n"; }$/;"	f
+send	html5/websocket/csdn/csdn.html	/^function send(){$/;"	f
+send	html5/websocket/csdn/csdn.php	/^	function send($client, $msg){$/;"	f
+send	html5/websocket/google/client.html	/^function send(){$/;"	f
+send	html5/websocket/google/server.php	/^function send($client,$msg){$/;"	f
+send	html5/websocket/google/server_old.php	/^function send($client,$msg){$/;"	f
+send	html5/websocket/google/websocket.class.php	/^  function send($client,$msg){$/;"	f
+send	html5/websocket/phpwebsocket/client.html	/^function send(){$/;"	f
+send	html5/websocket/phpwebsocket/server.php	/^function send($client,$msg){ $/;"	f
+send	html5/websocket/phpwebsocket/websocket.class.php	/^  function send($client,$msg){ $/;"	f
 send_mail	php/email/socket.php	/^    public function send_mail($from, $to, $subject, $body)$/;"	f
+sent	html5/websocket/csdn/csdn.php	/^		$sent = socket_write($socket, $upgrade, strlen($upgrade));$/;"	v
 setGlobalEval	jquery/jquery-1.11.1.js	/^function setGlobalEval( elems, refElements ) {$/;"	f
 setGlobalEval	jquery/jquery-2.1.1.js	/^function setGlobalEval( elems, refElements ) {$/;"	f
 setImage	php/curl/Valite.php	/^	public function setImage($Image)$/;"	f
@@ -536,10 +770,24 @@ smtp_mail	php/email/socket.php	/^    function smtp_mail($host, $port = 25, $user
 smtp_mail	php/email/socket.php	/^class smtp_mail$/;"	c
 sock	php/email/socket.php	/^        $this->sock = fsockopen($this->host, $this->port,  $errno,  $errstr, 10);$/;"	v
 sock	php/email/socket.php	/^    private $sock;\/\/ËøûÊé•Âè•ÊüÑ$/;"	v
+socket	html5/websocket/google/server.php	/^  var $socket;$/;"	v
+socket	html5/websocket/google/server_old.php	/^  var $socket;$/;"	v
+socket	html5/websocket/google/websocket.class.php	/^  var $socket;$/;"	v
+socket	html5/websocket/phpwebsocket/server.php	/^  var $socket;$/;"	v
+socket	html5/websocket/phpwebsocket/websocket.class.php	/^  var $socket;$/;"	v
+socketArr	html5/websocket/csdn/csdn.php	/^			$socketArr = $this->sockets;$/;"	v
+sockets	html5/websocket/csdn/csdn.php	/^	var $sockets = array();$/;"	v
+sockets	html5/websocket/google/server.php	/^$sockets = array($master);$/;"	v
+sockets	html5/websocket/google/server_old.php	/^$sockets = array($master);$/;"	v
+sockets	html5/websocket/google/websocket.class.php	/^  var $sockets = array();$/;"	v
+sockets	html5/websocket/phpwebsocket/server.php	/^$sockets = array($master);$/;"	v
+sockets	html5/websocket/phpwebsocket/websocket.class.php	/^  var $sockets = array();$/;"	v
 sort_by_jh	php/sort/index.php	/^    public static function sort_by_jh($arr)$/;"	f
 sort_by_ks	php/sort/index.php	/^    public static function sort_by_ks($arr)$/;"	f
 sort_by_mp	php/sort/index.php	/^    public static function sort_by_mp(&$arr)$/;"	f
 sort_by_xz	php/sort/index.php	/^    public static function sort_by_xz($arr)$/;"	f
+spaces1	html5/websocket/google/server_old.php	/^  $spaces1 = strlen(preg_replace($pattern, $replacement, $strkey1));$/;"	v
+spaces2	html5/websocket/google/server_old.php	/^  $spaces2 = strlen(preg_replace($pattern, $replacement, $strkey2));$/;"	v
 sql	php/db/index.php	/^        $sql = "SELECT * FROM `oa_user";$/;"	v
 sql	php/db/index.php	/^        $sql = "UPDATE `oa_user` SET `password` = 1 where `account` = 1";$/;"	v
 sql	php/db/oa.php	/^	$sql = "SELECT * FROM `oa_user` WHERE `id` between :beginid and :endid ";$/;"	v
@@ -571,7 +819,6 @@ sth	php/db/project.php	/^    $sth = $dbh->prepare($sql);$/;"	v
 sth_test	php/db/oa_distinct_insert_ts_relations.php	/^    $sth_test = $dbh_test->prepare($sql_test);$/;"	v
 sth_to_distinct	php/db/oa_distinct_ts_relations.php	/^    $sth_to_distinct = $dbh->prepare($sql);$/;"	v
 stmt	php/db/pdo.php	/^    $stmt = $conn->prepare($sql);$/;"	v
-str	php/form/index.php	/^$str = '<a href="demo.php?m=index&a=index&name=‰∏≠Êñá">ÊµãËØïÈ°µÈù¢<\/a>';$/;"	v
 str	php/sort/index.php	/^        $str = "2014-08-16 12:00:00";$/;"	v
 strundefined	jquery/jquery-1.11.1.js	/^var strundefined = typeof undefined;$/;"	v
 strundefined	jquery/jquery-2.1.1.js	/^var strundefined = typeof undefined;$/;"	v
@@ -587,6 +834,7 @@ tea_ID	php/db/oa_distinct_ts_relations.php	/^        $tea_ID = $value->tea_ID;$/
 tea_ID	php/db/oa_test.php	/^        $tea_ID = 'yangzhe';$/;"	v
 team	php/db/oa_distinct_insert_ts_relations.php	/^        $team = $value->team;$/;"	v
 temp	php/sort/index.php	/^        $temp = $a;$/;"	v
+test	javascript/datatype/kinds_of_datatypes.html	/^		function test(){return 1;};$/;"	f
 test	javascript/function/function.html	/^    function test() {$/;"	f
 test	javascript/function/function.js	/^function test($a=1)$/;"	f
 test2	javascript/function/function.html	/^    function test2() {$/;"	f
@@ -594,21 +842,53 @@ testAjax	javascript/ajax/ajax.js	/^function testAjax (url, method, content) {$/;
 testAjax.getResponse	javascript/ajax/ajax.js	/^    function getResponse(type) {$/;"	f
 testAjax.getXmlHttpRequestObject	javascript/ajax/ajax.js	/^    function getXmlHttpRequestObject() {$/;"	f
 testAjax.onReadyStateChange	javascript/ajax/ajax.js	/^    function onReadyStateChange() {$/;"	f
+testWebSocket	html5/websocket/org/client.html	/^  function testWebSocket()$/;"	f
 test_setInterval	javascript/setTimeout_setInterval.html	/^    function test_setInterval() {$/;"	f
 test_setTimeout	javascript/setTimeout_setInterval.html	/^    function test_setTimeout() {$/;"	f
 tmpInfo	php/curl/test3.php	/^	$tmpInfo = curl_exec ( $curl ); \/\/ ÷¥––≤Ÿ◊˜$/;"	v
 to	php/email/socket.php	/^$to = "1329517386@qq.com";$/;"	v
+unwrap	html5/websocket/google/server.php	/^function  unwrap($msg=""){ return substr($msg,1,strlen($msg)-2); }$/;"	f
+unwrap	html5/websocket/google/server_old.php	/^function  unwrap($msg=""){ return substr($msg,1,strlen($msg)-2); }$/;"	f
+unwrap	html5/websocket/google/websocket.class.php	/^  function  unwrap($msg=""){ return substr($msg,1,strlen($msg)-2); }$/;"	f
+unwrap	html5/websocket/phpwebsocket/server.php	/^function  unwrap($msg=""){ return substr($msg,1,strlen($msg)-2); }$/;"	f
+unwrap	html5/websocket/phpwebsocket/websocket.class.php	/^  function  unwrap($msg=""){ return substr($msg,1,strlen($msg)-2); }$/;"	f
+updateLocation	html5/api/geolocation.html	/^			function updateLocation(position) {$/;"	f
+updateLocation	html5/api/location.html	/^			function updateLocation(position) {$/;"	f
+updateStatus	html5/api/location.html	/^			function updateStatus(message) {$/;"	f
 updatetime	php/db/oa_distinct_insert_ts_relations.php	/^        $updatetime = $value->updatetime;$/;"	v
+upgrade	html5/websocket/csdn/csdn.php	/^		$upgrade  = "HTTP\/1.1 101 Switching Protocol\\r\\n" .$/;"	v
+upgrade	html5/websocket/google/server.php	/^  $upgrade  = "HTTP\/1.1 101 Switching Protocols\\r\\n" .$/;"	v
+upgrade	html5/websocket/google/server_old.php	/^  $upgrade  = "HTTP\/1.1 101 WebSocket Protocol Handshake\\r\\n" .$/;"	v
+upgrade	html5/websocket/google/websocket.class.php	/^    $upgrade  = "HTTP\/1.1 101 WebSocket Protocol Handshake\\r\\n" .$/;"	v
+upgrade	html5/websocket/phpwebsocket/server.php	/^  $upgrade  = "HTTP\/1.1 101 Web Socket Protocol Handshake\\r\\n" .$/;"	v
+upgrade	html5/websocket/phpwebsocket/websocket.class.php	/^    $upgrade  = "HTTP\/1.1 101 Web Socket Protocol Handshake\\r\\n" .$/;"	v
 url	php/curl/curl_upload.php	/^$url = "http:\/\/www.suda.edu.cn";$/;"	v
 url	php/sort/index.php	/^$url = "http:\/\/ÂßöÂñÑËâØ ÂßöÂñÑËâØ";$/;"	v
 url_regex	php/sort/index.php	/^        $url_regex = '\/^http[s]?:\\\/\\\/'.$/;"	v
 urlencode_and_rawurlencode	php/sort/index.php	/^    public static function urlencode_and_rawurlencode($url)$/;"	f
 urls	php/curl/curl_redirection.php	/^$urls = array($/;"	v
 urls	php/sort/index.php	/^        $urls = array('http:\/\/iat.net.cn', 'https:\/\/iat.net.cn', 'http:\/\/iat.abc');$/;"	v
+user	html5/websocket/google/server.php	/^        $user = getuserbysocket($socket);$/;"	v
+user	html5/websocket/google/server.php	/^  $user = new User();$/;"	v
+user	html5/websocket/google/server_old.php	/^        $user = getuserbysocket($socket);$/;"	v
+user	html5/websocket/google/server_old.php	/^  $user = new User();$/;"	v
+user	html5/websocket/google/websocket.class.php	/^            $user = $this->getuserbysocket($socket);$/;"	v
+user	html5/websocket/google/websocket.class.php	/^    $user = new User();$/;"	v
+user	html5/websocket/phpwebsocket/server.php	/^        $user = getuserbysocket($socket);$/;"	v
+user	html5/websocket/phpwebsocket/server.php	/^  $user = new User();$/;"	v
+user	html5/websocket/phpwebsocket/websocket.class.php	/^            $user = $this->getuserbysocket($socket);$/;"	v
+user	html5/websocket/phpwebsocket/websocket.class.php	/^    $user = new User();$/;"	v
 user_agent	php/curl/test3.php	/^$user_agent = "Mozilla\/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322)";$/;"	v
 username	php/email/socket.php	/^        $this->username = base64_encode($username);$/;"	v
 username	php/email/socket.php	/^    private $username;$/;"	v
 username	php/email/socket.php	/^$username = "iatboy@163.com";$/;"	v
+username	php/form/index.php	/^    $username = $_POST['username'];$/;"	v
+users	html5/websocket/google/server.php	/^$users   = array();$/;"	v
+users	html5/websocket/google/server_old.php	/^$users   = array();$/;"	v
+users	html5/websocket/google/websocket.class.php	/^  var $users   = array();$/;"	v
+users	html5/websocket/phpwebsocket/server.php	/^$users   = array();$/;"	v
+users	html5/websocket/phpwebsocket/websocket.class.php	/^  var $users   = array();$/;"	v
+validation	html5/tags/new_tags.html	/^			function validation() {$/;"	f
 valite	php/curl/Valite.php	/^class valite$/;"	c
 valite	php/curl/test.php	/^$valite = new Valite();$/;"	v
 vendorPropName	jquery/jquery-1.11.1.js	/^function vendorPropName( style, name ) {$/;"	f
@@ -618,5 +898,16 @@ vlogin	php/curl/test3.php	/^function vlogin($url, $data) { \/\/ ƒ£ƒ‚µ«¬ºªÒ»°Cook
 vpost	php/curl/test3.php	/^function vpost($url, $data) { \/\/ ƒ£ƒ‚Ã·Ωª ˝æ›∫Ø ˝$/;"	f
 winnow	jquery/jquery-1.11.1.js	/^function winnow( elements, qualifier, not ) {$/;"	f
 winnow	jquery/jquery-2.1.1.js	/^function winnow( elements, qualifier, not ) {$/;"	f
+wrap	html5/websocket/google/server.php	/^function    wrap($msg=""){ return chr(0).$msg.chr(255); }$/;"	f
+wrap	html5/websocket/google/server_old.php	/^function    wrap($msg=""){ return chr(0).$msg.chr(255); }$/;"	f
+wrap	html5/websocket/google/websocket.class.php	/^  function    wrap($msg=""){ return chr(0).$msg.chr(255); }$/;"	f
+wrap	html5/websocket/phpwebsocket/server.php	/^function    wrap($msg=""){ return chr(0).$msg.chr(255); }$/;"	f
+wrap	html5/websocket/phpwebsocket/websocket.class.php	/^  function    wrap($msg=""){ return chr(0).$msg.chr(255); }$/;"	f
+write	html5/websocket/csdn/csdn.php	/^			$write = NULL;$/;"	v
+write	html5/websocket/google/server.php	/^  $write = NULL;$/;"	v
+write	html5/websocket/google/server_old.php	/^  $write = NULL;$/;"	v
+writeToScreen	html5/websocket/org/client.html	/^  function writeToScreen(message)$/;"	f
+ws	html5/websocket/phpwebsocket/chatbot.demo.php	/^$ws = new ChatBot("localhost",12345);$/;"	v
+ws	html5/websocket/phpwebsocket/websocket.demo.php	/^$ws = new WebSocket("localhost",12345);$/;"	v
 x	php/curl/Valite.php	/^			$x = ($i*(WORD_WIDTH+WORD_SPACING))+OFFSET_X;$/;"	v
 y	php/curl/Valite.php	/^			$y = OFFSET_Y;$/;"	v

@@ -10,10 +10,10 @@ $sockets = array($master);
 $users   = array();
 $debug   = true;
 
-while(true){
-  $changed = $sockets;
   $write = NULL;
   $except = NULL;
+while(true){
+  $changed = $sockets;
   socket_select($changed,$write,$except,NULL);
   foreach($changed as $socket){
     if($socket==$master){
@@ -21,7 +21,8 @@ while(true){
       if($client<0){ console("socket_accept() failed"); continue; }
       else{ connect($client); }
     }
-    else{
+	else{
+		console("recv:".$buffer);
       $bytes = @socket_recv($socket,$buffer,2048,0);
       if($bytes==0){ disconnect($socket); }
       else{
@@ -35,7 +36,8 @@ while(true){
 
 //---------------------------------------------------------------
 function process($user,$msg){
-  $action = unwrap($msg);
+  //$action = unwrap($msg);
+  $action = decode($msg);
   say("< ".$action);
   switch($action){
     case "hello" : send($user->socket,"hello human");                       break;
@@ -52,7 +54,9 @@ function process($user,$msg){
 
 function send($client,$msg){
   say("> ".$msg);
-  $msg = wrap($msg);
+  //$msg = wrap($msg);
+  $msg = decode($msg);
+  console($msg);
   socket_write($client,$msg,strlen($msg));
 }
 
@@ -102,8 +106,6 @@ function dohandshake($user,$buffer){
   $upgrade  = "HTTP/1.1 101 Switching Protocols\r\n" .
 			  "Upgrade: WebSocket\r\n".
               "Connection: Upgrade\r\n" .
-             // "Sec-WebSocket-Origin: " . $origin . "\r\n" .
-             // "Sec-WebSocket-Location: ws://" . $host . $resource . "\r\n" .
 			  "Sec-WebSocket-Accept:" .$hash_data ."\r\n"
 			  ."\r\n";
   
@@ -141,6 +143,41 @@ function     say($msg=""){ echo $msg."\n"; }
 function    wrap($msg=""){ return chr(0).$msg.chr(255); }
 function  unwrap($msg=""){ return substr($msg,1,strlen($msg)-2); }
 function console($msg=""){ global $debug; if($debug){ echo $msg."\n"; } }
+
+	function decode($buffer) {
+		$len = $masks = $data = $decoded = null;
+		$len = ord($buffer[1]) & 127;
+
+		if ($len === 126) {
+			$masks = substr($buffer, 4, 4);
+			$data = substr($buffer, 8);
+		} 
+		else if ($len === 127) {
+			$masks = substr($buffer, 10, 4);
+			$data = substr($buffer, 14);
+		} 
+		else {
+			$masks = substr($buffer, 2, 4);
+			$data = substr($buffer, 6);
+		}
+		for ($index = 0; $index < strlen($data); $index++) {
+			$decoded .= $data[$index] ^ $masks[$index % 4];
+		}
+		return $decoded;
+	}
+
+	function frame($s){
+		$a = str_split($s, 125);
+		if (count($a) == 1){
+			return "\x81" . chr(strlen($a[0])) . $a[0];
+		}
+		$ns = "";
+		foreach ($a as $o){
+			$ns .= "\x81" . chr(strlen($o)) . $o;
+		}
+		return $ns;
+	}
+
 
 class User{
   var $id;
