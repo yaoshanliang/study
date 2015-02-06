@@ -1,0 +1,16 @@
+<!DOCTYPE html >
+<script>
+	var ws = new WebSocket("ws://echo.websocket.org");
+	ws.onopen = function(e) {
+		console.log("open");	
+	};
+	ws.onmessage = function(e) {
+		console.log("message");
+	};
+	ws.onerror = function(e) {	
+		console.log("error", e);
+	};
+	ws.onclose = function(e) {
+		console.log("close");
+	};
+</script>
