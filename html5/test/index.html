@@ -2,15 +2,20 @@
 <script>
 	var ws = new WebSocket("ws://echo.websocket.org");
 	ws.onopen = function(e) {
-		console.log("open");	
+		console.log("OPEN");
+		var send_string = "Hello WebSocket";	
+		ws.send(send_string);
+		console.log("Send:" + send_string);
 	};
 	ws.onmessage = function(e) {
-		console.log("message");
+		console.log("MESSAGE");
+		console.log("Receive:", e.data);
+		ws.close();
 	};
 	ws.onerror = function(e) {	
-		console.log("error", e);
+		console.log("ERROR", e);
 	};
 	ws.onclose = function(e) {
-		console.log("close");
+		console.log("CLOSE");
 	};
 </script>
