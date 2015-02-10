@@ -20,9 +20,9 @@ class WS {
 			$socketArr = $this->sockets;
 			$write = NULL;
 			$except = NULL;
-			socket_select($socketArr, $write, $except, NULL);  //自动??择??消息的socket 如??是握手 自动??择主??
+			socket_select($socketArr, $write, $except, NULL); 
 			foreach ($socketArr as $socket){
-				if ($socket == $this->master){  //主??
+				if ($socket == $this->master){ 
 					$client = socket_accept($this->master);
 					if ($client < 0){
 						$this->log("socket_accept() failed");
