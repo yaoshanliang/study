@@ -1,0 +1,21 @@
+<!DOCTYPE html >
+<script>
+	var ws = new WebSocket("ws://echo.websocket.org");
+	ws.onopen = function(e) {
+		console.log("OPEN");
+		var send_string = "Hello WebSocket";	
+		ws.send(send_string);
+		console.log("Send:" + send_string);
+	};
+	ws.onmessage = function(e) {
+		console.log("MESSAGE");
+		console.log("Receive:", e.data);
+		ws.close();
+	};
+	ws.onerror = function(e) {	
+		console.log("ERROR", e);
+	};
+	ws.onclose = function(e) {
+		console.log("CLOSE");
+	};
+</script>
