@@ -96,7 +96,6 @@ class WS {
 	}
 
 	function calcKey($key){
-		//基于websocket version 13
 		$accept = base64_encode(sha1($key . '258EAFA5-E914-47DA-95CA-C5AB0DC85B11', true));
 		return $accept;
 	}
