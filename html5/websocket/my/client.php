@@ -14,7 +14,7 @@
 var socket;
 
 function init(){
-  var host = "ws://localhost:4000/study/html5/websocket/google/csdn.php";
+  var host = "ws://localhost:4000/study/html5/websocket/my/server.php";
   try{
 	socket = new WebSocket(host);
     log('WebSocket - status '+socket.readyState);

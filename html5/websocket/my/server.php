@@ -96,8 +96,7 @@ class WS {
 	}
 
 	function calcKey($key){
-		$accept = base64_encode(sha1($key . '258EAFA5-E914-47DA-95CA-C5AB0DC85B11', true));
-		return $accept;
+		return base64_encode(sha1($key . '258EAFA5-E914-47DA-95CA-C5AB0DC85B11', true));
 	}
 
 	function decode($buffer) {
