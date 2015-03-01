@@ -78,7 +78,7 @@ class WS {
 		$upgrade  = "HTTP/1.1 101 Switching Protocol\r\n" .
 					"Upgrade: websocket\r\n" .
 					"Connection: Upgrade\r\n" .
-					"Sec-WebSocket-Accept: " . $this->calcKey($key) . "\r\n\r\n";  //必须以两个回车结尾
+					"Sec-WebSocket-Accept: " . $this->calcKey($key) . "\r\n\r\n";
 		$this->log($upgrade);
 		$sent = socket_write($socket, $upgrade, strlen($upgrade));
 		$this->handshake=true;
