@@ -10,7 +10,7 @@ curl_setopt($ch, CURLOPT_HTTPAUTH , CURLAUTH_BASIC);
 curl_setopt($ch, CURLOPT_USERPWD  , 'api:key-57f401c0be24e8f137b6a098e25f1a9f');
 
 curl_setopt($ch, CURLOPT_POST, TRUE);
-curl_setopt($ch, CURLOPT_POSTFIELDS, array('mobile' => '18896581232','code' => '1234'));
+curl_setopt($ch, CURLOPT_POSTFIELDS, array('mobile' => '18251128665','code' => '123456'));
 
 $res = curl_exec( $ch );
 curl_close( $ch );
