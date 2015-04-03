@@ -30,12 +30,15 @@
 		$sth->execute(array(':beginid' => $beginid, ':endid' => $endid));
         if(!$result = $sth->fetchAll(PDO::FETCH_NUM)) print_r($sth->errorInfo());
         var_dump($result);
+
 		$sth->execute(array(':beginid' => $beginid, ':endid' => $endid));
         if(!$result = $sth->fetchAll(PDO::FETCH_ASSOC)) print_r($sth->errorInfo());
-        var_dump($result);
+		var_dump($result);
+
 		$sth->execute(array(':beginid' => $beginid, ':endid' => $endid));
         if(!$result = $sth->fetchAll(PDO::FETCH_BOTH)) print_r($sth->errorInfo());
-        var_dump($result);
+		var_dump($result);
+
 		$sth->execute(array(':beginid' => $beginid, ':endid' => $endid));
         if(!$result = $sth->fetchAll(PDO::FETCH_CLASS)) print_r($sth->errorInfo());
         var_dump($result);
