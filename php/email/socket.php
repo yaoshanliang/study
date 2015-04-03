@@ -51,7 +51,6 @@ class smtp_mail
     //验证邮箱地址
     private function is_email($email)
     {
-        //$pattern = "/^[^_][\w]*@[\w.]+[\w]*[^_]$/";
         $pattern = "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/";
         if(preg_match($pattern, $email, $matches))
             return true;
@@ -104,5 +103,4 @@ $subject = "Hello";
 $content = "World";
 
 $mail = new smtp_mail($host, $port, $username, $password);
-//$mail->send_mail("<iatboy@163.com>","<iat.net.cn@gmail.com>", $subject, $content);
 $mail->send_mail($from, $to, $subject, $content);
