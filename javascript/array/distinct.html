@@ -1,0 +1,15 @@
+<script>
+Array.prototype.distinct=function(){
+	var arr=[];
+	var obj={};
+	for(var i=0;i<this.length;i++){
+		console.log(obj[this[i]]);
+		if(obj[this[i]]==undefined)
+		obj[this[i]]=this[i];
+		else if(obj[this[i]])
+		arr.push(this[i]);
+	}
+	return arr;
+}
+console.log(['a','b','c','d','b','a','e'].distinct());
+</script>
