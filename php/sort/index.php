@@ -125,6 +125,23 @@ class iat
         return array_merge($left_arr,array($key),$right_arr);
     }
 
+	//插入排序, 时间复杂度O(n^2)
+	public static function sort_by_cr(&$arr)
+	{
+		$n = count($arr);
+		for($i = 1; $i < $n; $i++)
+		{
+			$j = $i;
+			while($j > 0 && $arr[$i] < $arr[$j - 1])
+			{
+				$arr[$j] = $arr[$j - 1];
+				$j--;
+			}
+			$arr[$j] = $arr[$i];
+		}
+		return $arr;
+	}
+
     /**
      * find by erfen
      * @param  [type] $arr
@@ -160,8 +177,9 @@ class iat
 
 
 $arr = array(1, 3, 2, 5, 6, 3, 3, 1, 4, 5);
-iat::sort_by_mp($arr);
-iat::sort_by_jh($arr);
-iat::sort_by_xz($arr);
-var_dump(iat::sort_by_ks($arr));
-iat::find_by_ef($arr, 0, count($arr), 6);
+// iat::sort_by_mp($arr);
+// iat::sort_by_jh($arr);
+// iat::sort_by_xz($arr);
+// var_dump(iat::sort_by_ks($arr));
+iat::sort_by_cr($arr);
+print_r($arr);
