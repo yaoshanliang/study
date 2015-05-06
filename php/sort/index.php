@@ -155,50 +155,6 @@ class iat
 
         die('not find');
     }
-
-    /**
-     * compare the difference between urlencode and rawurlencode
-     * @param  [type] $url [description]
-     * @return [type]      [description]
-     */
-    public static function urlencode_and_rawurlencode($url)
-    {
-        var_dump(urlencode($url));
-        var_dump(rawurlencode($url));
-    }
-
-    /**
-     * some functions about date
-     * @return [type] [description]
-     */
-    public static function echo_datetime()
-    {
-        echo date("Y-M-d D H:i:s", time()), '</br>';
-        echo date("Y-m-d H:i:s"), '</br>';
-        echo time(), '</br>';
-        echo strtotime('now'), '</br>';
-        echo strtotime("10 September 2000"), '</br>';
-        echo strtotime("+1 day"), '</br>';
-        echo strtotime("+1 week"), '</br>';
-        echo strtotime("+1 week 2 days 4 hours 2 seconds"), '</br>';
-        echo strtotime("next Thursday"), '</br>';
-        echo strtotime("last Monday"), '</br>';
-
-        //mktime(hour,minute,second,month,day,year,is_dst)
-        echo (date("M-d-Y", mktime(0,0,0,12,36,2001))), '</br>';
-        echo (date("M-d-Y", mktime(0,0,0,14,1,2001))), '</br>';
-        echo (date("M-d-Y", mktime(0,0,0,1,1,2001))), '</br>';
-        echo (date("M-d-Y", mktime(0,0,0,1,1,99))), '</br>';
-
-        //echo "2014-Aug-16-Sat"
-        echo date("Y-M-d-D", strtotime("16 August 2014")), '</br>';
-        echo date("Y-M-d-D", mktime(0, 0, 0, 8, 16, 2014)), '</br>';
-
-        //judge whether the time is correct
-        $str = "2014-08-16 12:00:00";
-        echo date('Y-m-d H:i:s', strtotime($str)) === $str;
-
-    }
 }
 
 
