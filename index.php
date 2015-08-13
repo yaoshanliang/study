@@ -1,15 +1,5 @@
-<?php
-function &add(){
-	$a = 1;
-	$b = 2;
-	$b++;
-	return $b;
-}
-$c = add();
-var_dump($c);
-$d = &add();
-var_dump($d);
-$d = 5;
-$e = add();
-var_dump($e);
- ?>
+<form method="post" action = "http://ucenter.com/api">
+<input type="text" name='username' value="iat">
+<input type="text" name='password' value='123'>
+<input type='submit'>
+</form>
