@@ -1,5 +1,5 @@
 <?php
-define ( 'IS_PROXY', true ); //是否启用代理
+define ( 'IS_PROXY', false ); //是否启用代理
 /* cookie文件 */
 $cookie_file = dirname ( __FILE__ ) . "/cookie_" . md5 ( basename ( __FILE__ ) ) . ".txt"; // 设置Cookie文件保存路径及文件名
 /*模拟浏览器*/
@@ -42,7 +42,7 @@ function vget($url) { // 模拟获取内容函数
 	}
 	curl_setopt ( $curl, CURLOPT_URL, $url ); // 要访问的地址
 	curl_setopt ( $curl, CURLOPT_SSL_VERIFYPEER, 0 ); // 对认证证书来源的检查
-	curl_setopt ( $curl, CURLOPT_SSL_VERIFYHOST, 1 ); // 从证书中检查SSL加密算法是否存在
+	// curl_setopt ( $curl, CURLOPT_SSL_VERIFYHOST, 1 ); // 从证书中检查SSL加密算法是否存在
 	curl_setopt ( $curl, CURLOPT_USERAGENT, $GLOBALS ['user_agent'] ); // 模拟用户使用的浏览器
 	@curl_setopt ( $curl, CURLOPT_FOLLOWLOCATION, 1 ); // 使用自动跳转
 	curl_setopt ( $curl, CURLOPT_AUTOREFERER, 1 ); // 自动设置Referer
