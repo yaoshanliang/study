@@ -10,6 +10,7 @@ if(!empty($url_all[0])) {
 		}
 		echo $v, "\n";
 	}
+} else {
+	echo '.';
 }
-echo '.';
 
