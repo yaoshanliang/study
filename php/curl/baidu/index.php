@@ -9,9 +9,14 @@ function ajax() {
         success : function(data) {
 			if(data != '.') {
 				$("#url").append('<br />');
-				data = "<a target = '_blank' href ='" + data + "'>" + data + "</a><br />";
+				var data_array = data.split('\n');
+				for (var i = 0 ; i < data_array.length - 1 ; i++) {
+					rs = "<a target = '_blank' href ='" + data_array[i] + "'>" + data_array[i] + "</a><br />";
+					$("#url").append(rs);
+				}
+			} else {
+				$("#url").append('.');
 			}
-            $("#url").append(data);
 			ajax();
 		}
 	});
