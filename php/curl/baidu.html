@@ -1,0 +1,19 @@
+<div id = 'url'></div>
+<script language="javascript" src="../../jquery/jquery-1.11.1.js"></script>
+<script>
+ajax();
+function ajax() {
+    $.ajax({
+		url : "http://127.0.0.1/study/php/curl/baidu.php",
+        type : "GET",
+        success : function(data) {
+			if(data != '.') {
+				$("#url").append('<br />');
+				data = "<a target = '_blank' href ='" + data + "'>" + data + "</a><br />";
+			}
+            $("#url").append(data);
+			ajax();
+		}
+	});
+}
+</script>
