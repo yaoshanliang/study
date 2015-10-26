@@ -8,7 +8,12 @@ if(!empty($url_all[0])) {
 		if($pos = strpos($v, '<')) {
 			$v = substr($v, 0, $pos);
 		}
-		echo $v, "\n";
+		if(!isset($_COOKIE[$v])) {
+			setcookie($v, $v, time() + 60 * 10);
+			echo $v, "\n";
+		} else {
+			echo '.';
+		}
 	}
 } else {
 	echo '.';
