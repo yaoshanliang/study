@@ -69,7 +69,7 @@ shell_exec($shell);
 
 //收入确认订单 wbpay_finance_pay
 //订单号 收入确认月份 收入确认时间
-$fileName = 'wbpay_finance_pay_' . date("YmdHis");
+$fileName = 'wbpay_wxfinance_pay_' . date("YmdHis");
 $file = fopen($fileName, 'w+');
 $month = date('Y-m');
 $day = date('Y-m-d');
