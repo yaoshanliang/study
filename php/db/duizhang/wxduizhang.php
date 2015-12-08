@@ -1,16 +1,19 @@
 <?php
-$file = fopen('2015.11.25.csv','r');
+$file = fopen('2015.csv','r');
 $count = 0;
 while ($line = fgetcsv($file)) {
 	if($count++ == 0) continue;
+	//交易时间|公众账号ID|商户号|特约商户号|设备号|微信订单号|商户订单号|用户标识|交易类型|交易状态|付款银行|货币种类|总金额|企业红包金额|微信退款单号|商户退款单号|退款金额|企业红包退款金额|退款类型|退款状态|商品名称|开始日期|订阅结束日期|退款截止日期|划账日期|结算金额|订单月|账单月|商户数据包|手续费|费率
 	//交易时间|公众账号ID|商户号|特约商户号|设备号|微信订单号|商户订单号|用户标识|交易类型|交易状态|付款银行|货币种类|总金额|企业红包金额|微信退款单号|商户退款单号|退款金额|企业红包退款金额|退款类型|退款状态|商品名称|商户数据包|手续费|费率
-	list($v['pay_time'], $v['uid'], $a, $a, $a, $v['trade_id'], $v['order_id'], $a, $a, $v['status'], $a, $a, $v['total_payments'], $a, $v['re_order_id'], $v['re_trade_id'], $v['re_total_payments'], $a, $a, $v['re_status'], $a, $a, $a, $a) = $line;
-	foreach($v as &$value) {
-		$value = substr($value, 1, strlen($value) - 1);
-	}
+	list($v['pay_time'], $v['uid'], $a, $a, $a, $v['trade_id'], $v['order_id'], $a, $a, $v['status'], $a, $a, $v['total_payments'], $a, $v['re_order_id'], $v['re_trade_id'], $v['re_total_payments'], $a, $a, $v['re_status'], $a, $v['start_date'], $v['end_date'], $v['re_end_date'], $a, $a, $v['dingdan_month'], $v['zhangdang_month'], $a, $a, $a) = $line;
 	$result[] = $v;
 }
-// var_dump($result);exit;
+foreach($result as &$value) {
+	$value['start_date'] = date('Y-m-d', strtotime($value['start_date']));
+	$value['end_date'] = date('Y-m-d', strtotime($value['end_date']));
+	$value['re_end_date'] = date('Y-m-d', strtotime($value['re_end_date']));
+}
+// var_dump(count($result));exit;
 fclose($file);
 
 //充值订单 wbpay_wxfinance_fill
@@ -18,7 +21,7 @@ fclose($file);
 $fileName = 'wbpay_wxfinance_fill_' . date("YmdHis");
 $file = fopen($fileName, 'w+');
 foreach($result as $v) {
-	if($result['status'] == 'REFUND') {
+	if($v['status'] == 'REFUND') {
 		$str =<<<STR
 {$v['order_id']}\t{$v['trade_id']}\t{$v['uid']}\t{$v['total_payments']}\t{$v['pay_time']}\t微信\t-1\t{$v['trade_id']}\t-{$v['re_total_payments']}\t直充\r\n
 STR;
@@ -38,9 +41,8 @@ shell_exec($shell);
 $fileName = 'wbpay_wxfinance_order_' . date("YmdHis");
 $file = fopen($fileName, 'w+');
 foreach($result as $v) {
-	$lastRefundDate = date("Y-m-d", strtotime("+7 days", strtotime($v["pay_time"])));
 	$str =<<<STR
-理财师\t模拟交易\t \t{$v['uid']}\t \t \t{$v['order_id']}\t{$v['pay_time']}\t{$v['trade_id']}\t{$v['pay_time']}\t{$v['total_payments']}\t{$lastRefundDate}\tTRADE_SUCCESS\t否\t直充\t{$v['start_date']}\t{$v['end_date']}\r\n
+模拟交易\t模拟交易-交易\t \t{$v['uid']}\t \t \t{$v['order_id']}\t{$v['pay_time']}\t{$v['trade_id']}\t{$v['pay_time']}\t{$v['total_payments']}\t{$v['re_end_date']}\t{$v['status']}\t否\t直充\t{$v['start_date']}\t{$v['end_date']}\r\n
 STR;
 fwrite($file, $str);
 }
@@ -54,11 +56,10 @@ $fileName = 'wbpay_wxfinance_strike_' . date("YmdHis");
 $file = fopen($fileName, 'w+');
 foreach($result as $v) {
 	if($v['status'] != 'REFUND') {
-		return ;
+		continue;
 	}
-	$lastRefundDate = date("Y-m-d", strtotime("+7 days", strtotime($v["pay_time"])));
 	$str =<<<STR
-理财师\t模拟交易\t \t{$v['uid']}\t \t \t{$v['order_id']}\t{$v['pay_time']}\t{$v['trade_id']}\t{$v['pay_time']}\t{$v['total_payments']}\t{$v['status']}\t否\t{$v['order_id']}\t直充\t{$v['start_date']}\t{$v['end_date']}\r\n
+模拟交易\t模拟交易-交易\t \t{$v['uid']}\t \t \t{$v['order_id']}\t{$v['pay_time']}\t{$v['trade_id']}\t{$v['pay_time']}\t{$v['total_payments']}\t{$v['re_status']}\t否\t{$v['order_id']}\t直充\t{$v['start_date']}\t{$v['end_date']}\r\n
 STR;
 fwrite($file, $str);
 }
@@ -74,7 +75,7 @@ $month = date('Y-m');
 $day = date('Y-m-d');
 foreach($result as $v) {
 	$str =<<<STR
-{$v['order_id']}\t2015-03\t{$day}\r\n
+{$v['order_id']}\t{$v['zhangdang_month']}\t{$v['end_date']}\r\n
 STR;
 fwrite($file, $str);
 }
