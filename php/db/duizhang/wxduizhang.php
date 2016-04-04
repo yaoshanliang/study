@@ -4,8 +4,7 @@ $count = 0;
 while ($line = fgetcsv($file)) {
 	if($count++ == 0) continue;
 	//交易时间|公众账号ID|商户号|特约商户号|设备号|微信订单号|商户订单号|用户标识|交易类型|交易状态|付款银行|货币种类|总金额|企业红包金额|微信退款单号|商户退款单号|退款金额|企业红包退款金额|退款类型|退款状态|商品名称|开始日期|订阅结束日期|退款截止日期|划账日期|结算金额|订单月|账单月|商户数据包|手续费|费率
-	//交易时间|公众账号ID|商户号|特约商户号|设备号|微信订单号|商户订单号|用户标识|交易类型|交易状态|付款银行|货币种类|总金额|企业红包金额|微信退款单号|商户退款单号|退款金额|企业红包退款金额|退款类型|退款状态|商品名称|商户数据包|手续费|费率
-	list($v['pay_time'], $v['uid'], $a, $a, $a, $v['trade_id'], $v['order_id'], $a, $a, $v['status'], $a, $a, $v['total_payments'], $a, $v['re_order_id'], $v['re_trade_id'], $v['re_total_payments'], $a, $a, $v['re_status'], $a, $v['start_date'], $v['end_date'], $v['re_end_date'], $a, $a, $v['dingdan_month'], $v['zhangdang_month'], $a, $a, $a) = $line;
+	list($v['pay_time'], $v['uid'], $a, $a, $a, $v['trade_id'], $v['order_id'], $a, $a, $v['status'], $a, $a, $v['total_payments'], $a, $v['re_order_id'], $v['re_trade_id'], $v['re_total_payments'], $a, $a, $v['re_status'], $a, $v['start_date'], $v['end_date'], $v['re_end_date'], $a, $v['jiesuan_money'], $v['dingdan_month'], $v['zhangdang_month'], $a, $a, $a) = $line;
 	$result[] = $v;
 }
 foreach($result as &$value) {
@@ -23,11 +22,11 @@ $file = fopen($fileName, 'w+');
 foreach($result as $v) {
 	if($v['status'] == 'REFUND') {
 		$str =<<<STR
-{$v['order_id']}\t{$v['trade_id']}\t{$v['uid']}\t{$v['total_payments']}\t{$v['pay_time']}\t微信\t-1\t{$v['trade_id']}\t-{$v['re_total_payments']}\t直充\r\n
+{$v['order_id']}\t{$v['trade_id']}\t{$v['uid']}\t{$v['jiesuan_money']}\t{$v['pay_time']}\t微信\t-1\t{$v['trade_id']}\t-{$v['jiesuan_money']}\t直充\r\n
 STR;
 	} else {
 		$str =<<<STR
-{$v['order_id']}\t{$v['trade_id']}\t{$v['uid']}\t{$v['total_payments']}\t{$v['pay_time']}\t微信\t1\t \t \t直充\r\n
+{$v['order_id']}\t{$v['trade_id']}\t{$v['uid']}\t{$v['jiesuan_money']}\t{$v['pay_time']}\t微信\t1\t \t \t直充\r\n
 STR;
 	}
 fwrite($file, $str);
@@ -42,7 +41,7 @@ $fileName = 'wbpay_wxfinance_order_' . date("YmdHis");
 $file = fopen($fileName, 'w+');
 foreach($result as $v) {
 	$str =<<<STR
-模拟交易\t模拟交易-交易\t \t{$v['uid']}\t \t \t{$v['order_id']}\t{$v['pay_time']}\t{$v['trade_id']}\t{$v['pay_time']}\t{$v['total_payments']}\t{$v['re_end_date']}\t{$v['status']}\t否\t直充\t{$v['start_date']}\t{$v['end_date']}\r\n
+模拟交易\t模拟交易\t \t{$v['uid']}\t \t \t{$v['order_id']}\t{$v['pay_time']}\t{$v['trade_id']}\t{$v['pay_time']}\t{$v['jiesuan_money']}\t{$v['re_end_date']}\t{$v['status']}\t否\t直充\t{$v['start_date']}\t{$v['end_date']}\r\n
 STR;
 fwrite($file, $str);
 }
@@ -59,7 +58,7 @@ foreach($result as $v) {
 		continue;
 	}
 	$str =<<<STR
-模拟交易\t模拟交易-交易\t \t{$v['uid']}\t \t \t{$v['order_id']}\t{$v['pay_time']}\t{$v['trade_id']}\t{$v['pay_time']}\t{$v['total_payments']}\t{$v['re_status']}\t否\t{$v['order_id']}\t直充\t{$v['start_date']}\t{$v['end_date']}\r\n
+模拟交易\t模拟交易\t \t{$v['uid']}\t \t \t{$v['order_id']}\t{$v['pay_time']}\t{$v['trade_id']}\t{$v['pay_time']}\t{$v['jiesuan_money']}\t{$v['re_status']}\t否\t{$v['order_id']}\t直充\t{$v['start_date']}\t{$v['end_date']}\r\n
 STR;
 fwrite($file, $str);
 }
@@ -81,5 +80,5 @@ fwrite($file, $str);
 }
 // echo $str;
 fclose($file);
-$shell = "iconv -f utf-8 -t gbk -o wbpay_finance_pay.txt $fileName";
+$shell = "iconv -f utf-8 -t gbk -o wbpay_wxfinance_pay.txt $fileName";
 shell_exec($shell);
