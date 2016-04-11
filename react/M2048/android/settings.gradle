@@ -1,0 +1,3 @@
+rootProject.name = 'M2048'
+
+include ':app'
