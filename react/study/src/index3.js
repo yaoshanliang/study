@@ -2,25 +2,30 @@ var Hello = React.createClass({
     getInitialState: function() {
         return {name: 'initial state'};
     },
-    compentWillMount: function(){
-        return {name: 'will mount'};
+    compentWillMount: function() {
+        this.setState({name: 'will mount'});
     },
-    componentDidMount: function(){
-        return {name: 'did mount'};
+    componentDidMount: function() {
+        this.setState({name: 'did mount'});
     },
-    compentWillUpdate: function(){
+    compentWillUpdate: function() {
+        this.setState({name: 'will update'});
+    },
+    componentDidUpdate: function() {
+        this.setState({name: 'did update'});
 
     },
-    componentDidUpdate: function(){
-
+    compentWillUnmount: function() {
+        this.setState({name: 'will unmount'});
     },
-    compentWillUnmount: function(){
+    componentWillReceiveProps: function() {
+        this.setState({name: 'will receive props'});
     },
     render: function(){
-        return <h1>{this.props.name}</h1>;
+        return <h1>{this.state.name}</h1>;
     }
 });
 ReactDOM.render(
-    <Hello name="iat"/>,
+    <Hello />,
     document.getElementById('example')
 );
