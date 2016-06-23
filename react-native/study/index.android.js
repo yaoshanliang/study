@@ -16,112 +16,10 @@ import {
   Platform,
   ActivityIndicatorIOS,
   ProgressBarAndroid,
+  Navigator,
+  BackAndroid,
 } from 'react-native';
 
-var GeolocationExample = React.createClass({
-  watchID: (null: ?number),
-
-  getInitialState: function() {
-    return {
-      initialPosition: 'unknown',
-      lastPosition: 'unknown',
-    };
-  },
-
-  componentDidMount: function() {
-    navigator.geolocation.getCurrentPosition(
-      (initialPosition) => this.setState({initialPosition}),
-      (error) => alert(error.message),
-      {enableHighAccuracy: true, timeout: 20000, maximumAge: 1000}
-    );
-    this.watchID = navigator.geolocation.watchPosition((lastPosition) => {
-      this.setState({lastPosition});
-    });
-  },
-
-  componentWillUnmount: function() {
-    navigator.geolocation.clearWatch(this.watchID);
-  },
-
-  render: function() {
-    return (
-      <View>
-        <Text>
-          <Text style={styles.title}>Initial position: </Text>
-          {JSON.stringify(this.state.initialPosition)}
-        </Text>
-        <Text>
-          <Text style={styles.title}>Current position: </Text>
-          {JSON.stringify(this.state.lastPosition)}
-        </Text>
-      </View>
-    );
-  }
-});
-
-
-var DrawerLayout = React.createClass({
-render: function() {
-  var navigationView = (
-    <View style={{flex: 1, backgroundColor: '#fff'}}>
-      <Text style={{margin: 10, fontSize: 15, textAlign: 'left'}}>I'm in the Drawer!</Text>
-    </View>
-  );
-  return (
-    <DrawerLayoutAndroid
-      drawerWidth={300}
-      drawerPosition={DrawerLayoutAndroid.positions.Left}
-      renderNavigationView={() => navigationView}>
-      <View style={{flex: 1, alignItems: 'center'}}>
-        <Text style={{margin: 10, fontSize: 15, textAlign: 'right'}}>Hello</Text>
-        <Text style={{margin: 10, fontSize: 15, textAlign: 'right'}}>World!</Text>
-      </View>
-    </DrawerLayoutAndroid>
-  );
-},
-});
-
-var MyImage = React.createClass({
-render: function() {
-    return (
-        <View>
-      <Image style={{width:100, height:100}}
-        source={require('./logo_og.png')}>
-      <Text>Inside</Text>
-      </Image>
-      <Image
-        source={{uri: 'http://facebook.github.io/react/img/logo_og.png'}}
-      />
-    </View>
-    )
-}
-});
-
-class study extends Component {
-  render() {
-      return <MyImage />;
-  }
-}
-class SimpleList extends React.Component {
-  // 初始化模拟数据
-  constructor(props) {
-    super(props);
-    var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
-    this.state = {
-      dataSource: ds.cloneWithRows(['John', 'Joel', 'James', 'Jimmy', 'Jackson', 'Jillian', 'Julie'])
-    };
-  }
-  render() {
-    return (
-      <View style={styles.container}>
-        <ListView
-          dataSource={this.state.dataSource}
-          renderRow={(rowData) => <Text>{rowData}</Text>}
-        />
-      </View>
-    );
-  }
-}
 var API_KEY = '7waqfqbprs7pajbz28mqf6vz';
 var API_URL = 'http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json';
 var PAGE_SIZE = 25;
@@ -173,7 +71,7 @@ class SampleAppMovies extends Component {
     return (
       <View style={styles.container}>
         <Text>
-          Loading movies...
+          Loading movies!!!!...
         </Text>
       </View>
     );
@@ -223,5 +121,97 @@ var styles = StyleSheet.create({
     backgroundColor: '#F5FCFF',
   },
 });
+var SampleApp = React.createClass({
 
-AppRegistry.registerComponent('study', () => SampleAppMovies);
+    configureScene(route){
+      return Navigator.SceneConfigs.FadeAndroid;
+    },
+
+    renderScene(router, navigator){
+      var Component = null;this._navigator = navigator;
+      switch(router.name){
+        case "welcome":
+          Component = WelcomeView;
+          break;
+        case "feed":
+          Component = FeedView;
+          break;
+        default: //default view
+          Component = DefaultView;
+      }
+
+      return <Component navigator={navigator} />
+    },
+
+    componentDidMount() {
+      var navigator = this._navigator;
+      BackAndroid.addEventListener('hardwareBackPress', function() {
+          if (navigator && navigator.getCurrentRoutes().length > 1) {
+            navigator.pop();
+            return true;
+          }
+          return false;
+      });
+    },
+
+
+    componentWillUnmount() {
+      BackAndroid.removeEventListener('hardwareBackPress');
+    },
+
+    render() {
+        return (
+            <Navigator
+                initialRoute={{name: 'welcome'}}
+                configureScene={this.configureScene}
+                renderScene={this.renderScene} />
+        );
+    }
+
+});
+var FeedView = React.createClass({
+    goBack(){
+      this.props.navigator.push({name:"default"});
+    },
+
+    render() {
+        return (
+            <View style={styles.container}>
+                <Text style={styles.welcome} onPress={this.goBack} >
+                    I am Feed View! Tab to default view!
+                </Text>
+            </View>
+        )
+    }
+});
+
+
+var WelcomeView = React.createClass({
+    onPressFeed() {
+        this.props.navigator.push({name: 'feed'});
+    },
+
+
+    render() {
+        return (
+            <View style={styles.container}>
+                <Text style={styles.welcome} onPress={this.onPressFeed} >
+                    This is welcome view.Tap to go to feed view.
+                </Text>
+            </View>
+        );
+    }
+
+});
+
+var DefaultView = React.createClass({
+
+    render(){
+      return (
+          <View style={styles.container}>
+              <Text style={styles.welcome}>Default view</Text>
+          </View>
+      )
+    }
+});
+AppRegistry.registerComponent('study', () => SampleApp);
