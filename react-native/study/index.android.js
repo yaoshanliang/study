@@ -18,6 +18,9 @@ import {
   ProgressBarAndroid,
   Navigator,
   BackAndroid,
+  ScrollView,
+  RefreshControl,
+  TouchableWithoutFeedback,
 } from 'react-native';
 
 var API_KEY = '7waqfqbprs7pajbz28mqf6vz';
@@ -214,4 +217,133 @@ var DefaultView = React.createClass({
       )
     }
 });
-AppRegistry.registerComponent('study', () => SampleApp);
+const Row = React.createClass({
+  _onClick: function() {
+    this.props.onClick(this.props.data);
+  },
+  render: function() {
+    return (
+     <TouchableWithoutFeedback onPress={this._onClick} >
+        <View style={styles.row}>
+          <Text style={styles.text}>
+            {this.props.data.text + ' (' + this.props.data.clicks + ' clicks)'}
+          </Text>
+        </View>
+      </TouchableWithoutFeedback>
+    );
+  },
+});
+
+const RefreshControlExample = React.createClass({
+  statics: {
+    title: '<RefreshControl>',
+    description: 'Adds pull-to-refresh support to a scrollview.'
+  },
+
+  getInitialState() {
+    return {
+      isRefreshing: false,
+      loaded: 0,
+      rowData: Array.from(new Array(20)).map(
+        (val, i) => ({text: 'Initial row' + i, clicks: 0})),
+    };
+  },
+
+  _onClick(row) {
+    row.clicks++;
+    this.setState({
+      rowData: this.state.rowData,
+    });
+  },
+
+  render() {
+    const rows = this.state.rowData.map((row, ii) => {
+      return <Row key={ii} data={row} onClick={this._onClick}/>;
+    });
+    return (
+      <ScrollView
+        style={styles.scrollview}
+        refreshControl={
+          <RefreshControl
+            refreshing={this.state.isRefreshing}
+            onRefresh={this._onRefresh}
+            tintColor="#ff0000"
+            title="Loading..."
+            colors={['#ff0000', '#00ff00', '#0000ff']}
+            progressBackgroundColor="#ffffff"
+          />
+        }>
+        {rows}
+      </ScrollView>
+    );
+  },
+
+  _onRefresh() {
+    this.setState({isRefreshing: true});
+    setTimeout(() => {
+      // prepend 10 items
+      const rowData = Array.from(new Array(10))
+      .map((val, i) => ({
+        text: 'Loaded row' + (+this.state.loaded + i),
+        clicks: 0,
+      }))
+      .concat(this.state.rowData);
+
+      this.setState({
+        loaded: this.state.loaded + 10,
+        isRefreshing: false,
+        rowData: rowData,
+      });
+    }, 1);
+  },
+});
+
+class ScrollViewComponent extends React.Component {
+    static defaultProps = {
+
+    };
+  constructor(props){
+    super(props);
+      this.state = {
+        isRefreshing: false
+      };
+    }
+  _onRefresh() {
+    this.setState({isRefreshing: true});
+    setTimeout(() => {
+      // prepend 10 items
+      const rowData = Array.from(new Array(10))
+      .map((val, i) => ({
+        text: 'Loaded row' + (+this.state.loaded + i),
+        clicks: 0,
+      }))
+      .concat(this.state.rowData);
+
+      this.setState({
+        loaded: this.state.loaded + 10,
+        isRefreshing: false,
+        rowData: rowData,
+      });
+    }, 5000)
+  }
+  render() {
+    return (
+      <ScrollView
+        style={styles.scrollview}
+        refreshControl={
+          <RefreshControl
+            refreshing={this.state.isRefreshing}
+            onRefresh={()=>this._onRefresh}
+            tintColor="#ff0000"
+            title="Loading..."
+            colors={['#ff0000', '#00ff00', '#0000ff']}
+            progressBackgroundColor="#ffffff"
+          />
+        }>
+        <Text>111</Text>
+      </ScrollView>
+    );
+  }
+}
+
+AppRegistry.registerComponent('study', () => ScrollViewComponent);
