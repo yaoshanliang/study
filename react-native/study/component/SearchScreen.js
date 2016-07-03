@@ -129,6 +129,7 @@ export default class SearchScreen extends React.Component {
                 dataSource={this.state.dataSource}
                 renderRow={this.renderMovie}
                 onEndReached={e=>this.onEndReached(e)}
+                renderFooter={e=>this.renderFooter(e)}
                 style={styles.listView}
             />
         );
@@ -173,8 +174,9 @@ export default class SearchScreen extends React.Component {
     onEndReached() {
         var query = this.state.filter;
 
-        if (!this.hasMore() || this.state.isLoadingTail) {
-            // We're already fetching or have all the elements so noop
+        // if (!this.hasMore() || this.state.isLoadingTail) {
+        if (!this.hasMore()) {
+            ToastAndroid.show('没有更多', ToastAndroid.SHORT);
             return;
         }
 
@@ -186,6 +188,7 @@ export default class SearchScreen extends React.Component {
             queryNumber: this.state.queryNumber + 1,
             isLoadingTail: true,
         });
+
         var page = resultsCache.nextPageNumberForQuery[query];
 
         fetch(this._urlForQueryAndPage(query, page))
@@ -224,6 +227,21 @@ export default class SearchScreen extends React.Component {
             })
             .done();
     }
+
+    renderFooter() {
+        if (!this.hasMore() || !this.state.isLoadingTail) {
+            return <View style={styles.scrollSpinner} />;
+        }
+        if (Platform.OS === 'ios') {
+            return <ActivityIndicatorIOS style={styles.scrollSpinner} />;
+        } else {
+            return (
+                <View  style={{alignItems: 'center'}}>
+                    <ProgressBarAndroid styleAttr="Large"/>
+                </View>
+            );
+        }
+    }
 };
 
 var styles = StyleSheet.create({
@@ -252,5 +270,20 @@ var styles = StyleSheet.create({
   listView: {
     paddingTop: 20,
     backgroundColor: '#F5FCFF',
+  },
+  separator: {
+    height: 1,
+    backgroundColor: '#eeeeee',
+  },
+  scrollSpinner: {
+    marginVertical: 20,
+  },
+  rowSeparator: {
+    backgroundColor: 'rgba(0, 0, 0, 0.1)',
+    height: 1,
+    marginLeft: 4,
+  },
+  rowSeparatorHide: {
+    opacity: 0.0,
   },
 });
