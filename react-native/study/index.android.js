@@ -21,19 +21,28 @@ import {
   ScrollView,
   RefreshControl,
   TouchableWithoutFeedback,
+  ToastAndroid,
 } from 'react-native';
 
 // var MovieScreen = require('./MovieScreen');
-import SearchScreen from './SearchScreen';
+// import SearchScreen from './SearchScreen';
+import SampleAppMovies from './component/SampleAppMovies';
 
 var _navigator;
-BackAndroid.addEventListener('hardwareBackPress', () => {
-  if (_navigator && _navigator.getCurrentRoutes().length > 1) {
-    _navigator.pop();
+onBackAndroid = () => {
+    if (_navigator && _navigator.getCurrentRoutes().length > 1) {
+        _navigator.pop();
+        return true;
+    }
+    if (this.lastBackPressed && this.lastBackPressed + 2000 >= Date.now()) {
+        //最近2秒内按过back键，可以退出应用。
+        return false;
+    }
+    this.lastBackPressed = Date.now();
+    ToastAndroid.show('再按一次退出应用', ToastAndroid.SHORT);
     return true;
-  }
-  return false;
-});
+};
+BackAndroid.addEventListener('hardwareBackPress', this.onBackAndroid);
 
 var RouteMapper = function(route, navigationOperations, onComponentRef) {
   _navigator = navigationOperations;
@@ -86,4 +95,4 @@ var styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('study', () => MoviesApp);
+AppRegistry.registerComponent('study', () => SampleAppMovies);
