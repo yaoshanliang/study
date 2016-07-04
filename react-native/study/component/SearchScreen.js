@@ -46,6 +46,7 @@ export default class SearchScreen extends React.Component {
                 rowHasChanged: (row1, row2) => row1 !== row2,
             }),
             isLoading: false,
+            isRefreshing: false,
             isLoadingTail: false,
             filter: '',
             queryNumber: 0,
@@ -131,6 +132,16 @@ export default class SearchScreen extends React.Component {
                 onEndReached={e=>this.onEndReached(e)}
                 renderFooter={e=>this.renderFooter(e)}
                 style={styles.listView}
+                refreshControl={
+                    <RefreshControl
+                        refreshing={this.state.isRefreshing}
+                        onRefresh={e=>this.onRefresh(e)}
+                        tintColor="#ff0000"
+                        title="Loading..."
+                        colors={['#ff0000', '#00ff00', '#0000ff']}
+                        progressBackgroundColor="#ffff00"
+                    />
+                }
             />
         );
     }
@@ -169,6 +180,44 @@ export default class SearchScreen extends React.Component {
             resultsCache.totalForQuery[query] !==
             resultsCache.dataForQuery[query].length
         );
+    }
+
+    onRefresh() {
+        this.setState({
+            isRefreshing: true,
+        });
+
+        var query = this.state.filter;
+        fetch(this._urlForQueryAndPage(query, 1))
+            .then((response) => response.json())
+            .catch((error) => {
+                LOADING[query] = false;
+                resultsCache.dataForQuery[query] = undefined;
+                this.setState({
+                    dataSource: this.getDataSource([]),
+                    isLoading: false,
+                });
+            })
+            .then((responseData) => {
+                LOADING[query] = false;
+
+                resultsCache.totalForQuery[query] = responseData.total;
+                resultsCache.dataForQuery[query] = responseData.movies;
+                resultsCache.nextPageNumberForQuery[query] = 2;
+
+                if (this.state.filter !== query) {
+                    // do not update state if the query is stale
+                    return;
+                }
+
+                this.setState({
+                    isLoading: false,
+                    isRefreshing: false,
+                    dataSource: this.getDataSource(responseData.movies),
+                })
+            })
+            .done();
+
     }
 
     onEndReached() {
