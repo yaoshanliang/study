@@ -1,0 +1,1468 @@
+[
+  {
+    "index": "a",
+    "lists": [
+      {
+        "name": "安庆市",
+        "fullname": "安徽省安庆市"
+      },
+      {
+        "name": "安康市",
+        "fullname": "陕西省安康市"
+      },
+      {
+        "name": "安阳市",
+        "fullname": "河南省安阳市"
+      },
+      {
+        "name": "安顺市",
+        "fullname": "贵州省安顺市"
+      },
+      {
+        "name": "阿克苏地区",
+        "fullname": "新疆维吾尔自治区阿克苏地区"
+      },
+      {
+        "name": "阿勒泰地区",
+        "fullname": "新疆维吾尔自治区阿勒泰地区"
+      },
+      {
+        "name": "阿坝州",
+        "fullname": "四川省阿坝州"
+      },
+      {
+        "name": "阿拉善盟",
+        "fullname": "内蒙古自治区阿拉善盟"
+      },
+      {
+        "name": "阿里地区",
+        "fullname": "西藏自治区阿里地区"
+      },
+      {
+        "name": "鞍山市",
+        "fullname": "辽宁省鞍山市"
+      }
+    ]
+  },
+  {
+    "index": "b",
+    "lists": [
+      {
+        "name": "保定市",
+        "fullname": "河北省保定市"
+      },
+      {
+        "name": "保山市",
+        "fullname": "云南省保山市"
+      },
+      {
+        "name": "包头市",
+        "fullname": "内蒙古自治区包头市"
+      },
+      {
+        "name": "北京市",
+        "fullname": "北京市"
+      },
+      {
+        "name": "北海市",
+        "fullname": "广西壮族自治区北海市"
+      },
+      {
+        "name": "博尔塔拉蒙古自治州",
+        "fullname": "新疆维吾尔自治区博尔塔拉蒙古自治州"
+      },
+      {
+        "name": "宝鸡市",
+        "fullname": "陕西省宝鸡市"
+      },
+      {
+        "name": "巴中市",
+        "fullname": "四川省巴中市"
+      },
+      {
+        "name": "巴彦淖尔市",
+        "fullname": "内蒙古自治区巴彦淖尔市"
+      },
+      {
+        "name": "巴音郭楞蒙古自治州",
+        "fullname": "新疆维吾尔自治区巴音郭楞蒙古自治州"
+      },
+      {
+        "name": "本溪市",
+        "fullname": "辽宁省本溪市"
+      },
+      {
+        "name": "毕节地区",
+        "fullname": "贵州省毕节地区"
+      },
+      {
+        "name": "滨州市",
+        "fullname": "山东省滨州市"
+      },
+      {
+        "name": "白城市",
+        "fullname": "吉林省白城市"
+      },
+      {
+        "name": "白山市",
+        "fullname": "吉林省白山市"
+      },
+      {
+        "name": "白银市",
+        "fullname": "甘肃省白银市"
+      },
+      {
+        "name": "百色市",
+        "fullname": "广西壮族自治区百色市"
+      },
+      {
+        "name": "蚌埠市",
+        "fullname": "安徽省蚌埠市"
+      }
+    ]
+  },
+  {
+    "index": "c",
+    "lists": [
+      {
+        "name": "崇左市",
+        "fullname": "广西壮族自治区崇左市"
+      },
+      {
+        "name": "巢湖市",
+        "fullname": "安徽省巢湖市"
+      },
+      {
+        "name": "常州市",
+        "fullname": "江苏省常州市"
+      },
+      {
+        "name": "常德市",
+        "fullname": "湖南省常德市"
+      },
+      {
+        "name": "成都市",
+        "fullname": "四川省成都市"
+      },
+      {
+        "name": "承德市",
+        "fullname": "河北省承德市"
+      },
+      {
+        "name": "昌吉州",
+        "fullname": "新疆维吾尔自治区昌吉州"
+      },
+      {
+        "name": "昌都地区",
+        "fullname": "西藏自治区昌都地区"
+      },
+      {
+        "name": "朝阳市",
+        "fullname": "辽宁省朝阳市"
+      },
+      {
+        "name": "楚雄州",
+        "fullname": "云南省楚雄州"
+      },
+      {
+        "name": "池州市",
+        "fullname": "安徽省池州市"
+      },
+      {
+        "name": "沧州市",
+        "fullname": "河北省沧州市"
+      },
+      {
+        "name": "滁州市",
+        "fullname": "安徽省滁州市"
+      },
+      {
+        "name": "潮州市",
+        "fullname": "广东省潮州市"
+      },
+      {
+        "name": "赤峰市",
+        "fullname": "内蒙古自治区赤峰市"
+      },
+      {
+        "name": "郴州市",
+        "fullname": "湖南省郴州市"
+      },
+      {
+        "name": "长春市",
+        "fullname": "吉林省长春市"
+      },
+      {
+        "name": "长沙市",
+        "fullname": "湖南省长沙市"
+      },
+      {
+        "name": "长治市",
+        "fullname": "山西长治市"
+      }
+    ]
+  },
+  {
+    "index": "d",
+    "lists": [
+      {
+        "name": "东莞市",
+        "fullname": "广东省东莞市"
+      },
+      {
+        "name": "东营市",
+        "fullname": "山东省东营市"
+      },
+      {
+        "name": "丹东市",
+        "fullname": "辽宁省丹东市"
+      },
+      {
+        "name": "大兴安岭地区",
+        "fullname": "黑龙江省大兴安岭地区"
+      },
+      {
+        "name": "大同市",
+        "fullname": "山西大同市"
+      },
+      {
+        "name": "大庆市",
+        "fullname": "黑龙江省大庆市"
+      },
+      {
+        "name": "大理州",
+        "fullname": "云南省大理州"
+      },
+      {
+        "name": "大连市",
+        "fullname": "辽宁省大连市"
+      },
+      {
+        "name": "定西市",
+        "fullname": "甘肃省定西市"
+      },
+      {
+        "name": "德宏州",
+        "fullname": "云南省德宏州"
+      },
+      {
+        "name": "德州市",
+        "fullname": "山东省德州市"
+      },
+      {
+        "name": "德阳市",
+        "fullname": "四川省德阳市"
+      },
+      {
+        "name": "达州市",
+        "fullname": "四川省达州市"
+      },
+      {
+        "name": "迪庆州",
+        "fullname": "云南省迪庆州"
+      }
+    ]
+  },
+  {
+    "index": "e",
+    "lists": [
+      {
+        "name": "恩施州",
+        "fullname": "湖北省恩施州"
+      },
+      {
+        "name": "鄂尔多斯市",
+        "fullname": "内蒙古自治区鄂尔多斯市"
+      },
+      {
+        "name": "鄂州市",
+        "fullname": "湖北省鄂州市"
+      }
+    ]
+  },
+  {
+    "index": "f",
+    "lists": [
+      {
+        "name": "佛山市",
+        "fullname": "广东省佛山市"
+      },
+      {
+        "name": "抚州市",
+        "fullname": "江西省抚州市"
+      },
+      {
+        "name": "抚顺市",
+        "fullname": "辽宁省抚顺市"
+      },
+      {
+        "name": "福州市",
+        "fullname": "福建省福州市"
+      },
+      {
+        "name": "阜新市",
+        "fullname": "辽宁省阜新市"
+      },
+      {
+        "name": "阜阳市",
+        "fullname": "安徽省阜阳市"
+      },
+      {
+        "name": "防城港市",
+        "fullname": "广西壮族自治区防城港市"
+      }
+    ]
+  },
+  {
+    "index": "g",
+    "lists": [
+      {
+        "name": "固原市",
+        "fullname": "宁夏回族自治区固原市"
+      },
+      {
+        "name": "广元市",
+        "fullname": "四川省广元市"
+      },
+      {
+        "name": "广安市",
+        "fullname": "四川省广安市"
+      },
+      {
+        "name": "广州市",
+        "fullname": "广东省广州市"
+      },
+      {
+        "name": "果洛州",
+        "fullname": "青海省果洛州"
+      },
+      {
+        "name": "桂林市",
+        "fullname": "广西壮族自治区桂林市"
+      },
+      {
+        "name": "甘南州",
+        "fullname": "甘肃省甘南州"
+      },
+      {
+        "name": "甘孜藏族自治州",
+        "fullname": "四川省甘孜藏族自治州"
+      },
+      {
+        "name": "贵港市",
+        "fullname": "广西壮族自治区贵港市"
+      },
+      {
+        "name": "贵阳市",
+        "fullname": "贵州省贵阳市"
+      },
+      {
+        "name": "赣州市",
+        "fullname": "江西省赣州市"
+      }
+    ]
+  },
+  {
+    "index": "h",
+    "lists": [
+      {
+        "name": "合肥市",
+        "fullname": "安徽省合肥市"
+      },
+      {
+        "name": "呼伦贝尔市",
+        "fullname": "内蒙古自治区呼伦贝尔市"
+      },
+      {
+        "name": "呼和浩特市",
+        "fullname": "内蒙古自治区呼和浩特市"
+      },
+      {
+        "name": "和田地区",
+        "fullname": "新疆维吾尔自治区和田地区"
+      },
+      {
+        "name": "哈密地区",
+        "fullname": "新疆维吾尔自治区哈密地区"
+      },
+      {
+        "name": "哈尔滨市",
+        "fullname": "黑龙江省哈尔滨市"
+      },
+      {
+        "name": "怀化市",
+        "fullname": "湖南省怀化市"
+      },
+      {
+        "name": "惠州市",
+        "fullname": "广东省惠州市"
+      },
+      {
+        "name": "杭州市",
+        "fullname": "浙江省杭州市"
+      },
+      {
+        "name": "汉中市",
+        "fullname": "陕西省汉中市"
+      },
+      {
+        "name": "河池市",
+        "fullname": "广西壮族自治区河池市"
+      },
+      {
+        "name": "河源市",
+        "fullname": "广东省河源市"
+      },
+      {
+        "name": "海东地区",
+        "fullname": "青海省海东地区"
+      },
+      {
+        "name": "海北州",
+        "fullname": "青海省海北州"
+      },
+      {
+        "name": "海南州",
+        "fullname": "青海省海南州"
+      },
+      {
+        "name": "海口市",
+        "fullname": "海南省海口市"
+      },
+      {
+        "name": "海西州",
+        "fullname": "青海省海西州"
+      },
+      {
+        "name": "淮北市",
+        "fullname": "安徽省淮北市"
+      },
+      {
+        "name": "淮南市",
+        "fullname": "安徽省淮南市"
+      },
+      {
+        "name": "淮安市",
+        "fullname": "江苏省淮安市"
+      },
+      {
+        "name": "湖州市",
+        "fullname": "浙江省湖州市"
+      },
+      {
+        "name": "漯河市",
+        "fullname": "河南省漯河市"
+      },
+      {
+        "name": "红河州",
+        "fullname": "云南省红河州"
+      },
+      {
+        "name": "菏泽市",
+        "fullname": "山东省菏泽市"
+      },
+      {
+        "name": "葫芦岛市",
+        "fullname": "辽宁省葫芦岛市"
+      },
+      {
+        "name": "衡水市",
+        "fullname": "河北省衡水市"
+      },
+      {
+        "name": "衡阳市",
+        "fullname": "湖南省衡阳市"
+      },
+      {
+        "name": "贺州市",
+        "fullname": "广西壮族自治区贺州市"
+      },
+      {
+        "name": "邯郸市",
+        "fullname": "河北省邯郸市"
+      },
+      {
+        "name": "鹤壁市",
+        "fullname": "河南省鹤壁市"
+      },
+      {
+        "name": "鹤岗市",
+        "fullname": "黑龙江省鹤岗市"
+      },
+      {
+        "name": "黄冈市",
+        "fullname": "湖北省黄冈市"
+      },
+      {
+        "name": "黄南州",
+        "fullname": "青海省黄南州"
+      },
+      {
+        "name": "黄山市",
+        "fullname": "安徽省黄山市"
+      },
+      {
+        "name": "黄石市",
+        "fullname": "湖北省黄石市"
+      },
+      {
+        "name": "黑河市",
+        "fullname": "黑龙江省黑河市"
+      }
+    ]
+  },
+  {
+    "index": "j",
+    "lists": [
+      {
+        "name": "九江市",
+        "fullname": "江西省九江市"
+      },
+      {
+        "name": "佳木斯市",
+        "fullname": "黑龙江省佳木斯市"
+      },
+      {
+        "name": "吉安市",
+        "fullname": "江西省吉安市"
+      },
+      {
+        "name": "吉林市",
+        "fullname": "吉林省吉林市"
+      },
+      {
+        "name": "嘉兴市",
+        "fullname": "浙江省嘉兴市"
+      },
+      {
+        "name": "嘉峪关市",
+        "fullname": "甘肃省嘉峪关市"
+      },
+      {
+        "name": "揭阳市",
+        "fullname": "广东省揭阳市"
+      },
+      {
+        "name": "晋中市",
+        "fullname": "山西晋中市"
+      },
+      {
+        "name": "晋城市",
+        "fullname": "山西晋城市"
+      },
+      {
+        "name": "景德镇市",
+        "fullname": "江西省景德镇市"
+      },
+      {
+        "name": "江门市",
+        "fullname": "广东省江门市"
+      },
+      {
+        "name": "济南市",
+        "fullname": "山东省济南市"
+      },
+      {
+        "name": "济宁市",
+        "fullname": "山东省济宁市"
+      },
+      {
+        "name": "焦作市",
+        "fullname": "河南省焦作市"
+      },
+      {
+        "name": "荆州市",
+        "fullname": "湖北省荆州市"
+      },
+      {
+        "name": "荆门市",
+        "fullname": "湖北省荆门市"
+      },
+      {
+        "name": "酒泉市",
+        "fullname": "甘肃省酒泉市"
+      },
+      {
+        "name": "金华市",
+        "fullname": "浙江省金华市"
+      },
+      {
+        "name": "金昌市",
+        "fullname": "甘肃省金昌市"
+      },
+      {
+        "name": "锦州市",
+        "fullname": "辽宁省锦州市"
+      },
+      {
+        "name": "鸡西市",
+        "fullname": "黑龙江省鸡西市"
+      }
+    ]
+  },
+  {
+    "index": "k",
+    "lists": [
+      {
+        "name": "克州",
+        "fullname": "新疆维吾尔自治区克州"
+      },
+      {
+        "name": "克拉玛依市",
+        "fullname": "新疆维吾尔自治区克拉玛依市"
+      },
+      {
+        "name": "喀什地区",
+        "fullname": "新疆维吾尔自治区喀什地区"
+      },
+      {
+        "name": "开封市",
+        "fullname": "河南省开封市"
+      },
+      {
+        "name": "昆明市",
+        "fullname": "云南省昆明市"
+      }
+    ]
+  },
+  {
+    "index": "l",
+    "lists": [
+      {
+        "name": "临夏州",
+        "fullname": "甘肃省临夏州"
+      },
+      {
+        "name": "临汾市",
+        "fullname": "山西临汾市"
+      },
+      {
+        "name": "临沂市",
+        "fullname": "山东省临沂市"
+      },
+      {
+        "name": "临沧市",
+        "fullname": "云南省临沧市"
+      },
+      {
+        "name": "丽水市",
+        "fullname": "浙江省丽水市"
+      },
+      {
+        "name": "丽江市",
+        "fullname": "云南省丽江市"
+      },
+      {
+        "name": "乐山市",
+        "fullname": "四川省乐山市"
+      },
+      {
+        "name": "六安市",
+        "fullname": "安徽省六安市"
+      },
+      {
+        "name": "六盘水市",
+        "fullname": "贵州省六盘水市"
+      },
+      {
+        "name": "兰州市",
+        "fullname": "甘肃省兰州市"
+      },
+      {
+        "name": "凉山州",
+        "fullname": "四川省凉山州"
+      },
+      {
+        "name": "吕梁市",
+        "fullname": "山西吕梁市"
+      },
+      {
+        "name": "娄底市",
+        "fullname": "湖南省娄底市"
+      },
+      {
+        "name": "廊坊市",
+        "fullname": "河北省廊坊市"
+      },
+      {
+        "name": "拉萨市",
+        "fullname": "西藏自治区拉萨市"
+      },
+      {
+        "name": "来宾市",
+        "fullname": "广西壮族自治区来宾市"
+      },
+      {
+        "name": "林芝地区",
+        "fullname": "西藏自治区林芝地区"
+      },
+      {
+        "name": "柳州市",
+        "fullname": "广西壮族自治区柳州市"
+      },
+      {
+        "name": "洛阳市",
+        "fullname": "河南省洛阳市"
+      },
+      {
+        "name": "聊城市",
+        "fullname": "山东省聊城市"
+      },
+      {
+        "name": "莱芜市",
+        "fullname": "山东省莱芜市"
+      },
+      {
+        "name": "辽源市",
+        "fullname": "吉林省辽源市"
+      },
+      {
+        "name": "辽阳市",
+        "fullname": "辽宁省辽阳市"
+      },
+      {
+        "name": "连云港市",
+        "fullname": "江苏省连云港市"
+      },
+      {
+        "name": "陇南市",
+        "fullname": "甘肃省陇南市"
+      },
+      {
+        "name": "龙岩市",
+        "fullname": "福建省龙岩市"
+      }
+    ]
+  },
+  {
+    "index": "m",
+    "lists": [
+      {
+        "name": "梅州市",
+        "fullname": "广东省梅州市"
+      },
+      {
+        "name": "牡丹江市",
+        "fullname": "黑龙江省牡丹江市"
+      },
+      {
+        "name": "眉山市",
+        "fullname": "四川省眉山市"
+      },
+      {
+        "name": "绵阳市",
+        "fullname": "四川省绵阳市"
+      },
+      {
+        "name": "茂名市",
+        "fullname": "广东省茂名市"
+      },
+      {
+        "name": "马鞍山市",
+        "fullname": "安徽省马鞍山市"
+      }
+    ]
+  },
+  {
+    "index": "n",
+    "lists": [
+      {
+        "name": "内江市",
+        "fullname": "四川省内江市"
+      },
+      {
+        "name": "南京市",
+        "fullname": "江苏省南京市"
+      },
+      {
+        "name": "南充市",
+        "fullname": "四川省南充市"
+      },
+      {
+        "name": "南宁市",
+        "fullname": "广西壮族自治区南宁市"
+      },
+      {
+        "name": "南平市",
+        "fullname": "福建省南平市"
+      },
+      {
+        "name": "南昌市",
+        "fullname": "江西省南昌市"
+      },
+      {
+        "name": "南通市",
+        "fullname": "江苏省南通市"
+      },
+      {
+        "name": "南阳市",
+        "fullname": "河南省南阳市"
+      },
+      {
+        "name": "宁德市　",
+        "fullname": "福建省宁德市　"
+      },
+      {
+        "name": "宁波市",
+        "fullname": "浙江省宁波市"
+      },
+      {
+        "name": "怒江州",
+        "fullname": "云南省怒江州"
+      },
+      {
+        "name": "那曲地区",
+        "fullname": "西藏自治区那曲地区"
+      }
+    ]
+  },
+  {
+    "index": "p",
+    "lists": [
+      {
+        "name": "平凉市",
+        "fullname": "甘肃省平凉市"
+      },
+      {
+        "name": "平顶山市",
+        "fullname": "河南省平顶山市"
+      },
+      {
+        "name": "攀枝花市",
+        "fullname": "四川省攀枝花市"
+      },
+      {
+        "name": "盘锦市",
+        "fullname": "辽宁省盘锦市"
+      },
+      {
+        "name": "莆田市",
+        "fullname": "福建省莆田市"
+      },
+      {
+        "name": "萍乡市",
+        "fullname": "江西省萍乡市"
+      }
+    ]
+  },
+  {
+    "index": "q",
+    "lists": [
+      {
+        "name": "七台河市",
+        "fullname": "黑龙江省七台河市"
+      },
+      {
+        "name": "庆阳市",
+        "fullname": "甘肃省庆阳市"
+      },
+      {
+        "name": "曲靖市",
+        "fullname": "云南省曲靖市"
+      },
+      {
+        "name": "泉州市",
+        "fullname": "福建省泉州市"
+      },
+      {
+        "name": "清远市",
+        "fullname": "广东省清远市"
+      },
+      {
+        "name": "秦皇岛市",
+        "fullname": "河北省秦皇岛市"
+      },
+      {
+        "name": "钦州市",
+        "fullname": "广西壮族自治区钦州市"
+      },
+      {
+        "name": "青岛市",
+        "fullname": "山东省青岛市"
+      },
+      {
+        "name": "黔东南苗族侗族自治州",
+        "fullname": "贵州省黔东南苗族侗族自治州"
+      },
+      {
+        "name": "黔南布依族苗族自治州",
+        "fullname": "贵州省黔南布依族苗族自治州"
+      },
+      {
+        "name": "黔西南州",
+        "fullname": "贵州省黔西南州"
+      },
+      {
+        "name": "齐齐哈尔市",
+        "fullname": "黑龙江省齐齐哈尔市"
+      }
+    ]
+  },
+  {
+    "index": "r",
+    "lists": [
+      {
+        "name": "日喀则地区",
+        "fullname": "西藏自治区日喀则地区"
+      },
+      {
+        "name": "日照市",
+        "fullname": "山东省日照市"
+      }
+    ]
+  },
+  {
+    "index": "s",
+    "lists": [
+      {
+        "name": "三亚市",
+        "fullname": "海南省三亚市"
+      },
+      {
+        "name": "三明市",
+        "fullname": "福建省三明市"
+      },
+      {
+        "name": "三门峡市",
+        "fullname": "河南省三门峡市"
+      },
+      {
+        "name": "上海市",
+        "fullname": "上海市"
+      },
+      {
+        "name": "上饶市",
+        "fullname": "江西省上饶市"
+      },
+      {
+        "name": "十堰市",
+        "fullname": "湖北省十堰市"
+      },
+      {
+        "name": "双鸭山市",
+        "fullname": "黑龙江省双鸭山市"
+      },
+      {
+        "name": "商丘市",
+        "fullname": "河南省商丘市"
+      },
+      {
+        "name": "商洛市",
+        "fullname": "陕西省商洛市"
+      },
+      {
+        "name": "四平市",
+        "fullname": "吉林省四平市"
+      },
+      {
+        "name": "宿州市",
+        "fullname": "安徽省宿州市"
+      },
+      {
+        "name": "宿迁市",
+        "fullname": "江苏省宿迁市"
+      },
+      {
+        "name": "山南地区",
+        "fullname": "西藏自治区山南地区"
+      },
+      {
+        "name": "思茅市",
+        "fullname": "云南省思茅市"
+      },
+      {
+        "name": "朔州市",
+        "fullname": "山西朔州市"
+      },
+      {
+        "name": "松原市",
+        "fullname": "吉林省松原市"
+      },
+      {
+        "name": "汕头市",
+        "fullname": "广东省汕头市"
+      },
+      {
+        "name": "汕尾市",
+        "fullname": "广东省汕尾市"
+      },
+      {
+        "name": "沈阳市",
+        "fullname": "辽宁省沈阳市"
+      },
+      {
+        "name": "深圳市",
+        "fullname": "广东省深圳市"
+      },
+      {
+        "name": "省属虚拟市",
+        "fullname": "海南省省属虚拟市"
+      },
+      {
+        "name": "省直辖行政单位",
+        "fullname": "新疆维吾尔自治区省直辖行政单位"
+      },
+      {
+        "name": "石嘴山市",
+        "fullname": "宁夏回族自治区石嘴山市"
+      },
+      {
+        "name": "石家庄市",
+        "fullname": "河北省石家庄市"
+      },
+      {
+        "name": "绍兴市",
+        "fullname": "浙江省绍兴市"
+      },
+      {
+        "name": "绥化市",
+        "fullname": "黑龙江省绥化市"
+      },
+      {
+        "name": "苏州市",
+        "fullname": "江苏省苏州市"
+      },
+      {
+        "name": "遂宁市",
+        "fullname": "四川省遂宁市"
+      },
+      {
+        "name": "邵阳市",
+        "fullname": "湖南省邵阳市"
+      },
+      {
+        "name": "随州市",
+        "fullname": "湖北省随州市"
+      },
+      {
+        "name": "韶关市",
+        "fullname": "广东省韶关市"
+      }
+    ]
+  },
+  {
+    "index": "t",
+    "lists": [
+      {
+        "name": "台州市",
+        "fullname": "浙江省台州市"
+      },
+      {
+        "name": "吐鲁番地区",
+        "fullname": "新疆维吾尔自治区吐鲁番地区"
+      },
+      {
+        "name": "唐山市",
+        "fullname": "河北省唐山市"
+      },
+      {
+        "name": "塔城地区",
+        "fullname": "新疆维吾尔自治区塔城地区"
+      },
+      {
+        "name": "天水市",
+        "fullname": "甘肃省天水市"
+      },
+      {
+        "name": "天津市",
+        "fullname": "天津市"
+      },
+      {
+        "name": "太原市",
+        "fullname": "山西太原市"
+      },
+      {
+        "name": "泰安市",
+        "fullname": "山东省泰安市"
+      },
+      {
+        "name": "泰州市",
+        "fullname": "江苏省泰州市"
+      },
+      {
+        "name": "通化市",
+        "fullname": "吉林省通化市"
+      },
+      {
+        "name": "通辽市",
+        "fullname": "内蒙古自治区通辽市"
+      },
+      {
+        "name": "铁岭市",
+        "fullname": "辽宁省铁岭市"
+      },
+      {
+        "name": "铜仁地区",
+        "fullname": "贵州省铜仁地区"
+      },
+      {
+        "name": "铜川市",
+        "fullname": "陕西省铜川市"
+      },
+      {
+        "name": "铜陵市",
+        "fullname": "安徽省铜陵市"
+      }
+    ]
+  },
+  {
+    "index": "w",
+    "lists": [
+      {
+        "name": "乌兰察布市",
+        "fullname": "内蒙古自治区乌兰察布市"
+      },
+      {
+        "name": "乌海市",
+        "fullname": "内蒙古自治区乌海市"
+      },
+      {
+        "name": "乌鲁木齐市",
+        "fullname": "新疆维吾尔自治区乌鲁木齐市"
+      },
+      {
+        "name": "吴忠市",
+        "fullname": "宁夏回族自治区吴忠市"
+      },
+      {
+        "name": "威海市",
+        "fullname": "山东省威海市"
+      },
+      {
+        "name": "文山州",
+        "fullname": "云南省文山州"
+      },
+      {
+        "name": "无锡市",
+        "fullname": "江苏省无锡市"
+      },
+      {
+        "name": "梧州市",
+        "fullname": "广西壮族自治区梧州市"
+      },
+      {
+        "name": "武威市",
+        "fullname": "甘肃省武威市"
+      },
+      {
+        "name": "武汉市",
+        "fullname": "湖北省武汉市"
+      },
+      {
+        "name": "温州市",
+        "fullname": "浙江省温州市"
+      },
+      {
+        "name": "渭南市",
+        "fullname": "陕西省渭南市"
+      },
+      {
+        "name": "潍坊市",
+        "fullname": "山东省潍坊市"
+      },
+      {
+        "name": "芜湖市",
+        "fullname": "安徽省芜湖市"
+      }
+    ]
+  },
+  {
+    "index": "x",
+    "lists": [
+      {
+        "name": "信阳市",
+        "fullname": "河南省信阳市"
+      },
+      {
+        "name": "兴安盟",
+        "fullname": "内蒙古自治区兴安盟"
+      },
+      {
+        "name": "厦门市",
+        "fullname": "福建省厦门市"
+      },
+      {
+        "name": "咸宁市",
+        "fullname": "湖北省咸宁市"
+      },
+      {
+        "name": "咸阳市",
+        "fullname": "陕西省咸阳市"
+      },
+      {
+        "name": "孝感市",
+        "fullname": "湖北省孝感市"
+      },
+      {
+        "name": "宣城市",
+        "fullname": "安徽省宣城市"
+      },
+      {
+        "name": "徐州市",
+        "fullname": "江苏省徐州市"
+      },
+      {
+        "name": "忻州市",
+        "fullname": "山西忻州市"
+      },
+      {
+        "name": "新乡市",
+        "fullname": "河南省新乡市"
+      },
+      {
+        "name": "新余市",
+        "fullname": "江西省新余市"
+      },
+      {
+        "name": "湘潭市",
+        "fullname": "湖南省湘潭市"
+      },
+      {
+        "name": "湘西土家族苗族自治州",
+        "fullname": "湖南省湘西土家族苗族自治州"
+      },
+      {
+        "name": "襄樊市",
+        "fullname": "湖北省襄樊市"
+      },
+      {
+        "name": "西双版纳州",
+        "fullname": "云南省西双版纳州"
+      },
+      {
+        "name": "西宁市",
+        "fullname": "青海省西宁市"
+      },
+      {
+        "name": "西安市",
+        "fullname": "陕西省西安市"
+      },
+      {
+        "name": "许昌市",
+        "fullname": "河南省许昌市"
+      },
+      {
+        "name": "邢台市",
+        "fullname": "河北省邢台市"
+      },
+      {
+        "name": "锡林郭勒盟",
+        "fullname": "内蒙古自治区锡林郭勒盟"
+      }
+    ]
+  },
+  {
+    "index": "y",
+    "lists": [
+      {
+        "name": "云浮市",
+        "fullname": "广东省云浮市"
+      },
+      {
+        "name": "伊春市",
+        "fullname": "黑龙江省伊春市"
+      },
+      {
+        "name": "伊犁州",
+        "fullname": "新疆维吾尔自治区伊犁州"
+      },
+      {
+        "name": "宜宾市",
+        "fullname": "四川省宜宾市"
+      },
+      {
+        "name": "宜昌市",
+        "fullname": "湖北省宜昌市"
+      },
+      {
+        "name": "宜春市",
+        "fullname": "江西省宜春市"
+      },
+      {
+        "name": "岳阳市",
+        "fullname": "湖南省岳阳市"
+      },
+      {
+        "name": "延安市",
+        "fullname": "陕西省延安市"
+      },
+      {
+        "name": "延边朝鲜族自治州",
+        "fullname": "吉林省延边朝鲜族自治州"
+      },
+      {
+        "name": "扬州市",
+        "fullname": "江苏省扬州市"
+      },
+      {
+        "name": "榆林市",
+        "fullname": "陕西省榆林市"
+      },
+      {
+        "name": "永州市",
+        "fullname": "湖南省永州市"
+      },
+      {
+        "name": "濮阳市",
+        "fullname": "河南省濮阳市"
+      },
+      {
+        "name": "烟台市",
+        "fullname": "山东省烟台市"
+      },
+      {
+        "name": "玉林市",
+        "fullname": "广西壮族自治区玉林市"
+      },
+      {
+        "name": "玉树州",
+        "fullname": "青海省玉树州"
+      },
+      {
+        "name": "玉溪市",
+        "fullname": "云南省玉溪市"
+      },
+      {
+        "name": "益阳市",
+        "fullname": "湖南省益阳市"
+      },
+      {
+        "name": "盐城市",
+        "fullname": "江苏省盐城市"
+      },
+      {
+        "name": "营口市",
+        "fullname": "辽宁省营口市"
+      },
+      {
+        "name": "运城市",
+        "fullname": "山西运城市"
+      },
+      {
+        "name": "银川市",
+        "fullname": "宁夏回族自治区银川市"
+      },
+      {
+        "name": "阳江市",
+        "fullname": "广东省阳江市"
+      },
+      {
+        "name": "阳泉市",
+        "fullname": "山西阳泉市"
+      },
+      {
+        "name": "雅安市",
+        "fullname": "四川省雅安市"
+      },
+      {
+        "name": "鹰潭市",
+        "fullname": "江西省鹰潭市"
+      }
+    ]
+  },
+  {
+    "index": "z",
+    "lists": [
+      {
+        "name": "中卫市",
+        "fullname": "宁夏回族自治区中卫市"
+      },
+      {
+        "name": "中山市",
+        "fullname": "广东省中山市"
+      },
+      {
+        "name": "亳州市",
+        "fullname": "安徽省亳州市"
+      },
+      {
+        "name": "周口市",
+        "fullname": "河南省周口市"
+      },
+      {
+        "name": "张家口市",
+        "fullname": "河北省张家口市"
+      },
+      {
+        "name": "张家界市",
+        "fullname": "湖南省张家界市"
+      },
+      {
+        "name": "张掖市",
+        "fullname": "甘肃省张掖市"
+      },
+      {
+        "name": "昭通市",
+        "fullname": "云南省昭通市"
+      },
+      {
+        "name": "枣庄市",
+        "fullname": "山东省枣庄市"
+      },
+      {
+        "name": "株洲市",
+        "fullname": "湖南省株洲市"
+      },
+      {
+        "name": "泸州市",
+        "fullname": "四川省泸州市"
+      },
+      {
+        "name": "淄博市",
+        "fullname": "山东省淄博市"
+      },
+      {
+        "name": "湛江市",
+        "fullname": "广东省湛江市"
+      },
+      {
+        "name": "漳州市",
+        "fullname": "福建省漳州市"
+      },
+      {
+        "name": "珠海市",
+        "fullname": "广东省珠海市"
+      },
+      {
+        "name": "肇庆市",
+        "fullname": "广东省肇庆市"
+      },
+      {
+        "name": "自贡市",
+        "fullname": "四川省自贡市"
+      },
+      {
+        "name": "舟山市",
+        "fullname": "浙江省舟山市"
+      },
+      {
+        "name": "衢州市",
+        "fullname": "浙江省衢州市"
+      },
+      {
+        "name": "资阳市",
+        "fullname": "四川省资阳市"
+      },
+      {
+        "name": "遵义市",
+        "fullname": "贵州省遵义市"
+      },
+      {
+        "name": "郑州市",
+        "fullname": "河南省郑州市"
+      },
+      {
+        "name": "重庆市",
+        "fullname": "重庆市"
+      },
+      {
+        "name": "镇江市",
+        "fullname": "江苏省镇江市"
+      },
+      {
+        "name": "驻马店市",
+        "fullname": "河南省驻马店市"
+      }
+    ]
+  }
+]
